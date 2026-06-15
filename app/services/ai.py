@@ -1,9 +1,10 @@
 import json
+import re
 from app.schemas.linkedin import LinkedInInsights
 from openai import AsyncOpenAI
 from app.core.config import get_settings
-
-
+from app.models.analysis import Analysis
+from app.models.chat_message import ChatMessage
 settings = get_settings()
 client = AsyncOpenAI( 
     api_key="ollama",
@@ -57,6 +58,39 @@ Skills:
 {', '.join(skills[:20])}
 """
 
+def build_chat_system_prompt(analysis: Analysis) -> str:
+    return f"""You are a LinkedIn growth coach helping a professional improve their LinkedIn presence and personal brand.
+
+    You have already analyzed their LinkedIn profile. Here is the analysis:
+
+    Profile Summary: {analysis.profile_summary}
+
+    Strengths:
+    {chr(10).join(f"- {s}" for s in json.loads(analysis.strengths or "[]"))}
+
+    Areas for Improvement:
+    {chr(10).join(f"- {s}" for s in json.loads(analysis.improvements or "[]"))}
+
+    Content Ideas:
+    {chr(10).join(f"- {s}" for s in json.loads(analysis.content_ideas or "[]"))}
+
+    Recommended Topics:
+    {chr(10).join(f"- {s}" for s in json.loads(analysis.recommended_topics or "[]"))}
+
+    Profile Score: {analysis.profile_score}/100
+
+    Answer the user's questions based on this profile context. Be specific, actionable, and encouraging.
+    Keep responses concise and to the point."""
+
+def clean_json(raw: str) -> str:
+    # Strip markdown code fences
+    raw = re.sub(r"```json|```", "", raw).strip()
+    # Extract first JSON object if there's extra text around it
+    match = re.search(r"\{.*\}", raw, re.DOTALL)
+    if match:
+        return match.group()
+    return raw
+
 async def analyze_profile(profile: dict) -> LinkedInInsights:
     prompt = build_prompt(profile)
 
@@ -67,6 +101,40 @@ async def analyze_profile(profile: dict) -> LinkedInInsights:
     )
 
     raw = response.choices[0].message.content
-    data = json.loads(raw)
+    print(f"LLM raw response: {raw}")  # helpful for debugging
+
+    try:
+        cleaned = clean_json(raw)
+        data = json.loads(cleaned)
+    except json.JSONDecodeError as e:
+        print(f"JSON parse error: {e}\nRaw response: {raw}")
+        raise ValueError(f"LLM returned invalid JSON: {e}")
 
     return LinkedInInsights(**data)
+
+
+async def chat_with_ai(analysis: Analysis, history: list[ChatMessage], message: str) -> str:
+    system_prompt = build_chat_system_prompt(analysis)
+
+    # Build message history for LLM
+    messages = [{"role": "system", "content": system_prompt}]
+
+    # Add last 5 messages as context
+    for msg in history:
+        messages.append({"role": msg.role, "content": msg.content})
+
+    # Add current user message
+    messages.append({"role": "user", "content": message})
+
+    print(f"Sending {len(messages)} messages to LLM")
+    print(f"History count (excl system + current): {len(history)}")
+    for m in messages:
+        print(f"  [{m['role']}]: {m['content'][:80]}...")
+        
+    response = await client.chat.completions.create(
+        model="llama3.2",
+        messages=messages,
+        max_tokens=1024,
+    )
+
+    return response.choices[0].message.content.strip()
