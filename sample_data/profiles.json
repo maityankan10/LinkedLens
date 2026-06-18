@@ -1,428 +1,11 @@
 [{
-  "id": "ACoAAA8BYqEBCGLg_vT_ca6mMEqkpp9nVffJ3hc",
-  "publicIdentifier": "williamhgates",
-  "linkedinUrl": "https://www.linkedin.com/in/williamhgates",
-  "firstName": "Bill",
-  "lastName": "Gates",
+  "id": "ACoAADRTlV4BgaE-k19s33LJ9S9q0JVdKaPtpaw",
+  "publicIdentifier": "adityajamwal02",
+  "linkedinUrl": "https://www.linkedin.com/in/adityajamwal02",
+  "firstName": "Aditya",
+  "lastName": "Jamwal",
   "emails": [],
-  "headline": "Chair, Gates Foundation and Founder, Breakthrough Energy",
-  "websites": [
-    "https://gatesnot.es/tgn"
-  ],
-  "openToWork": false,
-  "hiring": false,
-  "premium": true,
-  "influencer": true,
-  "memorialized": false,
-  "creator": true,
-  "location": {
-    "linkedinText": "Seattle, Washington, United States",
-    "countryCode": "US",
-    "parsed": {
-      "text": "Seattle, WA, United States",
-      "countryCode": "US",
-      "regionCode": null,
-      "country": "United States",
-      "countryFull": "United States of America",
-      "state": "Washington",
-      "city": "Seattle"
-    }
-  },
-  "objectUrn": "251749025",
-  "registeredAt": null,
-  "topSkills": null,
-  "connectionsCount": 8,
-  "followerCount": 40416623,
-  "verified": true,
-  "about": "Chair of the Gates Foundation. Founder of Breakthrough Energy. Co-founder of Microsoft. Voracious reader. Avid traveler. Active blogger.",
-  "currentPosition": [
-    {
-      "position": "Co-chair",
-      "location": null,
-      "employmentType": null,
-      "workplaceType": null,
-      "companyName": "Gates Foundation",
-      "companyLinkedinUrl": "https://www.linkedin.com/company/gates-foundation/",
-      "companyId": "8736",
-      "companyUniversalName": "gates-foundation",
-      "duration": "26 yrs 6 mos",
-      "description": null,
-      "skills": null,
-      "startDate": {
-        "year": 2000,
-        "text": "2000"
-      },
-      "endDate": {
-        "text": "Present"
-      },
-      "companyLogo": {
-        "url": "https://media.licdn.com/dms/image/v2/D560BAQEgMqqFTd40Tg/company-logo_400_400/company-logo_400_400/0/1736784969376/bill__melinda_gates_foundation_logo?e=1782950400&v=beta&t=3rOkkz-WV_LEBi2AZK-Ggr7GPfyUxiDRh2DyThznj7w",
-        "sizes": [
-          {
-            "url": "https://media.licdn.com/dms/image/v2/D560BAQEgMqqFTd40Tg/company-logo_400_400/company-logo_400_400/0/1736784969376/bill__melinda_gates_foundation_logo?e=1782950400&v=beta&t=3rOkkz-WV_LEBi2AZK-Ggr7GPfyUxiDRh2DyThznj7w",
-            "width": 400,
-            "height": 400
-          },
-          {
-            "url": "https://media.licdn.com/dms/image/v2/D560BAQEgMqqFTd40Tg/company-logo_200_200/company-logo_200_200/0/1736784969376/bill__melinda_gates_foundation_logo?e=1782950400&v=beta&t=nBraXQCQXGe0R8VEQydv0MpAoME7X6ICNTIAsWIhUkQ",
-            "width": 200,
-            "height": 200
-          },
-          {
-            "url": "https://media.licdn.com/dms/image/v2/D560BAQEgMqqFTd40Tg/company-logo_100_100/company-logo_100_100/0/1736784969376/bill__melinda_gates_foundation_logo?e=1782950400&v=beta&t=9Z2kA1YWuxOM0tzr3Kk3SK28ppMrkC10UpfvWhLee8s",
-            "width": 100,
-            "height": 100
-          }
-        ]
-      }
-    }
-  ],
-  "profileTopEducation": [
-    {
-      "schoolName": "Harvard University",
-      "schoolLinkedinUrl": "https://www.linkedin.com/company/1646/",
-      "schoolId": "1646",
-      "degree": null,
-      "fieldOfStudy": null,
-      "skills": [],
-      "startDate": {
-        "year": 1973,
-        "text": "1973"
-      },
-      "endDate": {
-        "year": 1975,
-        "text": "1975"
-      },
-      "period": "1973 - 1975",
-      "schoolLogo": {
-        "url": "https://media.licdn.com/dms/image/v2/C4E0BAQF5t62bcL0e9g/company-logo_400_400/company-logo_400_400/0/1631318058235?e=1782950400&v=beta&t=ybMpzo4sG_ZEc6Yk3Jkfga7JXRr0n22ghIv0sQNy19g",
-        "sizes": [
-          {
-            "url": "https://media.licdn.com/dms/image/v2/C4E0BAQF5t62bcL0e9g/company-logo_400_400/company-logo_400_400/0/1631318058235?e=1782950400&v=beta&t=ybMpzo4sG_ZEc6Yk3Jkfga7JXRr0n22ghIv0sQNy19g",
-            "width": 400,
-            "height": 400
-          },
-          {
-            "url": "https://media.licdn.com/dms/image/v2/C4E0BAQF5t62bcL0e9g/company-logo_200_200/company-logo_200_200/0/1631318058235?e=1782950400&v=beta&t=p1jAOwMhHuhrEu0uKNPmhwmRkqpiZQu6d4SLcBf9MZ0",
-            "width": 200,
-            "height": 200
-          },
-          {
-            "url": "https://media.licdn.com/dms/image/v2/C4E0BAQF5t62bcL0e9g/company-logo_100_100/company-logo_100_100/0/1631318058235?e=1782950400&v=beta&t=3pQVCdpMQAL4dUgs37Eh6eXtTI8-R8ucZkn_DyuHRuA",
-            "width": 100,
-            "height": 100
-          }
-        ]
-      }
-    }
-  ],
-  "profileActions": [
-    {
-      "label": "View my newsletter",
-      "url": "https://www.linkedin.com/newsletters/gates-notes-6651495472181637121/",
-      "openExternally": true
-    }
-  ],
-  "profilePicture": {
-    "url": "https://media.licdn.com/dms/image/v2/D5603AQF-RYZP55jmXA/profile-displayphoto-shrink_800_800/B56ZRi8g.aGsAc-/0/1736826818808?e=1782950400&v=beta&t=hVFXewJn56HCu9GHTGtsFucg6gScySlLbUOOYqPejoo",
-    "sizes": [
-      {
-        "url": "https://media.licdn.com/dms/image/v2/D5603AQF-RYZP55jmXA/profile-displayphoto-shrink_800_800/B56ZRi8g.aGsAc-/0/1736826818808?e=1782950400&v=beta&t=hVFXewJn56HCu9GHTGtsFucg6gScySlLbUOOYqPejoo",
-        "width": 800,
-        "height": 800
-      },
-      {
-        "url": "https://media.licdn.com/dms/image/v2/D5603AQF-RYZP55jmXA/profile-displayphoto-shrink_400_400/B56ZRi8g.aGsAg-/0/1736826818802?e=1782950400&v=beta&t=fgoeuH-hTMSnE_MWZgiVwSIxI7l2g5qAR7JT5Y02E1o",
-        "width": 400,
-        "height": 400
-      },
-      {
-        "url": "https://media.licdn.com/dms/image/v2/D5603AQF-RYZP55jmXA/profile-displayphoto-shrink_200_200/B56ZRi8g.aGsAY-/0/1736826818802?e=1782950400&v=beta&t=0X6aNaSovqNwPPg5Yb7FgIzwkvtnQQC-H-KsYdKsEvE",
-        "width": 200,
-        "height": 200
-      },
-      {
-        "url": "https://media.licdn.com/dms/image/v2/D5603AQF-RYZP55jmXA/profile-displayphoto-shrink_100_100/B56ZRi8g.aGsAU-/0/1736826818802?e=1782950400&v=beta&t=qipy1b7zYiQNbmsIPSMs4s0zgdkLxni9XxePjGnRrKM",
-        "width": 100,
-        "height": 100
-      }
-    ]
-  },
-  "coverPicture": {
-    "url": "https://media.licdn.com/dms/image/v2/D5616AQEjhPbTCeblYg/profile-displaybackgroundimage-shrink_350_1400/B56ZcytR5SGsAg-/0/1748902420393?e=1782950400&v=beta&t=LN8z5cLGxAY_Vf1x8joZxroGUxB1MrkgQD6z7QISGEc",
-    "sizes": [
-      {
-        "url": "https://media.licdn.com/dms/image/v2/D5616AQEjhPbTCeblYg/profile-displaybackgroundimage-shrink_350_1400/B56ZcytR5SGsAg-/0/1748902420393?e=1782950400&v=beta&t=LN8z5cLGxAY_Vf1x8joZxroGUxB1MrkgQD6z7QISGEc",
-        "width": 1400,
-        "height": 350
-      },
-      {
-        "url": "https://media.licdn.com/dms/image/v2/D5616AQEjhPbTCeblYg/profile-displaybackgroundimage-shrink_200_800/B56ZcytR5SGsAc-/0/1748902420393?e=1782950400&v=beta&t=BaL8icgnAuXHuXuHbtkL4p48AgX1BXBKlDROofCeiUg",
-        "width": 800,
-        "height": 200
-      }
-    ]
-  },
-  "photo": "https://media.licdn.com/dms/image/v2/D5603AQF-RYZP55jmXA/profile-displayphoto-shrink_800_800/B56ZRi8g.aGsAc-/0/1736826818808?e=1782950400&v=beta&t=hVFXewJn56HCu9GHTGtsFucg6gScySlLbUOOYqPejoo",
-  "profileLocales": [
-    {
-      "country": "US",
-      "language": "en"
-    }
-  ],
-  "primaryLocale": {
-    "country": "US",
-    "language": "en"
-  },
-  "multiLocaleHeadline": [
-    {
-      "headline": "Chair, Gates Foundation and Founder, Breakthrough Energy",
-      "locale": "en_US"
-    }
-  ],
-  "services": null,
-  "experience": [
-    {
-      "position": "Co-chair",
-      "location": null,
-      "employmentType": null,
-      "workplaceType": null,
-      "companyName": "Gates Foundation",
-      "companyLinkedinUrl": "https://www.linkedin.com/company/gates-foundation/",
-      "companyId": "8736",
-      "companyUniversalName": "gates-foundation",
-      "duration": "26 yrs 6 mos",
-      "description": null,
-      "skills": null,
-      "startDate": {
-        "year": 2000,
-        "text": "2000"
-      },
-      "endDate": {
-        "text": "Present"
-      },
-      "companyLogo": {
-        "url": "https://media.licdn.com/dms/image/v2/D560BAQEgMqqFTd40Tg/company-logo_400_400/company-logo_400_400/0/1736784969376/bill__melinda_gates_foundation_logo?e=1782950400&v=beta&t=3rOkkz-WV_LEBi2AZK-Ggr7GPfyUxiDRh2DyThznj7w",
-        "sizes": [
-          {
-            "url": "https://media.licdn.com/dms/image/v2/D560BAQEgMqqFTd40Tg/company-logo_400_400/company-logo_400_400/0/1736784969376/bill__melinda_gates_foundation_logo?e=1782950400&v=beta&t=3rOkkz-WV_LEBi2AZK-Ggr7GPfyUxiDRh2DyThznj7w",
-            "width": 400,
-            "height": 400
-          },
-          {
-            "url": "https://media.licdn.com/dms/image/v2/D560BAQEgMqqFTd40Tg/company-logo_200_200/company-logo_200_200/0/1736784969376/bill__melinda_gates_foundation_logo?e=1782950400&v=beta&t=nBraXQCQXGe0R8VEQydv0MpAoME7X6ICNTIAsWIhUkQ",
-            "width": 200,
-            "height": 200
-          },
-          {
-            "url": "https://media.licdn.com/dms/image/v2/D560BAQEgMqqFTd40Tg/company-logo_100_100/company-logo_100_100/0/1736784969376/bill__melinda_gates_foundation_logo?e=1782950400&v=beta&t=9Z2kA1YWuxOM0tzr3Kk3SK28ppMrkC10UpfvWhLee8s",
-            "width": 100,
-            "height": 100
-          }
-        ]
-      }
-    },
-    {
-      "position": "Founder",
-      "location": null,
-      "employmentType": null,
-      "workplaceType": null,
-      "companyName": "Breakthrough Energy",
-      "companyLinkedinUrl": "https://www.linkedin.com/company/19141006/",
-      "companyId": "19141006",
-      "duration": "11 yrs 6 mos",
-      "description": null,
-      "skills": null,
-      "startDate": {
-        "year": 2015,
-        "text": "2015"
-      },
-      "endDate": {
-        "text": "Present"
-      },
-      "companyLogo": {
-        "url": "https://media.licdn.com/dms/image/v2/D560BAQFRMYiQN7-2kA/company-logo_400_400/B56ZoI4SGPI0AY-/0/1761085563539/breakthrough_energy_logo?e=1782950400&v=beta&t=m9_WUkWJATLYpAc-VmBVHVQ3Lyo409TQysbBA6XjwXA",
-        "sizes": [
-          {
-            "url": "https://media.licdn.com/dms/image/v2/D560BAQFRMYiQN7-2kA/company-logo_400_400/B56ZoI4SGPI0AY-/0/1761085563539/breakthrough_energy_logo?e=1782950400&v=beta&t=m9_WUkWJATLYpAc-VmBVHVQ3Lyo409TQysbBA6XjwXA",
-            "width": 400,
-            "height": 400
-          },
-          {
-            "url": "https://media.licdn.com/dms/image/v2/D560BAQFRMYiQN7-2kA/company-logo_200_200/B56ZoI4SGPI0AI-/0/1761085563539/breakthrough_energy_logo?e=1782950400&v=beta&t=RiQhjuk83zoVqciATNdh4yCs1pP2HZYfox4WGxDkN7c",
-            "width": 200,
-            "height": 200
-          },
-          {
-            "url": "https://media.licdn.com/dms/image/v2/D560BAQFRMYiQN7-2kA/company-logo_100_100/B56ZoI4SGPI0AQ-/0/1761085563539/breakthrough_energy_logo?e=1782950400&v=beta&t=Vl4VHfAd8kQZjF0nKWUHxjn21MjJeikBCBhYyQCGgQU",
-            "width": 100,
-            "height": 100
-          }
-        ]
-      }
-    },
-    {
-      "position": "Co-founder",
-      "location": null,
-      "employmentType": null,
-      "workplaceType": null,
-      "companyName": "Microsoft",
-      "companyLinkedinUrl": "https://www.linkedin.com/company/1035/",
-      "companyId": "1035",
-      "duration": "51 yrs 6 mos",
-      "description": null,
-      "skills": null,
-      "startDate": {
-        "year": 1975,
-        "text": "1975"
-      },
-      "endDate": {
-        "text": "Present"
-      },
-      "companyLogo": {
-        "url": "https://media.licdn.com/dms/image/v2/D560BAQH32RJQCl3dDQ/company-logo_400_400/B56ZYQ0mrGGoAc-/0/1744038948046/microsoft_logo?e=1782950400&v=beta&t=d1LOLhAHrGUlVCK3JuuXAVybdUxtxpwgBVEOVYpBfb8",
-        "sizes": [
-          {
-            "url": "https://media.licdn.com/dms/image/v2/D560BAQH32RJQCl3dDQ/company-logo_400_400/B56ZYQ0mrGGoAc-/0/1744038948046/microsoft_logo?e=1782950400&v=beta&t=d1LOLhAHrGUlVCK3JuuXAVybdUxtxpwgBVEOVYpBfb8",
-            "width": 400,
-            "height": 400
-          },
-          {
-            "url": "https://media.licdn.com/dms/image/v2/D560BAQH32RJQCl3dDQ/company-logo_200_200/B56ZYQ0mrGGoAM-/0/1744038948046/microsoft_logo?e=1782950400&v=beta&t=k3uNDiOTQ0gyBsSKSZoeScy77HkiXile3vyNqqjZids",
-            "width": 200,
-            "height": 200
-          },
-          {
-            "url": "https://media.licdn.com/dms/image/v2/D560BAQH32RJQCl3dDQ/company-logo_100_100/B56ZYQ0mrGGoAU-/0/1744038948046/microsoft_logo?e=1782950400&v=beta&t=15ZizuyoomuBqiqf4vsne33PwsqhZGj-C94d6XS1m0s",
-            "width": 100,
-            "height": 100
-          }
-        ]
-      }
-    }
-  ],
-  "education": [
-    {
-      "schoolName": "Harvard University",
-      "schoolLinkedinUrl": "https://www.linkedin.com/company/1646/",
-      "schoolId": "1646",
-      "degree": null,
-      "fieldOfStudy": null,
-      "skills": [],
-      "startDate": {
-        "year": 1973,
-        "text": "1973"
-      },
-      "endDate": {
-        "year": 1975,
-        "text": "1975"
-      },
-      "period": "1973 - 1975",
-      "schoolLogo": {
-        "url": "https://media.licdn.com/dms/image/v2/C4E0BAQF5t62bcL0e9g/company-logo_400_400/company-logo_400_400/0/1631318058235?e=1782950400&v=beta&t=ybMpzo4sG_ZEc6Yk3Jkfga7JXRr0n22ghIv0sQNy19g",
-        "sizes": [
-          {
-            "url": "https://media.licdn.com/dms/image/v2/C4E0BAQF5t62bcL0e9g/company-logo_400_400/company-logo_400_400/0/1631318058235?e=1782950400&v=beta&t=ybMpzo4sG_ZEc6Yk3Jkfga7JXRr0n22ghIv0sQNy19g",
-            "width": 400,
-            "height": 400
-          },
-          {
-            "url": "https://media.licdn.com/dms/image/v2/C4E0BAQF5t62bcL0e9g/company-logo_200_200/company-logo_200_200/0/1631318058235?e=1782950400&v=beta&t=p1jAOwMhHuhrEu0uKNPmhwmRkqpiZQu6d4SLcBf9MZ0",
-            "width": 200,
-            "height": 200
-          },
-          {
-            "url": "https://media.licdn.com/dms/image/v2/C4E0BAQF5t62bcL0e9g/company-logo_100_100/company-logo_100_100/0/1631318058235?e=1782950400&v=beta&t=3pQVCdpMQAL4dUgs37Eh6eXtTI8-R8ucZkn_DyuHRuA",
-            "width": 100,
-            "height": 100
-          }
-        ]
-      }
-    },
-    {
-      "schoolName": "Lakeside School",
-      "schoolLinkedinUrl": "https://www.linkedin.com/company/30288/",
-      "schoolId": "30288",
-      "degree": null,
-      "fieldOfStudy": null,
-      "skills": [],
-      "startDate": null,
-      "endDate": {},
-      "schoolLogo": {
-        "url": "https://media.licdn.com/dms/image/v2/D560BAQGFmOQmzpxg9A/company-logo_400_400/company-logo_400_400/0/1683732883164/lakeside_school_logo?e=1782950400&v=beta&t=XcCKvykUu2hZ_qzdkmg-lrRGzOQ1v9WTbvOyXCetu8M",
-        "sizes": [
-          {
-            "url": "https://media.licdn.com/dms/image/v2/D560BAQGFmOQmzpxg9A/company-logo_400_400/company-logo_400_400/0/1683732883164/lakeside_school_logo?e=1782950400&v=beta&t=XcCKvykUu2hZ_qzdkmg-lrRGzOQ1v9WTbvOyXCetu8M",
-            "width": 400,
-            "height": 400
-          },
-          {
-            "url": "https://media.licdn.com/dms/image/v2/D560BAQGFmOQmzpxg9A/company-logo_200_200/company-logo_200_200/0/1683732883164/lakeside_school_logo?e=1782950400&v=beta&t=nXf4B9-FIrF6gqyxbgeBTUFzh95DVv6naDHoa35JyyQ",
-            "width": 200,
-            "height": 200
-          },
-          {
-            "url": "https://media.licdn.com/dms/image/v2/D560BAQGFmOQmzpxg9A/company-logo_100_100/company-logo_100_100/0/1683732883164/lakeside_school_logo?e=1782950400&v=beta&t=nbZrjTGCStonq2gDMnGPZ_YbdCuizFe5pIve_2QGXSs",
-            "width": 100,
-            "height": 100
-          }
-        ]
-      }
-    }
-  ],
-  "certifications": [],
-  "projects": [],
-  "volunteering": [],
-  "receivedRecommendations": [],
-  "skills": [],
-  "publications": [],
-  "courses": [],
-  "patents": [],
-  "honorsAndAwards": [],
-  "languages": [],
-  "organizations": [],
-  "causes": [],
-  "featured": {
-    "images": [
-      "https://media.licdn.com/dms/image/v2/D5612AQE-eZUAKTbmyQ/article-cover_image-shrink_720_1280/B56Zs5D6pMKIAI-/0/1766188887129?e=1782950400&v=beta&t=bHUx9eqhxJy2Zyo5lyG8MyDmTTYzMDftW9N-hZL3j7I"
-    ],
-    "link": "https://www.linkedin.com/feed/update/urn:li:activity:7407934241675608064?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A7407934241675608064%29",
-    "title": "What the Gates Foundation hopes to accomplish over the next 20 years",
-    "subtitle": "Bill Gates on LinkedIn • 5 min read",
-    "slides": [
-      {
-        "title": "What the Gates Foundation hopes to accomplish over the next 20 years",
-        "subtitle": "Bill Gates on LinkedIn • 5 min read",
-        "description": null,
-        "url": "https://www.linkedin.com/feed/update/urn:li:activity:7407934241675608064?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A7407934241675608064%29",
-        "image": {
-          "url": "https://media.licdn.com/dms/image/v2/D5612AQE-eZUAKTbmyQ/article-cover_image-shrink_720_1280/B56Zs5D6pMKIAI-/0/1766188887129?e=1782950400&v=beta&t=bHUx9eqhxJy2Zyo5lyG8MyDmTTYzMDftW9N-hZL3j7I"
-        }
-      },
-      {
-        "title": "How to get the world back on track and enter a new era of unprecedented progress",
-        "subtitle": "Bill Gates on LinkedIn • 5+ min read",
-        "description": null,
-        "url": "https://www.linkedin.com/feed/update/urn:li:activity:7416559967329103872?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A7416559967329103872%29",
-        "image": {
-          "url": "https://media.licdn.com/dms/image/v2/D5612AQEgG5WUmlF97w/videocover-high/B56ZuzdRvxHcBc-/0/1768242356655?e=1782950400&v=beta&t=7P8OXnkjNtC8DvxL317NzoFNkEEq_8U-_WiBm21i1nM"
-        }
-      }
-    ]
-  },
-  "moreProfiles": [],
-  "originalQuery": {
-    "query": "https://www.linkedin.com/in/williamhgates"
-  }
-},
-{
-  "id": "ACoAACLevxsBfWQoDUYkHyCP2jzl81cDAvckQEI",
-  "publicIdentifier": "towhid-rahman",
-  "linkedinUrl": "https://www.linkedin.com/in/towhid-rahman",
-  "firstName": "Towhid",
-  "lastName": "Rahman, PharmD",
-  "emails": [],
-  "headline": "Pharmacology | Medical Science Liasion | Pharmacovigilence | Regulatory Toxicologist | Process Validation | Project Management | Leadership | Photography",
+  "headline": "SWE @Microsoft | Ex-Cisco | Specialist @Codeforces | Knight @Leetcode | AI • Tech • Marketing | DSA | System Design | Brand Collaborations",
   "openToWork": false,
   "hiring": false,
   "premium": false,
@@ -430,132 +13,104 @@
   "memorialized": false,
   "creator": false,
   "location": {
-    "linkedinText": "Los Angeles, California, United States",
-    "countryCode": "US",
+    "linkedinText": "Hyderabad, Telangana, India",
+    "countryCode": "IN",
     "parsed": {
-      "text": "Los Angeles, CA, United States",
-      "countryCode": "US",
+      "text": "Hyderābād, India",
+      "countryCode": "IN",
       "regionCode": null,
-      "country": "United States",
-      "countryFull": "United States of America",
-      "state": "California",
-      "city": "Los Angeles"
+      "country": "India",
+      "countryFull": "India",
+      "state": "Telangana",
+      "city": "Hyderābād"
     }
   },
-  "objectUrn": "585023259",
-  "registeredAt": null,
-  "topSkills": "Pharmacology • Patient Counseling",
-  "connectionsCount": 260,
-  "followerCount": 265,
+  "objectUrn": "877892958",
+  "topSkills": null,
+  "connectionsCount": 14466,
+  "followerCount": 53935,
   "verified": true,
-  "about": "I find myself at a unique crossroads where science meets compassion. With over eight years of experience in pharmacology, my journey has been fueled by a genuine desire to improve patient lives. Working at CVS Health has allowed me to interact with over 100 patients each week, guiding them through their health journeys not just by dispensing medications but by truly listening and building trust. It's incredibly rewarding to know I play a part in their well-being.\n\nIn my time as a Staff Pharmacist, I’ve exceeded daily production targets by 15% while ensuring timely service for more than 1,000 patients weekly. Collaborating with diverse pharmacy teams across Los Angeles has taught me the importance of understanding unique demographic needs. Whether it’s addressing medication safety or enhancing patient satisfaction through targeted counseling initiatives, I’m dedicated to creating solutions that resonate.\n\nOne of my proudest moments was during my internship at Harbor-UCLA Medical Center when I administered over 1,500 immunizations. This experience opened my eyes to the impact preventive healthcare can have on communities. By conducting health screenings and engaging patients directly about disease management education, I contributed to improved public health outcomes—something that drives me every day.\n\nOutside of my professional life, I have a passion for photography. This hobby allows me to express my creativity while honing my attention to detail—skills that translate seamlessly into my work. Capturing moments behind the lens reminds me how important it is to appreciate the little things in life.\n\nIf you're interested in discussing innovative approaches in product development or project management within the healthcare field—or if you simply want to chat about photography—I would love to connect! Feel free to reach out via email—let’s explore how we can make an impact together.\n\nSkills:\n- Patient Care Management\n- Medication Optimization\n- Process Validation\n- Project Management\n- Drug Utilization Review",
+  "about": "• Software Engineer at Microsoft | Ex-Cisco\n• Finalist at Code Gladiators'23. \n• Specialist at Codeforces and Knight at Leetcode. \n• Skilled in C++, OOPs, DSA, ML-AI, and system design. \n\nI like to work in teams, contributing to projects where I can gear up my skills, knowledge and collaborate with developers. During my free time I provide services to guide hustlers for their dream jobs!  \n\nI am open to brand collaborations and some good brainstorming sessions, talks about coding, DSA, AI and development in the new era. \n\nPing me to collab on any of these topics. I would really appreciate that. Thanks for connecting!",
   "currentPosition": [
     {
-      "position": "Staff Pharmacist | Prescription Dispensing, Drug Utilization Review, Regulatory Compliance",
-      "location": "Thousand Oaks, California, United States",
+      "position": "Software Engineer",
+      "location": "Hyderabad",
       "employmentType": "Full-time",
       "workplaceType": "On-site",
-      "companyName": "CVS Health",
-      "companyLinkedinUrl": "https://www.linkedin.com/company/cvshealth/",
-      "companyId": "4680",
-      "companyUniversalName": "cvshealth",
-      "duration": "2 yrs 6 mos",
-      "description": "*Exceeded daily production targets by 15% in a high-demand pharmacy environment while ensuring timely service delivery to over 1000 patients each week without compromising quality or accuracy.\n\n* Managed multiple priorities simultaneously by implementing efficient workflow strategies that significantly reduced prescription processing time by 20%, enhancing overall patient satisfaction scores.\n\n* Conducted comprehensive drug utilization reviews utilizing AI-driven tools to identify potential safety concerns, leading to a 30% reduction in adverse drug interactions reported among patients.\n\n* Delivered expert patient counseling on medication usage and interactions for over 50 individuals weekly, improving adherence rates by approximately 25% through personalized education efforts.\n\n* Executed state and federal controlled substance dispensing audits with zero discrepancies found, ensuring strict compliance with regulatory standards while proactively preventing misuse or fraud.",
+      "companyName": "Microsoft",
+      "companyLinkedinUrl": "https://www.linkedin.com/company/microsoft/",
+      "companyId": "1035",
+      "duration": "5 mos",
+      "description": "• Working at Azure Core Compute - IDC",
       "skills": [
-        "Scientific Liaison",
-        "Cultural Awareness",
-        "Resource Optimization",
-        "Active Listening",
-        "Certified Immunizer",
-        "Interpersonal Communication",
-        "Medication Dispensing",
-        "Regulatory Compliance"
+        "Engineering",
+        "Software Development",
+        "Large Scale Development",
+        "REST APIs",
+        "Microsoft Azure"
       ],
-      "experienceGroupId": "d23dddfcee83f0bffd26b6fc8243e1d41210ee1b",
       "startDate": {
-        "month": "Jan",
-        "year": 2024,
-        "text": "Jan 2024"
+        "month": "Feb",
+        "year": 2026,
+        "text": "Feb 2026"
       },
       "endDate": {
         "text": "Present"
       },
       "companyLogo": {
-        "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEhOw_KVli-CQ/company-logo_400_400/company-logo_400_400/0/1669901807779/cvs_health_logo?e=1782950400&v=beta&t=ewteImnGYpMB0p2z9XPFuP9I4zInOqDkU5ACErBWEKg",
+        "url": "https://media.licdn.com/dms/image/v2/D560BAQH32RJQCl3dDQ/company-logo_400_400/B56ZYQ0mrGGoAc-/0/1744038948046/microsoft_logo?e=1783555200&v=beta&t=PmajUikny-8rNDyd83MKd3UfNjnh7KWIgS9r-c_wUtg",
         "sizes": [
           {
-            "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEhOw_KVli-CQ/company-logo_400_400/company-logo_400_400/0/1669901807779/cvs_health_logo?e=1782950400&v=beta&t=ewteImnGYpMB0p2z9XPFuP9I4zInOqDkU5ACErBWEKg",
+            "url": "https://media.licdn.com/dms/image/v2/D560BAQH32RJQCl3dDQ/company-logo_400_400/B56ZYQ0mrGGoAc-/0/1744038948046/microsoft_logo?e=1783555200&v=beta&t=PmajUikny-8rNDyd83MKd3UfNjnh7KWIgS9r-c_wUtg",
             "width": 400,
             "height": 400
           },
           {
-            "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEhOw_KVli-CQ/company-logo_200_200/company-logo_200_200/0/1669901807779/cvs_health_logo?e=1782950400&v=beta&t=mSbDDLVJhrM3Hc6XC1Txhchjfkq3BVo1Z1EwZ_6Lryg",
+            "url": "https://media.licdn.com/dms/image/v2/D560BAQH32RJQCl3dDQ/company-logo_200_200/B56ZYQ0mrGGoAM-/0/1744038948046/microsoft_logo?e=1783555200&v=beta&t=UNNdLw9_NAbHnYi381mkJZkwlRd5isVDMfdixJgghe4",
             "width": 200,
             "height": 200
           },
           {
-            "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEhOw_KVli-CQ/company-logo_100_100/company-logo_100_100/0/1669901807779/cvs_health_logo?e=1782950400&v=beta&t=BnyWjXuQn9ED3wd4oAOTM37rnn5lIC1sn4UqenaS3OA",
+            "url": "https://media.licdn.com/dms/image/v2/D560BAQH32RJQCl3dDQ/company-logo_100_100/B56ZYQ0mrGGoAU-/0/1744038948046/microsoft_logo?e=1783555200&v=beta&t=3ZqC4Z3pLGnnpRshoxv_cEjPMu8MmWdbQ0ptbSLYidM",
             "width": 100,
             "height": 100
           }
         ]
-      }
+      },
+      "companyUniversalName": "microsoft"
     }
   ],
   "profileTopEducation": [
     {
-      "schoolName": "Western University of Health Sciences",
-      "schoolLinkedinUrl": "https://www.linkedin.com/company/26345/",
-      "schoolId": "26345",
-      "degree": "Doctor of Pharmacy",
-      "fieldOfStudy": "Pharmacy",
-      "skills": [
-        "Healthcare System Knowledge",
-        "Relationship Building",
-        "Pharmacodynamics",
-        "Scientific Communications",
-        "Cross-functional Team Leadership",
-        "Research Skills",
-        "Professional Networking",
-        "Expense Reports",
-        "Presentation Skills",
-        "Laboratory Skills",
-        "Scientific Discussion",
-        "Medical Terminology",
-        "Collaborative Problem Solving",
-        "Public Speaking",
-        "Clinical Trials",
-        "Drug Utilization Review",
-        "Pharmacology",
-        "Data Analysis",
-        "Project Management"
-      ],
+      "schoolName": "Jaypee Institute of Information Technology",
+      "schoolLinkedinUrl": "https://www.linkedin.com/company/809155/",
+      "schoolId": "809155",
+      "degree": "Bachelor of Technology - BTech",
+      "fieldOfStudy": "Computer Science Engineering",
+      "period": "2020 - 2024",
       "startDate": {
-        "month": "Aug",
-        "year": 2018,
-        "text": "Aug 2018"
+        "year": 2020,
+        "text": "2020"
       },
       "endDate": {
-        "month": "May",
-        "year": 2022,
-        "text": "May 2022"
+        "year": 2024,
+        "text": "2024"
       },
-      "period": "Aug 2018 - May 2022",
       "schoolLogo": {
-        "url": "https://media.licdn.com/dms/image/v2/D560BAQGNYXGokw3m2A/company-logo_400_400/company-logo_400_400/0/1731697079405/western_university_of_health_sciences_logo?e=1782950400&v=beta&t=aoE2QRodp2Pms-sX4RqncAxTUSzycIjRvRwweqGJcLk",
+        "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFr6NVI7DcDtg/company-logo_400_400/company-logo_400_400/0/1630556410107/jaypee_institute_of_inormation_technology_logo?e=1783555200&v=beta&t=DnqZyQm9tMXKe41klJvGJN61_KYFhM5aX31-3jC5mvo",
         "sizes": [
           {
-            "url": "https://media.licdn.com/dms/image/v2/D560BAQGNYXGokw3m2A/company-logo_400_400/company-logo_400_400/0/1731697079405/western_university_of_health_sciences_logo?e=1782950400&v=beta&t=aoE2QRodp2Pms-sX4RqncAxTUSzycIjRvRwweqGJcLk",
+            "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFr6NVI7DcDtg/company-logo_400_400/company-logo_400_400/0/1630556410107/jaypee_institute_of_inormation_technology_logo?e=1783555200&v=beta&t=DnqZyQm9tMXKe41klJvGJN61_KYFhM5aX31-3jC5mvo",
             "width": 400,
             "height": 400
           },
           {
-            "url": "https://media.licdn.com/dms/image/v2/D560BAQGNYXGokw3m2A/company-logo_200_200/company-logo_200_200/0/1731697079405/western_university_of_health_sciences_logo?e=1782950400&v=beta&t=2c2HW43K984SOl4hcavzCbPuWgGcfAT0_Ubks-IpNdg",
+            "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFr6NVI7DcDtg/company-logo_200_200/company-logo_200_200/0/1630556410107/jaypee_institute_of_inormation_technology_logo?e=1783555200&v=beta&t=BdrADbAImp19rG5PFe5Oyl3pDG4ccFiqipMQTlviv8U",
             "width": 200,
             "height": 200
           },
           {
-            "url": "https://media.licdn.com/dms/image/v2/D560BAQGNYXGokw3m2A/company-logo_100_100/company-logo_100_100/0/1731697079405/western_university_of_health_sciences_logo?e=1782950400&v=beta&t=J-FVAVlTvIjWCXlCXIEtxSjyoltoPIu1umV2FYPCPBM",
+            "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFr6NVI7DcDtg/company-logo_100_100/company-logo_100_100/0/1630556410107/jaypee_institute_of_inormation_technology_logo?e=1783555200&v=beta&t=waPDGuD_ZKjXnP3QrN4WTlUPWbnSyIqHZ3dotEZ1F-0",
             "width": 100,
             "height": 100
           }
@@ -563,48 +118,47 @@
       }
     }
   ],
-  "profileActions": [],
   "profilePicture": {
-    "url": "https://media.licdn.com/dms/image/v2/C5603AQEbgBlEFwrtUg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1567218693232?e=1782950400&v=beta&t=RUHOwWbwImm-tlHp57CpUO0C4ZK3guszX3BJo_aaxlU",
+    "url": "https://media.licdn.com/dms/image/v2/D5603AQF7zMask43zgw/profile-displayphoto-crop_800_800/B56Z00RulDIMAI-/0/1774698556819?e=1783555200&v=beta&t=FKK_Hk78l2IRPyb_fQYoWHUecwdsCWD9hmgELxxrYnk",
     "sizes": [
       {
-        "url": "https://media.licdn.com/dms/image/v2/C5603AQEbgBlEFwrtUg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1567218693232?e=1782950400&v=beta&t=RUHOwWbwImm-tlHp57CpUO0C4ZK3guszX3BJo_aaxlU",
-        "width": 500,
-        "height": 500
+        "url": "https://media.licdn.com/dms/image/v2/D5603AQF7zMask43zgw/profile-displayphoto-crop_800_800/B56Z00RulDIMAI-/0/1774698556819?e=1783555200&v=beta&t=FKK_Hk78l2IRPyb_fQYoWHUecwdsCWD9hmgELxxrYnk",
+        "width": 800,
+        "height": 800
       },
       {
-        "url": "https://media.licdn.com/dms/image/v2/C5603AQEbgBlEFwrtUg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1567218693200?e=1782950400&v=beta&t=lsv8yJSKxYbLp5ZaThqUe29Etwl2WB4-ImsfrHcrlgU",
+        "url": "https://media.licdn.com/dms/image/v2/D5603AQF7zMask43zgw/profile-displayphoto-scale_400_400/B56Z00RulDIMAg-/0/1774698556917?e=1783555200&v=beta&t=Py6zLPiOcdK-1dne9y6UJSxOSmt8rchTM6aHgKa2cWE",
         "width": 400,
         "height": 400
       },
       {
-        "url": "https://media.licdn.com/dms/image/v2/C5603AQEbgBlEFwrtUg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1567218693128?e=1782950400&v=beta&t=OXM7XGvf48bam3Q059USm4M6rVP3cf0bDoIdjTFX0Yk",
+        "url": "https://media.licdn.com/dms/image/v2/D5603AQF7zMask43zgw/profile-displayphoto-scale_200_200/B56Z00RulDIMAY-/0/1774698556917?e=1783555200&v=beta&t=uxVlMVIuwhkafpjHnig7uwouyXaSLzok6Dl29i87SfU",
         "width": 200,
         "height": 200
       },
       {
-        "url": "https://media.licdn.com/dms/image/v2/C5603AQEbgBlEFwrtUg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1567218693156?e=1782950400&v=beta&t=NDaMA4YNOcvnSvMGStYbqrxJwFWn4FPXmdUiTD0UMBQ",
+        "url": "https://media.licdn.com/dms/image/v2/D5603AQF7zMask43zgw/profile-displayphoto-scale_100_100/B56Z00RulDIMAc-/0/1774698556917?e=1783555200&v=beta&t=-MYnIbkPQMYgxgMYHxRgiaZIuOKS9MICH4qJpmpe6Ck",
         "width": 100,
         "height": 100
       }
     ]
   },
   "coverPicture": {
-    "url": "https://media.licdn.com/dms/image/v2/D5616AQGOrLzCeoEc8g/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1687394685188?e=1782950400&v=beta&t=M8yfIQOdbzwh6IwQxYxcwJ4jiUXLrbu3JaPaNZtq4uk",
+    "url": "https://media.licdn.com/dms/image/v2/D5616AQE7GBvFomctkw/profile-displaybackgroundimage-shrink_350_1400/B56ZyBaEGVHoAY-/0/1771697623525?e=1783555200&v=beta&t=xS6g3iYw9pHCbZAJrZWWdq05pPf3198pvvYkvEYiBTk",
     "sizes": [
       {
-        "url": "https://media.licdn.com/dms/image/v2/D5616AQGOrLzCeoEc8g/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1687394685188?e=1782950400&v=beta&t=M8yfIQOdbzwh6IwQxYxcwJ4jiUXLrbu3JaPaNZtq4uk",
-        "width": 765,
-        "height": 191
+        "url": "https://media.licdn.com/dms/image/v2/D5616AQE7GBvFomctkw/profile-displaybackgroundimage-shrink_350_1400/B56ZyBaEGVHoAY-/0/1771697623525?e=1783555200&v=beta&t=xS6g3iYw9pHCbZAJrZWWdq05pPf3198pvvYkvEYiBTk",
+        "width": 1400,
+        "height": 350
       },
       {
-        "url": "https://media.licdn.com/dms/image/v2/D5616AQGOrLzCeoEc8g/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1687394685188?e=1782950400&v=beta&t=hPgirEC-5kxqLXPcZfVgK_DqW6klEB2FmBG403RmCnA",
-        "width": 765,
-        "height": 191
+        "url": "https://media.licdn.com/dms/image/v2/D5616AQE7GBvFomctkw/profile-displaybackgroundimage-shrink_200_800/B56ZyBaEGVHoAU-/0/1771697623525?e=1783555200&v=beta&t=2ueT9PVESyXmkRqUYi3rAVj0ELQoJLHINyakWmY27zk",
+        "width": 800,
+        "height": 200
       }
     ]
   },
-  "photo": "https://media.licdn.com/dms/image/v2/C5603AQEbgBlEFwrtUg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1567218693232?e=1782950400&v=beta&t=RUHOwWbwImm-tlHp57CpUO0C4ZK3guszX3BJo_aaxlU",
+  "photo": "https://media.licdn.com/dms/image/v2/D5603AQF7zMask43zgw/profile-displayphoto-crop_800_800/B56Z00RulDIMAI-/0/1774698556819?e=1783555200&v=beta&t=FKK_Hk78l2IRPyb_fQYoWHUecwdsCWD9hmgELxxrYnk",
   "profileLocales": [
     {
       "country": "US",
@@ -617,557 +171,402 @@
   },
   "multiLocaleHeadline": [
     {
-      "headline": "Pharmacology | Medical Science Liasion | Pharmacovigilence | Regulatory Toxicologist | Process Validation | Project Management | Leadership | Photography",
+      "headline": "SWE @Microsoft | Ex-Cisco | Specialist @Codeforces | Knight @Leetcode | AI • Tech • Marketing | DSA | System Design | Brand Collaborations",
       "locale": "en_US"
     }
   ],
   "services": null,
   "experience": [
     {
-      "position": "Staff Pharmacist | Prescription Dispensing, Drug Utilization Review, Regulatory Compliance",
-      "location": "Thousand Oaks, California, United States",
+      "position": "Software Engineer",
+      "location": "Hyderabad",
       "employmentType": "Full-time",
       "workplaceType": "On-site",
-      "companyName": "CVS Health",
-      "companyLinkedinUrl": "https://www.linkedin.com/company/cvshealth/",
-      "companyId": "4680",
-      "companyUniversalName": "cvshealth",
-      "duration": "2 yrs 6 mos",
-      "description": "*Exceeded daily production targets by 15% in a high-demand pharmacy environment while ensuring timely service delivery to over 1000 patients each week without compromising quality or accuracy.\n\n* Managed multiple priorities simultaneously by implementing efficient workflow strategies that significantly reduced prescription processing time by 20%, enhancing overall patient satisfaction scores.\n\n* Conducted comprehensive drug utilization reviews utilizing AI-driven tools to identify potential safety concerns, leading to a 30% reduction in adverse drug interactions reported among patients.\n\n* Delivered expert patient counseling on medication usage and interactions for over 50 individuals weekly, improving adherence rates by approximately 25% through personalized education efforts.\n\n* Executed state and federal controlled substance dispensing audits with zero discrepancies found, ensuring strict compliance with regulatory standards while proactively preventing misuse or fraud.",
+      "companyName": "Microsoft",
+      "companyLinkedinUrl": "https://www.linkedin.com/company/microsoft/",
+      "companyId": "1035",
+      "duration": "5 mos",
+      "description": "• Working at Azure Core Compute - IDC",
       "skills": [
-        "Scientific Liaison",
-        "Cultural Awareness",
-        "Resource Optimization",
-        "Active Listening",
-        "Certified Immunizer",
-        "Interpersonal Communication",
-        "Medication Dispensing",
-        "Regulatory Compliance"
+        "Engineering",
+        "Software Development",
+        "Large Scale Development",
+        "REST APIs",
+        "Microsoft Azure"
       ],
-      "experienceGroupId": "d23dddfcee83f0bffd26b6fc8243e1d41210ee1b",
       "startDate": {
-        "month": "Jan",
-        "year": 2024,
-        "text": "Jan 2024"
+        "month": "Feb",
+        "year": 2026,
+        "text": "Feb 2026"
       },
       "endDate": {
         "text": "Present"
       },
       "companyLogo": {
-        "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEhOw_KVli-CQ/company-logo_400_400/company-logo_400_400/0/1669901807779/cvs_health_logo?e=1782950400&v=beta&t=ewteImnGYpMB0p2z9XPFuP9I4zInOqDkU5ACErBWEKg",
+        "url": "https://media.licdn.com/dms/image/v2/D560BAQH32RJQCl3dDQ/company-logo_400_400/B56ZYQ0mrGGoAc-/0/1744038948046/microsoft_logo?e=1783555200&v=beta&t=PmajUikny-8rNDyd83MKd3UfNjnh7KWIgS9r-c_wUtg",
         "sizes": [
           {
-            "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEhOw_KVli-CQ/company-logo_400_400/company-logo_400_400/0/1669901807779/cvs_health_logo?e=1782950400&v=beta&t=ewteImnGYpMB0p2z9XPFuP9I4zInOqDkU5ACErBWEKg",
+            "url": "https://media.licdn.com/dms/image/v2/D560BAQH32RJQCl3dDQ/company-logo_400_400/B56ZYQ0mrGGoAc-/0/1744038948046/microsoft_logo?e=1783555200&v=beta&t=PmajUikny-8rNDyd83MKd3UfNjnh7KWIgS9r-c_wUtg",
             "width": 400,
             "height": 400
           },
           {
-            "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEhOw_KVli-CQ/company-logo_200_200/company-logo_200_200/0/1669901807779/cvs_health_logo?e=1782950400&v=beta&t=mSbDDLVJhrM3Hc6XC1Txhchjfkq3BVo1Z1EwZ_6Lryg",
+            "url": "https://media.licdn.com/dms/image/v2/D560BAQH32RJQCl3dDQ/company-logo_200_200/B56ZYQ0mrGGoAM-/0/1744038948046/microsoft_logo?e=1783555200&v=beta&t=UNNdLw9_NAbHnYi381mkJZkwlRd5isVDMfdixJgghe4",
             "width": 200,
             "height": 200
           },
           {
-            "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEhOw_KVli-CQ/company-logo_100_100/company-logo_100_100/0/1669901807779/cvs_health_logo?e=1782950400&v=beta&t=BnyWjXuQn9ED3wd4oAOTM37rnn5lIC1sn4UqenaS3OA",
+            "url": "https://media.licdn.com/dms/image/v2/D560BAQH32RJQCl3dDQ/company-logo_100_100/B56ZYQ0mrGGoAU-/0/1744038948046/microsoft_logo?e=1783555200&v=beta&t=3ZqC4Z3pLGnnpRshoxv_cEjPMu8MmWdbQ0ptbSLYidM",
             "width": 100,
             "height": 100
           }
         ]
-      }
+      },
+      "companyUniversalName": "microsoft"
     },
     {
-      "position": "Support Pharmacist | Patient Care Management, Medication Optimization, Healthcare Collaboration",
-      "location": "Los Angeles, California, United States",
-      "employmentType": "Full-time",
-      "workplaceType": "On-site",
-      "companyName": "CVS Health",
-      "companyLinkedinUrl": "https://www.linkedin.com/company/cvshealth/",
-      "companyId": "4680",
-      "companyUniversalName": "cvshealth",
-      "duration": "1 yr 2 mos",
-      "description": "* Collaborated with over 30 diverse pharmacy teams across various locations to address unique demographic needs and overcome specific challenges in each community, enhancing service delivery by 25%.\n\n* Mentored pharmacy technicians and trained new staff members to promote teamwork and operational efficiency, reducing onboarding time by 40% through streamlined training processes.\n\n* Evaluated drug storage conditions and optimized handling procedures to maintain medication efficacy while ensuring colleague safety; achieved a compliance rate of 98% during inspections.\n\n* Assisted patients with insurance issues by providing affordable alternatives and encouraging adherence through proactive follow-ups; increased patient adherence rates by 20% over the year.",
-      "skills": [
-        "Healthcare System Knowledge",
-        "Drug Utilization Review",
-        "Cardiopulmonary Resuscitation (CPR)",
-        "Project Management",
-        "Medication Adherence",
-        "Collaborative Problem Solving",
-        "Scientific Communications",
-        "Basic Life Support (BLS)",
-        "Medical Terminology",
-        "Drug Interactions",
-        "Professional Networking",
-        "Healthcare Compliance",
-        "Drug Therapy Optimization",
-        "Medication Safety"
-      ],
-      "experienceGroupId": "d23dddfcee83f0bffd26b6fc8243e1d41210ee1b",
-      "startDate": {
-        "month": "Nov",
-        "year": 2022,
-        "text": "Nov 2022"
-      },
-      "endDate": {
-        "month": "Dec",
-        "year": 2023,
-        "text": "Dec 2023"
-      },
-      "companyLogo": {
-        "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEhOw_KVli-CQ/company-logo_400_400/company-logo_400_400/0/1669901807779/cvs_health_logo?e=1782950400&v=beta&t=ewteImnGYpMB0p2z9XPFuP9I4zInOqDkU5ACErBWEKg",
-        "sizes": [
-          {
-            "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEhOw_KVli-CQ/company-logo_400_400/company-logo_400_400/0/1669901807779/cvs_health_logo?e=1782950400&v=beta&t=ewteImnGYpMB0p2z9XPFuP9I4zInOqDkU5ACErBWEKg",
-            "width": 400,
-            "height": 400
-          },
-          {
-            "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEhOw_KVli-CQ/company-logo_200_200/company-logo_200_200/0/1669901807779/cvs_health_logo?e=1782950400&v=beta&t=mSbDDLVJhrM3Hc6XC1Txhchjfkq3BVo1Z1EwZ_6Lryg",
-            "width": 200,
-            "height": 200
-          },
-          {
-            "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEhOw_KVli-CQ/company-logo_100_100/company-logo_100_100/0/1669901807779/cvs_health_logo?e=1782950400&v=beta&t=BnyWjXuQn9ED3wd4oAOTM37rnn5lIC1sn4UqenaS3OA",
-            "width": 100,
-            "height": 100
-          }
-        ]
-      }
-    },
-    {
-      "position": "Intern Pharmacist | Immunization Administration, Patient Counseling, Medication Safety",
-      "location": "Los Angeles, California, United States",
-      "employmentType": "Part-time",
-      "workplaceType": "On-site",
-      "companyName": "CVS Health",
-      "companyLinkedinUrl": "https://www.linkedin.com/company/cvshealth/",
-      "companyId": "4680",
-      "companyUniversalName": "cvshealth",
-      "duration": "4 yrs 1 mo",
-      "description": "* Administered over 1,500 immunizations during tenure, significantly enhancing community access to preventive healthcare services and contributing to improved public health outcomes in Los Angeles.\n\n* Conducted health screenings for more than 2,000 patients, providing tailored wellness advice that promoted lifestyle modifications such as smoking cessation and weight management for long-term health benefits.\n\n* Meticulously reviewed prescribers' information (USPI) and medication guides to identify potential drug safety concerns. Educated over 100 patients weekly on safe medication use practices and enhanced their understanding of treatment plans.\n\n* Delivered evidence-based recommendations on medication allergies and interactions that addressed patient-specific concerns, resulting in a notable reduction in adverse drug events within the community.\n\n* Collaborated with pharmacy teams to manage inventory effectively, ensuring accurate stock levels which minimized waste from expired medications by 30% during the internship period.\n\n* Organized medication adherence programs that included refill reminders for over 200 patients monthly, successfully resolving insurance-related access challenges that improved overall patient satisfaction.",
-      "skills": [
-        "Retail",
-        "Patient Counseling",
-        "OTC",
-        "Immunization",
-        "Medication Safety"
-      ],
-      "experienceGroupId": "d23dddfcee83f0bffd26b6fc8243e1d41210ee1b",
-      "startDate": {
-        "month": "Nov",
-        "year": 2018,
-        "text": "Nov 2018"
-      },
-      "endDate": {
-        "month": "Nov",
-        "year": 2022,
-        "text": "Nov 2022"
-      },
-      "companyLogo": {
-        "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEhOw_KVli-CQ/company-logo_400_400/company-logo_400_400/0/1669901807779/cvs_health_logo?e=1782950400&v=beta&t=ewteImnGYpMB0p2z9XPFuP9I4zInOqDkU5ACErBWEKg",
-        "sizes": [
-          {
-            "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEhOw_KVli-CQ/company-logo_400_400/company-logo_400_400/0/1669901807779/cvs_health_logo?e=1782950400&v=beta&t=ewteImnGYpMB0p2z9XPFuP9I4zInOqDkU5ACErBWEKg",
-            "width": 400,
-            "height": 400
-          },
-          {
-            "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEhOw_KVli-CQ/company-logo_200_200/company-logo_200_200/0/1669901807779/cvs_health_logo?e=1782950400&v=beta&t=mSbDDLVJhrM3Hc6XC1Txhchjfkq3BVo1Z1EwZ_6Lryg",
-            "width": 200,
-            "height": 200
-          },
-          {
-            "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEhOw_KVli-CQ/company-logo_100_100/company-logo_100_100/0/1669901807779/cvs_health_logo?e=1782950400&v=beta&t=BnyWjXuQn9ED3wd4oAOTM37rnn5lIC1sn4UqenaS3OA",
-            "width": 100,
-            "height": 100
-          }
-        ]
-      }
-    },
-    {
-      "position": "Certified Pharmacy Technician | Prescription Dispensing, Inventory Management, HIPAA Compliance",
-      "location": "Los Angeles, California, United States",
-      "employmentType": "Part-time",
-      "workplaceType": "On-site",
-      "companyName": "CVS Health",
-      "companyLinkedinUrl": "https://www.linkedin.com/company/cvshealth/",
-      "companyId": "4680",
-      "companyUniversalName": "cvshealth",
-      "duration": "3 yrs 3 mos",
-      "description": "* Processed over 500 medication orders weekly by accurately labeling prescriptions and verifying dosage instructions, ensuring a 98% accuracy rate in medication dispensing and reducing patient wait times significantly.\n\n* Managed inventory levels by conducting regular checks and placing timely orders that resulted in a 30% reduction in expired products, thereby maintaining compliance with safety regulations and optimizing operational efficiency.\n\n* Conducted insurance verifications and claims processing for patients which streamlined prescription fulfillment processes, leading to a decrease in processing delays by 25% and enhancing patient satisfaction scores.\n\n* Ensured adherence to HIPAA regulations by safeguarding patient information during interactions and transactions, contributing to the pharmacy’s reputation for confidentiality and trustworthiness within the community.\n\n* Supported pharmacists in managing medication recalls effectively while performing quality control checks on medications to uphold safety standards for all patients served at the pharmacy.",
-      "skills": [
-        "Retail",
-        "Healthcare System Knowledge",
-        "Customer Service",
-        "Teamwork",
-        "U.S. Health Insurance Portability and Accountability Act (HIPAA)",
-        "Insurance Billing",
-        "Time Management"
-      ],
-      "experienceGroupId": "d23dddfcee83f0bffd26b6fc8243e1d41210ee1b",
-      "startDate": {
-        "month": "Sep",
-        "year": 2015,
-        "text": "Sep 2015"
-      },
-      "endDate": {
-        "month": "Nov",
-        "year": 2018,
-        "text": "Nov 2018"
-      },
-      "companyLogo": {
-        "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEhOw_KVli-CQ/company-logo_400_400/company-logo_400_400/0/1669901807779/cvs_health_logo?e=1782950400&v=beta&t=ewteImnGYpMB0p2z9XPFuP9I4zInOqDkU5ACErBWEKg",
-        "sizes": [
-          {
-            "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEhOw_KVli-CQ/company-logo_400_400/company-logo_400_400/0/1669901807779/cvs_health_logo?e=1782950400&v=beta&t=ewteImnGYpMB0p2z9XPFuP9I4zInOqDkU5ACErBWEKg",
-            "width": 400,
-            "height": 400
-          },
-          {
-            "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEhOw_KVli-CQ/company-logo_200_200/company-logo_200_200/0/1669901807779/cvs_health_logo?e=1782950400&v=beta&t=mSbDDLVJhrM3Hc6XC1Txhchjfkq3BVo1Z1EwZ_6Lryg",
-            "width": 200,
-            "height": 200
-          },
-          {
-            "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEhOw_KVli-CQ/company-logo_100_100/company-logo_100_100/0/1669901807779/cvs_health_logo?e=1782950400&v=beta&t=BnyWjXuQn9ED3wd4oAOTM37rnn5lIC1sn4UqenaS3OA",
-            "width": 100,
-            "height": 100
-          }
-        ]
-      }
-    },
-    {
-      "position": "Intern Pharmacist | Health-Systems Ambulatory Care, Evidence-Based Therapy, Clinical Research",
-      "location": "California, United States",
-      "employmentType": "Internship",
-      "workplaceType": "Hybrid",
-      "companyName": "VA Greater Los Angeles Healthcare System",
-      "companyLinkedinUrl": "https://www.linkedin.com/search/results/all/?keywords=VA+Greater+Los+Angeles+Healthcare+System",
-      "duration": "5 mos",
-      "description": "* Analyzed over 100 patients’ medical charts to identify high-risk individuals for cardiovascular diseases, significantly improving targeted therapy recommendations and enhancing patient outcomes in the cardiology department.\n\n* Organized and facilitated cardiology clinics that increased patient throughput by 30%, ensuring timely access to essential healthcare services for veterans while collaborating with a multidisciplinary team.\n\n* Completed a comprehensive project on ‘Essential and Evidence-based Cardiovascular Disease Medicine Availability in Low-Cost Generic Drug Plans’, culminating in a poster presentation that informed hospital policy on medication accessibility.",
-      "skills": [
-        "High-quality Actionable Insight",
-        "Peer Relationships",
-        "Healthcare System Knowledge",
-        "Drug Utilization Review",
-        "Clinical Research",
-        "Data Analysis",
-        "Project Management",
-        "Research Proposals",
-        "Collaborative Problem Solving",
-        "Public Speaking",
-        "Literature Reviews",
-        "Scientific Discussion",
-        "Research Skills",
-        "Scientific Communications",
-        "Presentation Skills",
-        "Relationship Building",
-        "Professional Networking",
-        "Collaboration in Healthcare"
-      ],
-      "startDate": {
-        "month": "Jan",
-        "year": 2022,
-        "text": "Jan 2022"
-      },
-      "endDate": {
-        "month": "May",
-        "year": 2022,
-        "text": "May 2022"
-      }
-    },
-    {
-      "position": "Intern Pharmacist | Ambulatory Care,  Patient Education, Disease Management",
-      "location": "California, United States",
-      "employmentType": "Internship",
-      "workplaceType": "Hybrid",
-      "companyName": "Harbor-UCLA Medical Center",
-      "companyLinkedinUrl": "https://www.linkedin.com/company/38115891/",
-      "companyId": "38115891",
-      "duration": "2 mos",
-      "description": "* Implemented guideline-recommended drug therapy for diabetes and hyperlipidemia patients, positively impacting treatment adherence and health outcomes for a diverse patient population.\n\n* Conducted comprehensive patient interviews focused on disease management education, successfully enhancing patient understanding of their conditions and promoting healthier lifestyle choices.\n\n* Collaborated with healthcare teams to optimize medication regimens, ensuring safe and effective pharmacotherapy aligned with the latest clinical guidelines.\n\n* Documented patient interactions and outcomes meticulously, contributing to improved continuity of care and accurate health records for future reference.",
-      "skills": [
-        "High-quality Actionable Insight",
-        "Peer Relationships",
-        "Healthcare System Knowledge",
-        "Drug Utilization Review",
-        "Scientific Discussion",
-        "Scientific Communications",
-        "Presentation Skills",
-        "Relationship Building",
-        "Professional Networking"
-      ],
-      "startDate": {
-        "month": "Nov",
-        "year": 2021,
-        "text": "Nov 2021"
-      },
-      "endDate": {
-        "month": "Dec",
-        "year": 2021,
-        "text": "Dec 2021"
-      },
-      "companyLogo": {
-        "url": "https://media.licdn.com/dms/image/v2/C560BAQHy9HlTqOpvUA/company-logo_400_400/company-logo_400_400/0/1630608237350/harbor_uclamedicalcenter_logo?e=1782950400&v=beta&t=bFHESmP22SnJ5h44qp5KGK34mNF8EM2pChyWJgOWQIs",
-        "sizes": [
-          {
-            "url": "https://media.licdn.com/dms/image/v2/C560BAQHy9HlTqOpvUA/company-logo_400_400/company-logo_400_400/0/1630608237350/harbor_uclamedicalcenter_logo?e=1782950400&v=beta&t=bFHESmP22SnJ5h44qp5KGK34mNF8EM2pChyWJgOWQIs",
-            "width": 400,
-            "height": 400
-          },
-          {
-            "url": "https://media.licdn.com/dms/image/v2/C560BAQHy9HlTqOpvUA/company-logo_200_200/company-logo_200_200/0/1630608237350/harbor_uclamedicalcenter_logo?e=1782950400&v=beta&t=Nd2NV6RbWrP4IGbsMK0qwO0YLb8kZpgJpWU_fB_Y850",
-            "width": 200,
-            "height": 200
-          },
-          {
-            "url": "https://media.licdn.com/dms/image/v2/C560BAQHy9HlTqOpvUA/company-logo_100_100/company-logo_100_100/0/1630608237350/harbor_uclamedicalcenter_logo?e=1782950400&v=beta&t=bnhrYi0eiiwh3ySfTcbHXK12kGTd9kJ14szXTAsXOl4",
-            "width": 100,
-            "height": 100
-          }
-        ]
-      }
-    },
-    {
-      "position": "Intern Pharmacist | General Medicine, Medication Management, Clinical Analysis",
-      "location": "California, United States",
-      "employmentType": "Internship",
-      "workplaceType": "On-site",
-      "companyName": "Olive View-UCLA Medical Center",
-      "companyLinkedinUrl": "https://www.linkedin.com/company/62210181/",
-      "companyId": "62210181",
-      "duration": "3 mos",
-      "description": "* Participated in daily medical rounds with interdisciplinary teams, delivering medication recommendations that enhanced patient care strategies and improved overall treatment outcomes for diverse patient populations.\n\n* Analyzed over 100 patient medical records to identify critical red flags, leading to tailored treatment plans that significantly improved medication adherence and therapeutic effectiveness for patients in a hospital setting.\n\n* Collaborated with healthcare professionals to ensure accurate medication management, contributing to a streamlined process that reduced potential drug interactions and optimized patient safety during hospital stays.",
-      "skills": [
-        "High-quality Actionable Insight",
-        "Peer Relationships",
-        "Healthcare System Knowledge",
-        "Collaborative Problem Solving",
-        "Scientific Discussion",
-        "Scientific Communications",
-        "Presentation Skills",
-        "Relationship Building",
-        "Professional Networking"
-      ],
-      "experienceGroupId": "38ae825d9ce1bec8bf49af8413e694a717620524",
-      "startDate": {
-        "month": "Sep",
-        "year": 2021,
-        "text": "Sep 2021"
-      },
-      "endDate": {
-        "month": "Nov",
-        "year": 2021,
-        "text": "Nov 2021"
-      },
-      "companyLogo": {
-        "url": "https://media.licdn.com/dms/image/v2/C560BAQFpz5EZIdVasQ/company-logo_400_400/company-logo_400_400/0/1668922623637/los_angeles_county_olive_view_ucla_medical_center_logo?e=1782950400&v=beta&t=ibnIeUw9uXX28WR_s3gMDwabvOsAOhtqto97Xqv0RQQ",
-        "sizes": [
-          {
-            "url": "https://media.licdn.com/dms/image/v2/C560BAQFpz5EZIdVasQ/company-logo_400_400/company-logo_400_400/0/1668922623637/los_angeles_county_olive_view_ucla_medical_center_logo?e=1782950400&v=beta&t=ibnIeUw9uXX28WR_s3gMDwabvOsAOhtqto97Xqv0RQQ",
-            "width": 400,
-            "height": 400
-          },
-          {
-            "url": "https://media.licdn.com/dms/image/v2/C560BAQFpz5EZIdVasQ/company-logo_200_200/company-logo_200_200/0/1668922623637/los_angeles_county_olive_view_ucla_medical_center_logo?e=1782950400&v=beta&t=nDmItLF0MiUEjzMj5miVdT9YcOGXXb0UKP7PHh007Ag",
-            "width": 200,
-            "height": 200
-          },
-          {
-            "url": "https://media.licdn.com/dms/image/v2/C560BAQFpz5EZIdVasQ/company-logo_100_100/company-logo_100_100/0/1668922623637/los_angeles_county_olive_view_ucla_medical_center_logo?e=1782950400&v=beta&t=ajlUzh6VuAmn_esCAaxIIC1dzxP4JfuNV2WFPIOTZHI",
-            "width": 100,
-            "height": 100
-          }
-        ]
-      }
-    },
-    {
-      "position": "Intern Pharmacist | Transitional Care, Medication Reconciliation, Guideline Directed Therapy",
-      "location": "California, United States",
-      "employmentType": "Internship",
-      "workplaceType": "On-site",
-      "companyName": "Olive View-UCLA Medical Center",
-      "companyLinkedinUrl": "https://www.linkedin.com/company/62210181/",
-      "companyId": "62210181",
-      "duration": "2 mos",
-      "description": "* Participated in the admission and discharge medication reconciliation process for over 50 patients weekly, ensuring accurate medication lists to enhance patient safety and continuity of care.\n\n* Delivered comprehensive patient discharge counseling sessions that improved understanding of medication regimens, leading to a 30% reduction in post-discharge complications among patients.\n\n* Analyzed clinical data to provide evidence-based recommendations for Guideline Directed Medication Therapy, optimizing treatment plans for diverse patient populations.",
-      "skills": [
-        "Drug Utilization Review",
-        "Collaborative Problem Solving",
-        "Scientific Discussion",
-        "Relationship Building"
-      ],
-      "experienceGroupId": "38ae825d9ce1bec8bf49af8413e694a717620524",
-      "startDate": {
-        "month": "Aug",
-        "year": 2021,
-        "text": "Aug 2021"
-      },
-      "endDate": {
-        "month": "Sep",
-        "year": 2021,
-        "text": "Sep 2021"
-      },
-      "companyLogo": {
-        "url": "https://media.licdn.com/dms/image/v2/C560BAQFpz5EZIdVasQ/company-logo_400_400/company-logo_400_400/0/1668922623637/los_angeles_county_olive_view_ucla_medical_center_logo?e=1782950400&v=beta&t=ibnIeUw9uXX28WR_s3gMDwabvOsAOhtqto97Xqv0RQQ",
-        "sizes": [
-          {
-            "url": "https://media.licdn.com/dms/image/v2/C560BAQFpz5EZIdVasQ/company-logo_400_400/company-logo_400_400/0/1668922623637/los_angeles_county_olive_view_ucla_medical_center_logo?e=1782950400&v=beta&t=ibnIeUw9uXX28WR_s3gMDwabvOsAOhtqto97Xqv0RQQ",
-            "width": 400,
-            "height": 400
-          },
-          {
-            "url": "https://media.licdn.com/dms/image/v2/C560BAQFpz5EZIdVasQ/company-logo_200_200/company-logo_200_200/0/1668922623637/los_angeles_county_olive_view_ucla_medical_center_logo?e=1782950400&v=beta&t=nDmItLF0MiUEjzMj5miVdT9YcOGXXb0UKP7PHh007Ag",
-            "width": 200,
-            "height": 200
-          },
-          {
-            "url": "https://media.licdn.com/dms/image/v2/C560BAQFpz5EZIdVasQ/company-logo_100_100/company-logo_100_100/0/1668922623637/los_angeles_county_olive_view_ucla_medical_center_logo?e=1782950400&v=beta&t=ajlUzh6VuAmn_esCAaxIIC1dzxP4JfuNV2WFPIOTZHI",
-            "width": 100,
-            "height": 100
-          }
-        ]
-      }
-    },
-    {
-      "position": "Intern Pharmacist | Health-Systems Practice, Expired Medication Management, Financial Analysis",
-      "location": "California, United States",
-      "employmentType": "Internship",
-      "workplaceType": "On-site",
-      "companyName": "Olive View-UCLA Medical Center",
-      "companyLinkedinUrl": "https://www.linkedin.com/company/62210181/",
-      "companyId": "62210181",
-      "duration": "3 mos",
-      "description": "* Analyzed hospital pharmacy operations to identify inefficiencies, contributing to a 15% improvement in workflow efficiency during the internship period through targeted recommendations for process enhancements.\n\n* Actively participated in the identification and handling of expired medications, successfully reducing potential financial losses by approximately $10,000 through improved inventory management practices.\n\n* Completed a comprehensive project on expired medication management that provided actionable insights to the management team, leading to the implementation of new protocols for medication oversight.",
-      "skills": [
-        "Peer Relationships",
-        "Healthcare System Knowledge",
-        "Drug Utilization Review",
-        "Public Speaking",
-        "Scientific Discussion",
-        "Scientific Communications",
-        "Relationship Building"
-      ],
-      "experienceGroupId": "38ae825d9ce1bec8bf49af8413e694a717620524",
-      "startDate": {
-        "month": "Jun",
-        "year": 2021,
-        "text": "Jun 2021"
-      },
-      "endDate": {
-        "month": "Aug",
-        "year": 2021,
-        "text": "Aug 2021"
-      },
-      "companyLogo": {
-        "url": "https://media.licdn.com/dms/image/v2/C560BAQFpz5EZIdVasQ/company-logo_400_400/company-logo_400_400/0/1668922623637/los_angeles_county_olive_view_ucla_medical_center_logo?e=1782950400&v=beta&t=ibnIeUw9uXX28WR_s3gMDwabvOsAOhtqto97Xqv0RQQ",
-        "sizes": [
-          {
-            "url": "https://media.licdn.com/dms/image/v2/C560BAQFpz5EZIdVasQ/company-logo_400_400/company-logo_400_400/0/1668922623637/los_angeles_county_olive_view_ucla_medical_center_logo?e=1782950400&v=beta&t=ibnIeUw9uXX28WR_s3gMDwabvOsAOhtqto97Xqv0RQQ",
-            "width": 400,
-            "height": 400
-          },
-          {
-            "url": "https://media.licdn.com/dms/image/v2/C560BAQFpz5EZIdVasQ/company-logo_200_200/company-logo_200_200/0/1668922623637/los_angeles_county_olive_view_ucla_medical_center_logo?e=1782950400&v=beta&t=nDmItLF0MiUEjzMj5miVdT9YcOGXXb0UKP7PHh007Ag",
-            "width": 200,
-            "height": 200
-          },
-          {
-            "url": "https://media.licdn.com/dms/image/v2/C560BAQFpz5EZIdVasQ/company-logo_100_100/company-logo_100_100/0/1668922623637/los_angeles_county_olive_view_ucla_medical_center_logo?e=1782950400&v=beta&t=ajlUzh6VuAmn_esCAaxIIC1dzxP4JfuNV2WFPIOTZHI",
-            "width": 100,
-            "height": 100
-          }
-        ]
-      }
-    },
-    {
-      "position": "Application Scientist | Particle Size Analysis, Pharmaceutical Consultation, Training Development",
-      "location": "Dhaka, Bangladesh",
-      "employmentType": "Full-time",
+      "position": "Mentor",
+      "location": null,
+      "employmentType": "Freelance",
       "workplaceType": null,
-      "companyName": "Bio-Xin Pvt. Ltd.",
-      "companyLinkedinUrl": "https://www.linkedin.com/search/results/all/?keywords=Bio-Xin+Pvt%2E+Ltd%2E",
-      "duration": "1 yr 8 mos",
-      "description": "* Delivered expert consultation to over 50 pharmaceutical clients on drug particle size analysis, significantly enhancing their understanding of its impact on drug efficacy and performance metrics.\n\n* Conducted 15+ training sessions and workshops tailored to client needs, improving the operational proficiency of advanced particle size analysis systems for metered-dose inhalers and nasal sprays.\n\n* Collaborated with global cross-functional teams, including pharmaceutical companies and equipment manufacturers, driving innovation that resulted in a 30% increase in product quality standards across projects.\n\n* Developed customized training materials that addressed specific client challenges, leading to a 25% improvement in client satisfaction ratings regarding product performance and usability.",
+      "companyName": "topmate.io",
+      "companyLinkedinUrl": "https://www.linkedin.com/company/topmate-io/",
+      "companyId": "79703243",
+      "duration": "7 mos",
+      "description": "I mentor tech professionals/ aspiring SDEs through targeted 1:1 sessions by focusing on practical guidance, honest feedback, and helping them think like an engineer so they can grow with clarity!  \n\nServices I provide include:\n- Interview preparation\n- Resume reviews\n- Career coaching\n- Mock Interviews\n\nWhether you're preparing for MAANG, top tech MNCs, or startups, I'm here to help you crack it! ",
       "skills": [
-        "Product Marketing",
-        "Customer Engagement",
-        "Project Management",
-        "Client Relations",
-        "Public Speaking",
-        "Scientific Communications",
-        "Presentation Skills",
-        "Relationship Building",
-        "Drug Particle Size Analysis",
-        "Pharmaceutical Industry Consultation",
-        "Training Development",
-        "Cross-Functional Collaboration"
+        "Coaching & Mentoring",
+        "Engineering",
+        "Interviewing",
+        "Career Development Coaching",
+        "Mentoring"
       ],
       "startDate": {
-        "month": "Sep",
-        "year": 2011,
-        "text": "Sep 2011"
+        "month": "Dec",
+        "year": 2025,
+        "text": "Dec 2025"
       },
       "endDate": {
-        "month": "Apr",
-        "year": 2013,
-        "text": "Apr 2013"
-      }
+        "text": "Present"
+      },
+      "companyLogo": {
+        "url": "https://media.licdn.com/dms/image/v2/D560BAQGsl1Ab9W3R7A/company-logo_400_400/company-logo_400_400/0/1731241647690/topmate_io_logo?e=1783555200&v=beta&t=fzr1MHWqoXoKOme7YsuWhzWqRK9id9bB6qrZ2X_UUWo",
+        "sizes": [
+          {
+            "url": "https://media.licdn.com/dms/image/v2/D560BAQGsl1Ab9W3R7A/company-logo_400_400/company-logo_400_400/0/1731241647690/topmate_io_logo?e=1783555200&v=beta&t=fzr1MHWqoXoKOme7YsuWhzWqRK9id9bB6qrZ2X_UUWo",
+            "width": 400,
+            "height": 400
+          },
+          {
+            "url": "https://media.licdn.com/dms/image/v2/D560BAQGsl1Ab9W3R7A/company-logo_200_200/company-logo_200_200/0/1731241647690/topmate_io_logo?e=1783555200&v=beta&t=VwzuO6USwY2fAjhLtS9GxpAZ-KkjgsA9mhwgCdWV3Fs",
+            "width": 200,
+            "height": 200
+          },
+          {
+            "url": "https://media.licdn.com/dms/image/v2/D560BAQGsl1Ab9W3R7A/company-logo_100_100/company-logo_100_100/0/1731241647690/topmate_io_logo?e=1783555200&v=beta&t=Qz9hyFttSryjxIcAT9nrLxtk38LzOaUpijtSI84Q9mA",
+            "width": 100,
+            "height": 100
+          }
+        ]
+      },
+      "companyUniversalName": "topmate-io"
+    },
+    {
+      "position": "Software Engineer (G6)",
+      "location": "Bengaluru",
+      "employmentType": "Full-time",
+      "workplaceType": "On-site",
+      "companyName": "Cisco",
+      "companyLinkedinUrl": "https://www.linkedin.com/company/cisco/",
+      "companyId": "1063",
+      "duration": "3 mos",
+      "description": "• Worked at Cisco Secure Client (CSC)",
+      "skills": [
+        "C++",
+        "Backend",
+        "Object Oriented Design",
+        "API Development",
+        "Cloud Management"
+      ],
+      "experienceGroupId": "28296a3468c6ae9a1b8a795efbafc3b07c205254",
+      "startDate": {
+        "month": "Nov",
+        "year": 2025,
+        "text": "Nov 2025"
+      },
+      "endDate": {
+        "month": "Jan",
+        "year": 2026,
+        "text": "Jan 2026"
+      },
+      "companyLogo": {
+        "url": "https://media.licdn.com/dms/image/v2/D560BAQFYnR_Zrm87Dg/company-logo_400_400/B56ZnMyVr4HUAY-/0/1760077372453/cisco_logo?e=1783555200&v=beta&t=m_C-ZDPpmDNYZ4fD7V6VvH4-uXXUAqDLd9_bpJQWx00",
+        "sizes": [
+          {
+            "url": "https://media.licdn.com/dms/image/v2/D560BAQFYnR_Zrm87Dg/company-logo_400_400/B56ZnMyVr4HUAY-/0/1760077372453/cisco_logo?e=1783555200&v=beta&t=m_C-ZDPpmDNYZ4fD7V6VvH4-uXXUAqDLd9_bpJQWx00",
+            "width": 400,
+            "height": 400
+          },
+          {
+            "url": "https://media.licdn.com/dms/image/v2/D560BAQFYnR_Zrm87Dg/company-logo_200_200/B56ZnMyVr4HUAI-/0/1760077372453/cisco_logo?e=1783555200&v=beta&t=cASCaROGqSMfQn7VOq4Sto5F5-iXnSTHj1seFQhl6pw",
+            "width": 200,
+            "height": 200
+          },
+          {
+            "url": "https://media.licdn.com/dms/image/v2/D560BAQFYnR_Zrm87Dg/company-logo_100_100/B56ZnMyVr4HUAQ-/0/1760077372453/cisco_logo?e=1783555200&v=beta&t=TnbQPblijnlLYk_7TU0zwyywMeciqDypx0VYkgVrdFM",
+            "width": 100,
+            "height": 100
+          }
+        ]
+      },
+      "companyUniversalName": "cisco"
+    },
+    {
+      "position": "Software Engineer (G4)",
+      "location": "Bengaluru, Karnataka, India",
+      "employmentType": "Full-time",
+      "workplaceType": "On-site",
+      "companyName": "Cisco",
+      "companyLinkedinUrl": "https://www.linkedin.com/company/cisco/",
+      "companyId": "1063",
+      "duration": "1 yr 3 mos",
+      "description": null,
+      "skills": [
+        "Software Development",
+        "JavaScript",
+        "Artificial Intelligence (AI)",
+        "Object-Oriented Programming (OOP)",
+        "Splunk"
+      ],
+      "experienceGroupId": "28296a3468c6ae9a1b8a795efbafc3b07c205254",
+      "startDate": {
+        "month": "Aug",
+        "year": 2024,
+        "text": "Aug 2024"
+      },
+      "endDate": {
+        "month": "Oct",
+        "year": 2025,
+        "text": "Oct 2025"
+      },
+      "companyLogo": {
+        "url": "https://media.licdn.com/dms/image/v2/D560BAQFYnR_Zrm87Dg/company-logo_400_400/B56ZnMyVr4HUAY-/0/1760077372453/cisco_logo?e=1783555200&v=beta&t=m_C-ZDPpmDNYZ4fD7V6VvH4-uXXUAqDLd9_bpJQWx00",
+        "sizes": [
+          {
+            "url": "https://media.licdn.com/dms/image/v2/D560BAQFYnR_Zrm87Dg/company-logo_400_400/B56ZnMyVr4HUAY-/0/1760077372453/cisco_logo?e=1783555200&v=beta&t=m_C-ZDPpmDNYZ4fD7V6VvH4-uXXUAqDLd9_bpJQWx00",
+            "width": 400,
+            "height": 400
+          },
+          {
+            "url": "https://media.licdn.com/dms/image/v2/D560BAQFYnR_Zrm87Dg/company-logo_200_200/B56ZnMyVr4HUAI-/0/1760077372453/cisco_logo?e=1783555200&v=beta&t=cASCaROGqSMfQn7VOq4Sto5F5-iXnSTHj1seFQhl6pw",
+            "width": 200,
+            "height": 200
+          },
+          {
+            "url": "https://media.licdn.com/dms/image/v2/D560BAQFYnR_Zrm87Dg/company-logo_100_100/B56ZnMyVr4HUAQ-/0/1760077372453/cisco_logo?e=1783555200&v=beta&t=TnbQPblijnlLYk_7TU0zwyywMeciqDypx0VYkgVrdFM",
+            "width": 100,
+            "height": 100
+          }
+        ]
+      },
+      "companyUniversalName": "cisco"
+    },
+    {
+      "position": "Software Engineer Intern",
+      "location": "Bengaluru, Karnataka, India",
+      "employmentType": "Internship",
+      "workplaceType": "On-site",
+      "companyName": "Cisco",
+      "companyLinkedinUrl": "https://www.linkedin.com/company/cisco/",
+      "companyId": "1063",
+      "duration": "6 mos",
+      "description": null,
+      "skills": [
+        "Machine Learning",
+        "Algorithms",
+        "Data Structures",
+        "Python (Programming Language)",
+        "Amazon Web Services (AWS)"
+      ],
+      "experienceGroupId": "28296a3468c6ae9a1b8a795efbafc3b07c205254",
+      "startDate": {
+        "month": "Feb",
+        "year": 2024,
+        "text": "Feb 2024"
+      },
+      "endDate": {
+        "month": "Jul",
+        "year": 2024,
+        "text": "Jul 2024"
+      },
+      "companyLogo": {
+        "url": "https://media.licdn.com/dms/image/v2/D560BAQFYnR_Zrm87Dg/company-logo_400_400/B56ZnMyVr4HUAY-/0/1760077372453/cisco_logo?e=1783555200&v=beta&t=m_C-ZDPpmDNYZ4fD7V6VvH4-uXXUAqDLd9_bpJQWx00",
+        "sizes": [
+          {
+            "url": "https://media.licdn.com/dms/image/v2/D560BAQFYnR_Zrm87Dg/company-logo_400_400/B56ZnMyVr4HUAY-/0/1760077372453/cisco_logo?e=1783555200&v=beta&t=m_C-ZDPpmDNYZ4fD7V6VvH4-uXXUAqDLd9_bpJQWx00",
+            "width": 400,
+            "height": 400
+          },
+          {
+            "url": "https://media.licdn.com/dms/image/v2/D560BAQFYnR_Zrm87Dg/company-logo_200_200/B56ZnMyVr4HUAI-/0/1760077372453/cisco_logo?e=1783555200&v=beta&t=cASCaROGqSMfQn7VOq4Sto5F5-iXnSTHj1seFQhl6pw",
+            "width": 200,
+            "height": 200
+          },
+          {
+            "url": "https://media.licdn.com/dms/image/v2/D560BAQFYnR_Zrm87Dg/company-logo_100_100/B56ZnMyVr4HUAQ-/0/1760077372453/cisco_logo?e=1783555200&v=beta&t=TnbQPblijnlLYk_7TU0zwyywMeciqDypx0VYkgVrdFM",
+            "width": 100,
+            "height": 100
+          }
+        ]
+      },
+      "companyUniversalName": "cisco"
+    },
+    {
+      "position": "Software Engineer Intern (Data)",
+      "location": "Bengaluru, Karnataka, India",
+      "employmentType": "Internship",
+      "workplaceType": "Hybrid",
+      "companyName": "Ambee",
+      "companyLinkedinUrl": "https://www.linkedin.com/company/getambee/",
+      "companyId": "13349105",
+      "duration": "3 mos",
+      "description": "• Worked at data engineering team.",
+      "skills": [
+        "Database Management System (DBMS)",
+        "Amazon Web Services (AWS)",
+        "PySpark",
+        "Git",
+        "Python (Programming Language)"
+      ],
+      "startDate": {
+        "month": "May",
+        "year": 2023,
+        "text": "May 2023"
+      },
+      "endDate": {
+        "month": "Jul",
+        "year": 2023,
+        "text": "Jul 2023"
+      },
+      "companyLogo": {
+        "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEX0jFYjMuNfw/company-logo_400_400/company-logo_400_400/0/1657522183148/getambee_logo?e=1783555200&v=beta&t=NoztbsFARFCMYEIGQzl4Qx8RTlbfI47_K1qCT9Z-WLQ",
+        "sizes": [
+          {
+            "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEX0jFYjMuNfw/company-logo_400_400/company-logo_400_400/0/1657522183148/getambee_logo?e=1783555200&v=beta&t=NoztbsFARFCMYEIGQzl4Qx8RTlbfI47_K1qCT9Z-WLQ",
+            "width": 400,
+            "height": 400
+          },
+          {
+            "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEX0jFYjMuNfw/company-logo_200_200/company-logo_200_200/0/1657522183147/getambee_logo?e=1783555200&v=beta&t=xntkWpbaJkgdcjza-nPzAJYQRcTqb7l7oCvOJgpD0-o",
+            "width": 200,
+            "height": 200
+          },
+          {
+            "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEX0jFYjMuNfw/company-logo_100_100/company-logo_100_100/0/1657522183147/getambee_logo?e=1783555200&v=beta&t=hL03EjpPTvCB3z1AABsltiEmG7IPSARbG4lqHTyn6EA",
+            "width": 100,
+            "height": 100
+          }
+        ]
+      },
+      "companyUniversalName": "getambee"
+    },
+    {
+      "position": "Subject Matter Expert",
+      "location": null,
+      "employmentType": "Part-time",
+      "workplaceType": "Remote",
+      "companyName": "Chegg Inc.",
+      "companyLinkedinUrl": "https://www.linkedin.com/company/chegg-inc-/",
+      "companyId": "137338",
+      "duration": "6 mos",
+      "description": null,
+      "skills": [
+        "Problem Solving",
+        "Communication"
+      ],
+      "startDate": {
+        "month": "Feb",
+        "year": 2021,
+        "text": "Feb 2021"
+      },
+      "endDate": {
+        "month": "Jul",
+        "year": 2021,
+        "text": "Jul 2021"
+      },
+      "companyLogo": {
+        "url": "https://media.licdn.com/dms/image/v2/C4E0BAQG8VKEvS_lWog/company-logo_400_400/company-logo_400_400/0/1630649929088/chegg_inc__logo?e=1783555200&v=beta&t=IEqh0qCEKLJaXNLfEjcgvTN9PspFyfjK43OACSf2g2E",
+        "sizes": [
+          {
+            "url": "https://media.licdn.com/dms/image/v2/C4E0BAQG8VKEvS_lWog/company-logo_400_400/company-logo_400_400/0/1630649929088/chegg_inc__logo?e=1783555200&v=beta&t=IEqh0qCEKLJaXNLfEjcgvTN9PspFyfjK43OACSf2g2E",
+            "width": 400,
+            "height": 400
+          },
+          {
+            "url": "https://media.licdn.com/dms/image/v2/C4E0BAQG8VKEvS_lWog/company-logo_400_400-alternative/company-logo_400_400-alternative/0/1630649929085/chegg_inc__logo?e=1783555200&v=beta&t=6vzNdy6fdJh5np4BFMmDydDXSUd0fpyTVS2a3cYNMmw",
+            "width": 400,
+            "height": 400
+          },
+          {
+            "url": "https://media.licdn.com/dms/image/v2/C4E0BAQG8VKEvS_lWog/company-logo_200_200/company-logo_200_200/0/1630649929088/chegg_inc__logo?e=1783555200&v=beta&t=_SvMHuUs6pT9kUKwkq0utBt21pv0rb1v0WpTGQUtpBU",
+            "width": 200,
+            "height": 200
+          },
+          {
+            "url": "https://media.licdn.com/dms/image/v2/C4E0BAQG8VKEvS_lWog/company-logo_200_200-alternative/company-logo_200_200-alternative/0/1630649929085/chegg_inc__logo?e=1783555200&v=beta&t=pk_9cF0HRBTNyhSOnNHjFapFt-3-wTMrDGqWD3ijf1o",
+            "width": 200,
+            "height": 200
+          },
+          {
+            "url": "https://media.licdn.com/dms/image/v2/C4E0BAQG8VKEvS_lWog/company-logo_100_100-alternative/company-logo_100_100-alternative/0/1630649929085/chegg_inc__logo?e=1783555200&v=beta&t=iAmk_Fddl3YcirAU2uVC0ZGWZgcGLFy874-JO7UFFfY",
+            "width": 100,
+            "height": 100
+          },
+          {
+            "url": "https://media.licdn.com/dms/image/v2/C4E0BAQG8VKEvS_lWog/company-logo_100_100/company-logo_100_100/0/1630649929088/chegg_inc__logo?e=1783555200&v=beta&t=Z9g_8WK09cHSKW3pXdQRzk7p3YF50Ba1j4Jii8rYRE4",
+            "width": 100,
+            "height": 100
+          }
+        ]
+      },
+      "companyUniversalName": "chegg-inc-"
     }
   ],
   "education": [
     {
-      "schoolName": "Western University of Health Sciences",
-      "schoolLinkedinUrl": "https://www.linkedin.com/company/26345/",
-      "schoolId": "26345",
-      "degree": "Doctor of Pharmacy",
-      "fieldOfStudy": "Pharmacy",
+      "schoolName": "Jaypee Institute of Information Technology",
+      "schoolLinkedinUrl": "https://www.linkedin.com/company/809155/",
+      "schoolId": "809155",
+      "degree": "Bachelor of Technology - BTech",
+      "fieldOfStudy": "Computer Science Engineering",
       "skills": [
-        "Healthcare System Knowledge",
-        "Relationship Building",
-        "Pharmacodynamics",
-        "Scientific Communications",
-        "Cross-functional Team Leadership",
-        "Research Skills",
-        "Professional Networking",
-        "Expense Reports",
-        "Presentation Skills",
-        "Laboratory Skills",
-        "Scientific Discussion",
-        "Medical Terminology",
-        "Collaborative Problem Solving",
-        "Public Speaking",
-        "Clinical Trials",
-        "Drug Utilization Review",
-        "Pharmacology",
-        "Data Analysis",
-        "Project Management"
+        "Computer Science"
       ],
+      "description": "Coursework\n• Data Structures and Algorithms  • Object-Oriented Programming • Database Management Systems \n• Software Engineering • Operating Systems • Computer Networks • Fundamentals of Machine Learning",
       "startDate": {
-        "month": "Aug",
-        "year": 2018,
-        "text": "Aug 2018"
+        "year": 2020,
+        "text": "2020"
       },
       "endDate": {
-        "month": "May",
-        "year": 2022,
-        "text": "May 2022"
+        "year": 2024,
+        "text": "2024"
       },
-      "period": "Aug 2018 - May 2022",
+      "period": "2020 - 2024",
       "schoolLogo": {
-        "url": "https://media.licdn.com/dms/image/v2/D560BAQGNYXGokw3m2A/company-logo_400_400/company-logo_400_400/0/1731697079405/western_university_of_health_sciences_logo?e=1782950400&v=beta&t=aoE2QRodp2Pms-sX4RqncAxTUSzycIjRvRwweqGJcLk",
+        "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFr6NVI7DcDtg/company-logo_400_400/company-logo_400_400/0/1630556410107/jaypee_institute_of_inormation_technology_logo?e=1783555200&v=beta&t=DnqZyQm9tMXKe41klJvGJN61_KYFhM5aX31-3jC5mvo",
         "sizes": [
           {
-            "url": "https://media.licdn.com/dms/image/v2/D560BAQGNYXGokw3m2A/company-logo_400_400/company-logo_400_400/0/1731697079405/western_university_of_health_sciences_logo?e=1782950400&v=beta&t=aoE2QRodp2Pms-sX4RqncAxTUSzycIjRvRwweqGJcLk",
+            "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFr6NVI7DcDtg/company-logo_400_400/company-logo_400_400/0/1630556410107/jaypee_institute_of_inormation_technology_logo?e=1783555200&v=beta&t=DnqZyQm9tMXKe41klJvGJN61_KYFhM5aX31-3jC5mvo",
             "width": 400,
             "height": 400
           },
           {
-            "url": "https://media.licdn.com/dms/image/v2/D560BAQGNYXGokw3m2A/company-logo_200_200/company-logo_200_200/0/1731697079405/western_university_of_health_sciences_logo?e=1782950400&v=beta&t=2c2HW43K984SOl4hcavzCbPuWgGcfAT0_Ubks-IpNdg",
+            "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFr6NVI7DcDtg/company-logo_200_200/company-logo_200_200/0/1630556410107/jaypee_institute_of_inormation_technology_logo?e=1783555200&v=beta&t=BdrADbAImp19rG5PFe5Oyl3pDG4ccFiqipMQTlviv8U",
             "width": 200,
             "height": 200
           },
           {
-            "url": "https://media.licdn.com/dms/image/v2/D560BAQGNYXGokw3m2A/company-logo_100_100/company-logo_100_100/0/1731697079405/western_university_of_health_sciences_logo?e=1782950400&v=beta&t=J-FVAVlTvIjWCXlCXIEtxSjyoltoPIu1umV2FYPCPBM",
+            "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFr6NVI7DcDtg/company-logo_100_100/company-logo_100_100/0/1630556410107/jaypee_institute_of_inormation_technology_logo?e=1783555200&v=beta&t=waPDGuD_ZKjXnP3QrN4WTlUPWbnSyIqHZ3dotEZ1F-0",
             "width": 100,
             "height": 100
           }
@@ -1175,148 +574,40 @@
       }
     },
     {
-      "schoolName": "KTH Royal Institute of Technology",
-      "schoolLinkedinUrl": "https://www.linkedin.com/company/4814/",
-      "schoolId": "4814",
-      "degree": "Master of Science",
-      "fieldOfStudy": "Biotechnology",
-      "skills": [
-        "Scientific Communications",
-        "Cross-functional Team Leadership",
-        "Research Skills",
-        "Professional Networking",
-        "Presentation Skills",
-        "Laboratory Skills",
-        "Scientific Discussion",
-        "Collaborative Problem Solving",
-        "Public Speaking",
-        "Clinical Research",
-        "Data Analysis",
-        "Project Management",
-        "Literature Reviews"
-      ],
-      "startDate": {
-        "month": "Aug",
-        "year": 2007,
-        "text": "Aug 2007"
-      },
-      "endDate": {
-        "month": "Jan",
-        "year": 2011,
-        "text": "Jan 2011"
-      },
-      "period": "Aug 2007 - Jan 2011",
-      "schoolLogo": {
-        "url": "https://media.licdn.com/dms/image/v2/D4D0BAQFDvNUYDVR6cA/company-logo_400_400/B4DZkpBLOmJkAY-/0/1757329798694/kth_logo?e=1782950400&v=beta&t=c1wuqf-qi7RaeUMNoL3hK8CoIg2c-5kU4fw49mXQw80",
-        "sizes": [
-          {
-            "url": "https://media.licdn.com/dms/image/v2/D4D0BAQFDvNUYDVR6cA/company-logo_400_400/B4DZkpBLOmJkAY-/0/1757329798694/kth_logo?e=1782950400&v=beta&t=c1wuqf-qi7RaeUMNoL3hK8CoIg2c-5kU4fw49mXQw80",
-            "width": 400,
-            "height": 400
-          },
-          {
-            "url": "https://media.licdn.com/dms/image/v2/D4D0BAQFDvNUYDVR6cA/company-logo_200_200/B4DZkpBLOmJkAI-/0/1757329798694/kth_logo?e=1782950400&v=beta&t=n0c-BhshYI2O0OxfjBdOnUfpa63SUsvnyOTj2wrt7eg",
-            "width": 200,
-            "height": 200
-          },
-          {
-            "url": "https://media.licdn.com/dms/image/v2/D4D0BAQFDvNUYDVR6cA/company-logo_100_100/B4DZkpBLOmJkAQ-/0/1757329798694/kth_logo?e=1782950400&v=beta&t=6d5jTGkgPmgBBiv9ldKhGyxR5fXXGVb2K3B-n-XGQn4",
-            "width": 100,
-            "height": 100
-          }
-        ]
-      }
-    },
-    {
-      "schoolName": "Khulna University",
-      "schoolLinkedinUrl": "https://www.linkedin.com/company/9537234/",
-      "schoolId": "9537234",
-      "degree": "Bachelor of Science",
-      "fieldOfStudy": "Biotechnology and Genetic Engineering",
-      "skills": [
-        "Scientific Communications",
-        "Cross-functional Team Leadership",
-        "Professional Networking",
-        "Presentation Skills",
-        "Laboratory Skills",
-        "Scientific Discussion",
-        "Public Speaking",
-        "Data Analysis",
-        "Project Management"
-      ],
-      "startDate": {
-        "month": "Aug",
-        "year": 2001,
-        "text": "Aug 2001"
-      },
-      "endDate": {
-        "month": "May",
-        "year": 2005,
-        "text": "May 2005"
-      },
-      "period": "Aug 2001 - May 2005",
-      "schoolLogo": {
-        "url": "https://media.licdn.com/dms/image/v2/D560BAQGwSlpBCWMt1w/company-logo_400_400/company-logo_400_400/0/1688370117274/khulna_university_logo?e=1782950400&v=beta&t=T1zD8iVb3lQT-vPsqhRghK0Acfv4vkqaXrM78CqZRKA",
-        "sizes": [
-          {
-            "url": "https://media.licdn.com/dms/image/v2/D560BAQGwSlpBCWMt1w/company-logo_400_400/company-logo_400_400/0/1688370117274/khulna_university_logo?e=1782950400&v=beta&t=T1zD8iVb3lQT-vPsqhRghK0Acfv4vkqaXrM78CqZRKA",
-            "width": 400,
-            "height": 400
-          },
-          {
-            "url": "https://media.licdn.com/dms/image/v2/D560BAQGwSlpBCWMt1w/company-logo_200_200/company-logo_200_200/0/1688370117274/khulna_university_logo?e=1782950400&v=beta&t=Noh-AV-yFS1cInhrOEoj24NwBVpmZBpbPU9YHfaHHc0",
-            "width": 200,
-            "height": 200
-          },
-          {
-            "url": "https://media.licdn.com/dms/image/v2/D560BAQGwSlpBCWMt1w/company-logo_100_100/company-logo_100_100/0/1688370117274/khulna_university_logo?e=1782950400&v=beta&t=4FJgy65pX4BjOwNErBWt41xvLcHZd1UnPg9v9N8XGaw",
-            "width": 100,
-            "height": 100
-          }
-        ]
-      }
-    },
-    {
-      "schoolName": "Los Angeles Pierce College",
-      "schoolLinkedinUrl": "https://www.linkedin.com/company/231552/",
-      "schoolId": "231552",
-      "degree": "Associate of Science",
+      "schoolName": "The Cambridge Schools",
+      "schoolLinkedinUrl": "https://www.linkedin.com/company/79592500/",
+      "schoolId": "79592500",
+      "degree": null,
       "fieldOfStudy": null,
-      "skills": [
-        "Cross-functional Team Leadership",
-        "Professional Networking",
-        "Presentation Skills",
-        "Laboratory Skills",
-        "Scientific Discussion",
-        "Collaborative Problem Solving",
-        "Public Speaking",
-        "Data Analysis",
-        "Project Management"
-      ],
+      "skills": [],
+      "description": "Academic Excellence (CBSE)\n• Class 10th:   96%\n• Class 12th:  94.6%\n\n-> Cambridge School Indirapuram",
+      "insights": "Grade: A+\nActivities and societies: Member of Sports Team",
       "startDate": {
-        "year": 2015,
-        "text": "2015"
+        "month": "Apr",
+        "year": 2006,
+        "text": "Apr 2006"
       },
       "endDate": {
-        "year": 2018,
-        "text": "2018"
+        "month": "May",
+        "year": 2020,
+        "text": "May 2020"
       },
-      "period": "2015 - 2018",
+      "period": "Apr 2006 - May 2020",
       "schoolLogo": {
-        "url": "https://media.licdn.com/dms/image/v2/C560BAQEhevcYbRAqlQ/company-logo_400_400/company-logo_400_400/0/1630624532440/los_angeles_pierce_college_logo?e=1782950400&v=beta&t=ER-rrWUO1ubtxeMrd1A7QoaqANpJXGezt6c9Elc16KM",
+        "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHwneykaHvbuQ/company-logo_400_400/company-logo_400_400/0/1652334624319/sae_cambridge_logo?e=1783555200&v=beta&t=5OYVqF-AYp-ZgeNpbokMGUSgxFi742hwW7PFCs36UNI",
         "sizes": [
           {
-            "url": "https://media.licdn.com/dms/image/v2/C560BAQEhevcYbRAqlQ/company-logo_400_400/company-logo_400_400/0/1630624532440/los_angeles_pierce_college_logo?e=1782950400&v=beta&t=ER-rrWUO1ubtxeMrd1A7QoaqANpJXGezt6c9Elc16KM",
+            "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHwneykaHvbuQ/company-logo_400_400/company-logo_400_400/0/1652334624319/sae_cambridge_logo?e=1783555200&v=beta&t=5OYVqF-AYp-ZgeNpbokMGUSgxFi742hwW7PFCs36UNI",
             "width": 400,
             "height": 400
           },
           {
-            "url": "https://media.licdn.com/dms/image/v2/C560BAQEhevcYbRAqlQ/company-logo_200_200/company-logo_200_200/0/1630624532439/los_angeles_pierce_college_logo?e=1782950400&v=beta&t=0L_h0c0THAwAe-sN33FaGkl-x4AMsFUwxOOWFzIAxnQ",
+            "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHwneykaHvbuQ/company-logo_200_200/company-logo_200_200/0/1652334624319/sae_cambridge_logo?e=1783555200&v=beta&t=e0ndsfwxQjald7cfd8jSesQNBISfuG04FjnAOeDznK4",
             "width": 200,
             "height": 200
           },
           {
-            "url": "https://media.licdn.com/dms/image/v2/C560BAQEhevcYbRAqlQ/company-logo_100_100/company-logo_100_100/0/1630624532440/los_angeles_pierce_college_logo?e=1782950400&v=beta&t=-I5hScT6PvmihUq7HViotVlL2sfhb6zOQvidnwMiA1s",
+            "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHwneykaHvbuQ/company-logo_100_100/company-logo_100_100/0/1652334624319/sae_cambridge_logo?e=1783555200&v=beta&t=Kw2YM5GnCckJOI9Hpc6wEYXJCe0M9Au4UasJrlQeWEc",
             "width": 100,
             "height": 100
           }
@@ -1326,37 +617,26 @@
   ],
   "certifications": [
     {
-      "title": "Pharmacist Intern License",
-      "issuedAt": "Issued Aug 2018 · Expired May 2023",
-      "link": "https://search.dca.ca.gov/?BD=30&TP=105",
-      "issuedBy": "California Board of Pharmacy ",
-      "issuedByLink": null,
+      "title": "Software Engineer",
+      "issuedAt": "Issued Nov 2023",
+      "link": "https://www.hackerrank.com/certificates/d8aaa7152b2f",
+      "issuedBy": "HackerRank",
+      "issuedByLink": "https://www.linkedin.com/company/435210/",
       "issuedByLogo": {
-        "url": null,
-        "sizes": []
-      }
-    },
-    {
-      "title": "Certified Pharmacy Technician (CPhT)",
-      "issuedAt": "Issued Jul 2017 · Expired Jul 2019",
-      "link": "https://www.ptcb.org/verify-certification",
-      "issuedBy": "Pharmacy Technician Certification Board (PTCB)",
-      "issuedByLink": "https://www.linkedin.com/company/5142327/",
-      "issuedByLogo": {
-        "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFHqIa4Fdy2yA/company-logo_400_400/company-logo_400_400/0/1630532438857/pharmacy_technician_certification_board_logo?e=1782950400&v=beta&t=XbPAzsBAG8aL6yp1NJs56a7u-Ud8WOz0aT1ld5HQP44",
+        "url": "https://media.licdn.com/dms/image/v2/D560BAQE8MivsmbT7Ig/company-logo_400_400/company-logo_400_400/0/1705561459405/hackerrank_logo?e=1783555200&v=beta&t=gJIX76Z0CKw9e7PZHrmmI239t9G-KH7Pmfy4WmW3tdU",
         "sizes": [
           {
-            "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFHqIa4Fdy2yA/company-logo_400_400/company-logo_400_400/0/1630532438857/pharmacy_technician_certification_board_logo?e=1782950400&v=beta&t=XbPAzsBAG8aL6yp1NJs56a7u-Ud8WOz0aT1ld5HQP44",
+            "url": "https://media.licdn.com/dms/image/v2/D560BAQE8MivsmbT7Ig/company-logo_400_400/company-logo_400_400/0/1705561459405/hackerrank_logo?e=1783555200&v=beta&t=gJIX76Z0CKw9e7PZHrmmI239t9G-KH7Pmfy4WmW3tdU",
             "width": 400,
             "height": 400
           },
           {
-            "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFHqIa4Fdy2yA/company-logo_200_200/company-logo_200_200/0/1630532438857/pharmacy_technician_certification_board_logo?e=1782950400&v=beta&t=U7JOWDgcXU7Zlr6FoeaoHpBvS6Sv3q20ffLvgVIwxgM",
+            "url": "https://media.licdn.com/dms/image/v2/D560BAQE8MivsmbT7Ig/company-logo_200_200/company-logo_200_200/0/1705561459405/hackerrank_logo?e=1783555200&v=beta&t=uvBCV9YEFqADL9UL3bwZSFczwQ7UDinUO7QGsuW29lM",
             "width": 200,
             "height": 200
           },
           {
-            "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFHqIa4Fdy2yA/company-logo_100_100/company-logo_100_100/0/1630532438857/pharmacy_technician_certification_board_logo?e=1782950400&v=beta&t=KS6QlO07BaBTF9gF-B5JOzXP3CAfgOiZA2pl0LanovE",
+            "url": "https://media.licdn.com/dms/image/v2/D560BAQE8MivsmbT7Ig/company-logo_100_100/company-logo_100_100/0/1705561459405/hackerrank_logo?e=1783555200&v=beta&t=hptjrWHiZK5T3IQB_R2AhTpaRHvJldKVo1bJ_VUMHUA",
             "width": 100,
             "height": 100
           }
@@ -1364,53 +644,26 @@
       }
     },
     {
-      "title": "Certified Pharmacy Technician (CPhT)",
-      "issuedAt": "Issued Jul 2015 · Expired Jul 2017",
-      "link": "https://www.ptcb.org/verify-certification",
-      "issuedBy": "Pharmacy Technician Certification Board (PTCB)",
-      "issuedByLink": "https://www.linkedin.com/company/5142327/",
-      "issuedByLogo": {
-        "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFHqIa4Fdy2yA/company-logo_400_400/company-logo_400_400/0/1630532438857/pharmacy_technician_certification_board_logo?e=1782950400&v=beta&t=XbPAzsBAG8aL6yp1NJs56a7u-Ud8WOz0aT1ld5HQP44",
-        "sizes": [
-          {
-            "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFHqIa4Fdy2yA/company-logo_400_400/company-logo_400_400/0/1630532438857/pharmacy_technician_certification_board_logo?e=1782950400&v=beta&t=XbPAzsBAG8aL6yp1NJs56a7u-Ud8WOz0aT1ld5HQP44",
-            "width": 400,
-            "height": 400
-          },
-          {
-            "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFHqIa4Fdy2yA/company-logo_200_200/company-logo_200_200/0/1630532438857/pharmacy_technician_certification_board_logo?e=1782950400&v=beta&t=U7JOWDgcXU7Zlr6FoeaoHpBvS6Sv3q20ffLvgVIwxgM",
-            "width": 200,
-            "height": 200
-          },
-          {
-            "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFHqIa4Fdy2yA/company-logo_100_100/company-logo_100_100/0/1630532438857/pharmacy_technician_certification_board_logo?e=1782950400&v=beta&t=KS6QlO07BaBTF9gF-B5JOzXP3CAfgOiZA2pl0LanovE",
-            "width": 100,
-            "height": 100
-          }
-        ]
-      }
-    },
-    {
-      "title": "Excel Formulas and Functions Quick Tips",
-      "issuedAt": "Issued Sep 2023",
-      "link": "https://www.linkedin.com/learning/certificates/75ca892f646fd540a9ea93c6727e190d632905205f8196524beeb84bf70664d2",
+      "title": "Designing RESTful APIs",
+      "issuedAt": "Issued Nov 2023",
+      "link": "https://www.linkedin.com/learning/certificates/729686b5bb0c32bdd4338f232efb0efce53148297e4c4d4d8df14e286458dc8b",
       "issuedBy": "LinkedIn",
       "issuedByLink": "https://www.linkedin.com/company/1337/",
       "issuedByLogo": {
-        "url": "https://media.licdn.com/dms/image/v2/C560BAQHaVYd13rRz3A/company-logo_400_400/company-logo_400_400/0/1638831590218/linkedin_logo?e=1782950400&v=beta&t=iM4YwhnXlTqkBULYEOGSCZlindhQbhf9Ba0ZNvUY46w",
+        "url": "https://media.licdn.com/dms/image/v2/C560BAQHaVYd13rRz3A/company-logo_400_400/company-logo_400_400/0/1638831590218/linkedin_logo?e=1783555200&v=beta&t=_g7GqYijPIoAtrnwzvHPulzuHail0Xawd6ds00gkX5Q",
         "sizes": [
           {
-            "url": "https://media.licdn.com/dms/image/v2/C560BAQHaVYd13rRz3A/company-logo_400_400/company-logo_400_400/0/1638831590218/linkedin_logo?e=1782950400&v=beta&t=iM4YwhnXlTqkBULYEOGSCZlindhQbhf9Ba0ZNvUY46w",
+            "url": "https://media.licdn.com/dms/image/v2/C560BAQHaVYd13rRz3A/company-logo_400_400/company-logo_400_400/0/1638831590218/linkedin_logo?e=1783555200&v=beta&t=_g7GqYijPIoAtrnwzvHPulzuHail0Xawd6ds00gkX5Q",
             "width": 400,
             "height": 400
           },
           {
-            "url": "https://media.licdn.com/dms/image/v2/C560BAQHaVYd13rRz3A/company-logo_200_200/company-logo_200_200/0/1638831590218/linkedin_logo?e=1782950400&v=beta&t=23CjJrILip2MyEa0G9Ou0yW-fWHIHmV2-QeiOS-J3m8",
+            "url": "https://media.licdn.com/dms/image/v2/C560BAQHaVYd13rRz3A/company-logo_200_200/company-logo_200_200/0/1638831590218/linkedin_logo?e=1783555200&v=beta&t=j4j3LY-XLX8MahTq7IZCiwxhR6ACCqa8eekzrvAvS58",
             "width": 200,
             "height": 200
           },
           {
-            "url": "https://media.licdn.com/dms/image/v2/C560BAQHaVYd13rRz3A/company-logo_100_100/company-logo_100_100/0/1638831590218/linkedin_logo?e=1782950400&v=beta&t=S3-EcWdG0px2orvpBE50ok4RKFmB4vOPUsktGJP1o-w",
+            "url": "https://media.licdn.com/dms/image/v2/C560BAQHaVYd13rRz3A/company-logo_100_100/company-logo_100_100/0/1638831590218/linkedin_logo?e=1783555200&v=beta&t=CKqjKs4Bs-JoLKMknLOT3jE77QgO4uiSeKUNCHn8n3g",
             "width": 100,
             "height": 100
           }
@@ -1418,26 +671,26 @@
       }
     },
     {
-      "title": "Excel Essential Training (Microsoft 365)",
-      "issuedAt": "Issued Sep 2023",
-      "link": "https://www.linkedin.com/learning/certificates/b708231d31543c6a0e07bc5dca9dd9224e35a05fc6aa01ec2c339de5592e01e9",
+      "title": "Database Foundations: Data Structures",
+      "issuedAt": "Issued Oct 2023",
+      "link": "https://www.linkedin.com/learning/certificates/dcffadc5840e46002d9d0f6368e115f98e2c2644ef7409aa9e47b851d120d210",
       "issuedBy": "LinkedIn",
       "issuedByLink": "https://www.linkedin.com/company/1337/",
       "issuedByLogo": {
-        "url": "https://media.licdn.com/dms/image/v2/C560BAQHaVYd13rRz3A/company-logo_400_400/company-logo_400_400/0/1638831590218/linkedin_logo?e=1782950400&v=beta&t=iM4YwhnXlTqkBULYEOGSCZlindhQbhf9Ba0ZNvUY46w",
+        "url": "https://media.licdn.com/dms/image/v2/C560BAQHaVYd13rRz3A/company-logo_400_400/company-logo_400_400/0/1638831590218/linkedin_logo?e=1783555200&v=beta&t=_g7GqYijPIoAtrnwzvHPulzuHail0Xawd6ds00gkX5Q",
         "sizes": [
           {
-            "url": "https://media.licdn.com/dms/image/v2/C560BAQHaVYd13rRz3A/company-logo_400_400/company-logo_400_400/0/1638831590218/linkedin_logo?e=1782950400&v=beta&t=iM4YwhnXlTqkBULYEOGSCZlindhQbhf9Ba0ZNvUY46w",
+            "url": "https://media.licdn.com/dms/image/v2/C560BAQHaVYd13rRz3A/company-logo_400_400/company-logo_400_400/0/1638831590218/linkedin_logo?e=1783555200&v=beta&t=_g7GqYijPIoAtrnwzvHPulzuHail0Xawd6ds00gkX5Q",
             "width": 400,
             "height": 400
           },
           {
-            "url": "https://media.licdn.com/dms/image/v2/C560BAQHaVYd13rRz3A/company-logo_200_200/company-logo_200_200/0/1638831590218/linkedin_logo?e=1782950400&v=beta&t=23CjJrILip2MyEa0G9Ou0yW-fWHIHmV2-QeiOS-J3m8",
+            "url": "https://media.licdn.com/dms/image/v2/C560BAQHaVYd13rRz3A/company-logo_200_200/company-logo_200_200/0/1638831590218/linkedin_logo?e=1783555200&v=beta&t=j4j3LY-XLX8MahTq7IZCiwxhR6ACCqa8eekzrvAvS58",
             "width": 200,
             "height": 200
           },
           {
-            "url": "https://media.licdn.com/dms/image/v2/C560BAQHaVYd13rRz3A/company-logo_100_100/company-logo_100_100/0/1638831590218/linkedin_logo?e=1782950400&v=beta&t=S3-EcWdG0px2orvpBE50ok4RKFmB4vOPUsktGJP1o-w",
+            "url": "https://media.licdn.com/dms/image/v2/C560BAQHaVYd13rRz3A/company-logo_100_100/company-logo_100_100/0/1638831590218/linkedin_logo?e=1783555200&v=beta&t=CKqjKs4Bs-JoLKMknLOT3jE77QgO4uiSeKUNCHn8n3g",
             "width": 100,
             "height": 100
           }
@@ -1445,26 +698,26 @@
       }
     },
     {
-      "title": "Effective Listening",
-      "issuedAt": "Issued Aug 2023",
-      "link": "https://www.linkedin.com/learning/certificates/6dd59bac1722901f87c38591caef1bdddea4854c2373fd986d802412f1b60661",
-      "issuedBy": "LinkedIn",
-      "issuedByLink": "https://www.linkedin.com/company/1337/",
+      "title": "Data Structures & Algorithms Essentials using C++ (2022)",
+      "issuedAt": "Issued Jan 2023",
+      "link": "https://www.udemy.com/certificate/UC-b5ab1db1-50e4-49b4-9117-99728ce9f8aa/",
+      "issuedBy": "Udemy",
+      "issuedByLink": "https://www.linkedin.com/company/822535/",
       "issuedByLogo": {
-        "url": "https://media.licdn.com/dms/image/v2/C560BAQHaVYd13rRz3A/company-logo_400_400/company-logo_400_400/0/1638831590218/linkedin_logo?e=1782950400&v=beta&t=iM4YwhnXlTqkBULYEOGSCZlindhQbhf9Ba0ZNvUY46w",
+        "url": "https://media.licdn.com/dms/image/v2/D560BAQEf_NHzN2yVQg/company-logo_400_400/company-logo_400_400/0/1723593046388/udemy_logo?e=1783555200&v=beta&t=njANWWrcf-QshTvUoLnMi7kAKrqNgzf0VZszgxzFKYk",
         "sizes": [
           {
-            "url": "https://media.licdn.com/dms/image/v2/C560BAQHaVYd13rRz3A/company-logo_400_400/company-logo_400_400/0/1638831590218/linkedin_logo?e=1782950400&v=beta&t=iM4YwhnXlTqkBULYEOGSCZlindhQbhf9Ba0ZNvUY46w",
+            "url": "https://media.licdn.com/dms/image/v2/D560BAQEf_NHzN2yVQg/company-logo_400_400/company-logo_400_400/0/1723593046388/udemy_logo?e=1783555200&v=beta&t=njANWWrcf-QshTvUoLnMi7kAKrqNgzf0VZszgxzFKYk",
             "width": 400,
             "height": 400
           },
           {
-            "url": "https://media.licdn.com/dms/image/v2/C560BAQHaVYd13rRz3A/company-logo_200_200/company-logo_200_200/0/1638831590218/linkedin_logo?e=1782950400&v=beta&t=23CjJrILip2MyEa0G9Ou0yW-fWHIHmV2-QeiOS-J3m8",
+            "url": "https://media.licdn.com/dms/image/v2/D560BAQEf_NHzN2yVQg/company-logo_200_200/company-logo_200_200/0/1723593046388/udemy_logo?e=1783555200&v=beta&t=raNVlh7ZpDeHwN6Ktf-qXSkl5HLlaG5V18xDOvyjJc0",
             "width": 200,
             "height": 200
           },
           {
-            "url": "https://media.licdn.com/dms/image/v2/C560BAQHaVYd13rRz3A/company-logo_100_100/company-logo_100_100/0/1638831590218/linkedin_logo?e=1782950400&v=beta&t=S3-EcWdG0px2orvpBE50ok4RKFmB4vOPUsktGJP1o-w",
+            "url": "https://media.licdn.com/dms/image/v2/D560BAQEf_NHzN2yVQg/company-logo_100_100/company-logo_100_100/0/1723593046388/udemy_logo?e=1783555200&v=beta&t=JhCpPeEIUsCkaaxAZk0erUpyfZ_t0kXf6S9rvzb0otQ",
             "width": 100,
             "height": 100
           }
@@ -1472,26 +725,26 @@
       }
     },
     {
-      "title": "Thinking Critically: Interpreting Randomized Clinical Trials",
-      "issuedAt": "Issued Jul 2023",
-      "link": null,
-      "issuedBy": "Stanford University School of Medicine",
-      "issuedByLink": "https://www.linkedin.com/company/1790/",
+      "title": "Python-Introduction to Data Science and Machine Learning A-Z",
+      "issuedAt": "Issued Jun 2022",
+      "link": "https://www.udemy.com/certificate/UC-986eafcb-696e-4f41-8847-0c281ebad728/",
+      "issuedBy": "Udemy",
+      "issuedByLink": "https://www.linkedin.com/company/822535/",
       "issuedByLogo": {
-        "url": "https://media.licdn.com/dms/image/v2/C560BAQH74V3iDB5G5Q/company-logo_400_400/company-logo_400_400/0/1630632331199/stanford_university_school_of_medicine_logo?e=1782950400&v=beta&t=5wmoADQ9BwMbEHhbygyKAFyTl7ursv_dWdk6YFWy6v0",
+        "url": "https://media.licdn.com/dms/image/v2/D560BAQEf_NHzN2yVQg/company-logo_400_400/company-logo_400_400/0/1723593046388/udemy_logo?e=1783555200&v=beta&t=njANWWrcf-QshTvUoLnMi7kAKrqNgzf0VZszgxzFKYk",
         "sizes": [
           {
-            "url": "https://media.licdn.com/dms/image/v2/C560BAQH74V3iDB5G5Q/company-logo_400_400/company-logo_400_400/0/1630632331199/stanford_university_school_of_medicine_logo?e=1782950400&v=beta&t=5wmoADQ9BwMbEHhbygyKAFyTl7ursv_dWdk6YFWy6v0",
+            "url": "https://media.licdn.com/dms/image/v2/D560BAQEf_NHzN2yVQg/company-logo_400_400/company-logo_400_400/0/1723593046388/udemy_logo?e=1783555200&v=beta&t=njANWWrcf-QshTvUoLnMi7kAKrqNgzf0VZszgxzFKYk",
             "width": 400,
             "height": 400
           },
           {
-            "url": "https://media.licdn.com/dms/image/v2/C560BAQH74V3iDB5G5Q/company-logo_200_200/company-logo_200_200/0/1630632331199/stanford_university_school_of_medicine_logo?e=1782950400&v=beta&t=oNmDg0GCiqxGYMpflQhUTekG-D5o5_4n3XPJfC-5ASM",
+            "url": "https://media.licdn.com/dms/image/v2/D560BAQEf_NHzN2yVQg/company-logo_200_200/company-logo_200_200/0/1723593046388/udemy_logo?e=1783555200&v=beta&t=raNVlh7ZpDeHwN6Ktf-qXSkl5HLlaG5V18xDOvyjJc0",
             "width": 200,
             "height": 200
           },
           {
-            "url": "https://media.licdn.com/dms/image/v2/C560BAQH74V3iDB5G5Q/company-logo_100_100/company-logo_100_100/0/1630632331199/stanford_university_school_of_medicine_logo?e=1782950400&v=beta&t=iM1hRRM74m3TY4bXGQw0v7CmmfAe_DmBTq5q0Mb1W_A",
+            "url": "https://media.licdn.com/dms/image/v2/D560BAQEf_NHzN2yVQg/company-logo_100_100/company-logo_100_100/0/1723593046388/udemy_logo?e=1783555200&v=beta&t=JhCpPeEIUsCkaaxAZk0erUpyfZ_t0kXf6S9rvzb0otQ",
             "width": 100,
             "height": 100
           }
@@ -1499,26 +752,26 @@
       }
     },
     {
-      "title": "EpiPen Training Certificate",
-      "issuedAt": "Issued Sep 2018",
-      "link": null,
-      "issuedBy": "Western University of Health Sciences",
-      "issuedByLink": "https://www.linkedin.com/company/26345/",
+      "title": "Google Cloud Big Data and Machine Learning Fundamentals",
+      "issuedAt": "Issued May 2022",
+      "link": "https://www.coursera.org/account/accomplishments/certificate/2ZUXYZ3FWJRR",
+      "issuedBy": "Coursera",
+      "issuedByLink": "https://www.linkedin.com/company/2453129/",
       "issuedByLogo": {
-        "url": "https://media.licdn.com/dms/image/v2/D560BAQGNYXGokw3m2A/company-logo_400_400/company-logo_400_400/0/1731697079405/western_university_of_health_sciences_logo?e=1782950400&v=beta&t=aoE2QRodp2Pms-sX4RqncAxTUSzycIjRvRwweqGJcLk",
+        "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGexnfBxeEG-g/company-logo_400_400/company-logo_400_400/0/1630530042036/coursera_logo?e=1783555200&v=beta&t=2fKeIvOTsjQqSqO5LEqzZmMbJDEWYMgvxj-E6adJ4JE",
         "sizes": [
           {
-            "url": "https://media.licdn.com/dms/image/v2/D560BAQGNYXGokw3m2A/company-logo_400_400/company-logo_400_400/0/1731697079405/western_university_of_health_sciences_logo?e=1782950400&v=beta&t=aoE2QRodp2Pms-sX4RqncAxTUSzycIjRvRwweqGJcLk",
+            "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGexnfBxeEG-g/company-logo_400_400/company-logo_400_400/0/1630530042036/coursera_logo?e=1783555200&v=beta&t=2fKeIvOTsjQqSqO5LEqzZmMbJDEWYMgvxj-E6adJ4JE",
             "width": 400,
             "height": 400
           },
           {
-            "url": "https://media.licdn.com/dms/image/v2/D560BAQGNYXGokw3m2A/company-logo_200_200/company-logo_200_200/0/1731697079405/western_university_of_health_sciences_logo?e=1782950400&v=beta&t=2c2HW43K984SOl4hcavzCbPuWgGcfAT0_Ubks-IpNdg",
+            "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGexnfBxeEG-g/company-logo_200_200/company-logo_200_200/0/1630530042036/coursera_logo?e=1783555200&v=beta&t=C1-FxUg329wQas2ARdYw23qigasI3P_-W-6-R68hN3k",
             "width": 200,
             "height": 200
           },
           {
-            "url": "https://media.licdn.com/dms/image/v2/D560BAQGNYXGokw3m2A/company-logo_100_100/company-logo_100_100/0/1731697079405/western_university_of_health_sciences_logo?e=1782950400&v=beta&t=J-FVAVlTvIjWCXlCXIEtxSjyoltoPIu1umV2FYPCPBM",
+            "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGexnfBxeEG-g/company-logo_100_100/company-logo_100_100/0/1630530042036/coursera_logo?e=1783555200&v=beta&t=vg-DMRGm23Fc7aaJY7Qn4tX8KW0kktBIdSBLUiEQyII",
             "width": 100,
             "height": 100
           }
@@ -1526,1466 +779,547 @@
       }
     },
     {
-      "title": "National Provider Identifier",
-      "issuedAt": "Issued Dec 2022",
-      "link": "https://npiregistry.cms.hhs.gov/search",
-      "issuedBy": "CMS National Plan and Provider Enumeration System (NPPES)",
-      "issuedByLink": null,
+      "title": "Machine Learning Training ",
+      "issuedAt": "Issued Jul 2021",
+      "link": "https://trainings.internshala.com/s/v/59542/748a5710",
+      "issuedBy": "Internshala",
+      "issuedByLink": "https://www.linkedin.com/company/1706756/",
       "issuedByLogo": {
-        "url": null,
-        "sizes": []
-      }
-    },
-    {
-      "title": "Pharmacy-Based Immunization Delivery",
-      "link": null,
-      "issuedBy": "American Pharmacists Association",
-      "issuedByLink": "https://www.linkedin.com/company/45865/",
-      "issuedByLogo": {
-        "url": "https://media.licdn.com/dms/image/v2/C560BAQFerxjCh1aBXw/company-logo_400_400/company-logo_400_400/0/1630645505380/american_pharmacists_association_logo?e=1782950400&v=beta&t=yXv-joymuZ2rW30sgg8udhm-gWM521KZla0-qt12FDE",
+        "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFi4GG2XwFHqQ/company-logo_400_400/company-logo_400_400/0/1630487078763/internshala_logo?e=1783555200&v=beta&t=a6K3dxWPF-PDctlCvOUPgrFhlgui1epdMbTaW4MI6bE",
         "sizes": [
           {
-            "url": "https://media.licdn.com/dms/image/v2/C560BAQFerxjCh1aBXw/company-logo_400_400/company-logo_400_400/0/1630645505380/american_pharmacists_association_logo?e=1782950400&v=beta&t=yXv-joymuZ2rW30sgg8udhm-gWM521KZla0-qt12FDE",
+            "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFi4GG2XwFHqQ/company-logo_400_400/company-logo_400_400/0/1630487078763/internshala_logo?e=1783555200&v=beta&t=a6K3dxWPF-PDctlCvOUPgrFhlgui1epdMbTaW4MI6bE",
             "width": 400,
             "height": 400
           },
           {
-            "url": "https://media.licdn.com/dms/image/v2/C560BAQFerxjCh1aBXw/company-logo_200_200/company-logo_200_200/0/1630645505380/american_pharmacists_association_logo?e=1782950400&v=beta&t=3r033GKCb7yV96euXCVigkIO8-zOgWOUPDJt2EBsZ6g",
+            "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFi4GG2XwFHqQ/company-logo_200_200/company-logo_200_200/0/1630487078763/internshala_logo?e=1783555200&v=beta&t=9-pUYW-omkb07BWOvNOAfmRiNHIi1HV6ui03HbwIvoY",
             "width": 200,
             "height": 200
           },
           {
-            "url": "https://media.licdn.com/dms/image/v2/C560BAQFerxjCh1aBXw/company-logo_100_100/company-logo_100_100/0/1630645505380/american_pharmacists_association_logo?e=1782950400&v=beta&t=HWxx7m21iScvYr0f9hnmLqPFiN1zAFHzZQv68WQho2I",
+            "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFi4GG2XwFHqQ/company-logo_100_100/company-logo_100_100/0/1630487078763/internshala_logo?e=1783555200&v=beta&t=yoTOaAdzpDdbdLUiVHN-EWrlRnpjSnPyzTRK0XsuaAk",
             "width": 100,
             "height": 100
           }
         ]
-      }
-    },
-    {
-      "title": " MTM: Medication Therapy Management Certification",
-      "link": null,
-      "issuedBy": "Western University of Health Sciences",
-      "issuedByLink": "https://www.linkedin.com/company/26345/",
-      "issuedByLogo": {
-        "url": "https://media.licdn.com/dms/image/v2/D560BAQGNYXGokw3m2A/company-logo_400_400/company-logo_400_400/0/1731697079405/western_university_of_health_sciences_logo?e=1782950400&v=beta&t=aoE2QRodp2Pms-sX4RqncAxTUSzycIjRvRwweqGJcLk",
-        "sizes": [
-          {
-            "url": "https://media.licdn.com/dms/image/v2/D560BAQGNYXGokw3m2A/company-logo_400_400/company-logo_400_400/0/1731697079405/western_university_of_health_sciences_logo?e=1782950400&v=beta&t=aoE2QRodp2Pms-sX4RqncAxTUSzycIjRvRwweqGJcLk",
-            "width": 400,
-            "height": 400
-          },
-          {
-            "url": "https://media.licdn.com/dms/image/v2/D560BAQGNYXGokw3m2A/company-logo_200_200/company-logo_200_200/0/1731697079405/western_university_of_health_sciences_logo?e=1782950400&v=beta&t=2c2HW43K984SOl4hcavzCbPuWgGcfAT0_Ubks-IpNdg",
-            "width": 200,
-            "height": 200
-          },
-          {
-            "url": "https://media.licdn.com/dms/image/v2/D560BAQGNYXGokw3m2A/company-logo_100_100/company-logo_100_100/0/1731697079405/western_university_of_health_sciences_logo?e=1782950400&v=beta&t=J-FVAVlTvIjWCXlCXIEtxSjyoltoPIu1umV2FYPCPBM",
-            "width": 100,
-            "height": 100
-          }
-        ]
-      }
-    },
-    {
-      "title": "Basic Life Support for Healthcare Providers (BLS)",
-      "issuedAt": "Issued Mar 2023 · Expired Mar 2025",
-      "link": "www.heart.org/cpr/mycards",
-      "issuedBy": "American Heart Association",
-      "issuedByLink": "https://www.linkedin.com/company/157306/",
-      "issuedByLogo": {
-        "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGkbfwG3S0TkQ/company-logo_400_400/company-logo_400_400/0/1631374527549/american_heart_association_logo?e=1782950400&v=beta&t=bC1KHJ48y_e3Ly9L7gCXzxGSuKXuwSbNuy3U7IogkUg",
-        "sizes": [
-          {
-            "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGkbfwG3S0TkQ/company-logo_400_400/company-logo_400_400/0/1631374527549/american_heart_association_logo?e=1782950400&v=beta&t=bC1KHJ48y_e3Ly9L7gCXzxGSuKXuwSbNuy3U7IogkUg",
-            "width": 400,
-            "height": 400
-          },
-          {
-            "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGkbfwG3S0TkQ/company-logo_200_200/company-logo_200_200/0/1631374527549/american_heart_association_logo?e=1782950400&v=beta&t=GXJtxxPsImE5cauiIVEcl0Pz5LwXc3d7jta_7CmJgzw",
-            "width": 200,
-            "height": 200
-          },
-          {
-            "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGkbfwG3S0TkQ/company-logo_100_100/company-logo_100_100/0/1631374527549/american_heart_association_logo?e=1782950400&v=beta&t=gjxBL1ICMY0RLFTrgPUrClrNOna2aM-rB8jO0Bucf3Y",
-            "width": 100,
-            "height": 100
-          }
-        ]
-      }
-    },
-    {
-      "title": "Registered Pharmacist License",
-      "issuedAt": "Issued Nov 2022 · Expired Sep 2024",
-      "link": "https://search.dca.ca.gov/?BD=30&TP=114",
-      "issuedBy": "California Board of Pharmacy",
-      "issuedByLink": null,
-      "issuedByLogo": {
-        "url": null,
-        "sizes": []
       }
     }
   ],
   "projects": [
     {
-      "title": "Essential and Evidence-Based Cardiovascular Disease Medicine Availability in Low-Cost Generic Drug Plans",
-      "duration": "Jan 2022 - May 2022",
-      "startDate": {
-        "month": "Jan",
-        "year": 2022,
-        "text": "Jan 2022"
-      },
-      "endDate": {
-        "month": "May",
-        "year": 2022,
-        "text": "May 2022"
-      },
-      "associatedWith": "Associated with Western University of Health Sciences",
-      "associatedWithLink": "https://www.linkedin.com/company/26345/",
-      "description": "The project estimated the availability of essential and guideline-recommended cardiovascular medicines in low-cost generic drug programs in the United States.",
-      "contributors": [
-        {
-          "linkedinUrl": "https://www.linkedin.com/in/ACoAAAFmTjIBh4LMug0dE-JyHo5yzhUFLZwFaEo"
-        },
-        {
-          "linkedinUrl": "https://www.linkedin.com/in/ACoAABtNpuMBIjanUD-4qJbN4W7P4hUOhGPXiPk"
-        },
-        {
-          "linkedinUrl": "https://www.linkedin.com/in/ACoAAB6auNkB5nDH_3guYqV_40MtLzu4kteCYTQ"
-        }
-      ]
-    },
-    {
-      "title": "Androgen Mediated Inhibition of STAT3 Phosphorylation and Lipogenesis in Liver",
-      "duration": "Apr 2009 - Nov 2009",
-      "startDate": {
-        "month": "Apr",
-        "year": 2009,
-        "text": "Apr 2009"
-      },
-      "endDate": {
-        "month": "Nov",
-        "year": 2009,
-        "text": "Nov 2009"
-      },
-      "associatedWith": "Associated with KTH Royal Institute of Technology",
-      "associatedWithLink": "https://www.linkedin.com/company/4814/",
-      "description": "The study demonstrated that testosterone-mediated inhibition of pSTAT3 may contribute to the lipogenic gene expression in the liver."
-    },
-    {
-      "title": "Regeneration of Gerbera jamesonii from Leaf Explant.",
-      "duration": "Nov 2005 - Jul 2006",
-      "startDate": {
-        "month": "Nov",
-        "year": 2005,
-        "text": "Nov 2005"
-      },
-      "endDate": {
-        "month": "Jul",
-        "year": 2006,
-        "text": "Jul 2006"
-      },
-      "associatedWith": "Associated with Khulna University",
-      "associatedWithLink": "https://www.linkedin.com/company/9537234/",
-      "description": "Developed an efficient protocol for callus induction from leaf explants, subsequent high-frequency shoot organogenesis from callus, root induction, and plant establishment."
-    }
-  ],
-  "volunteering": [
-    {
-      "role": "Patient Screening Volunteer",
-      "duration": "Mar 2019 · 1 mo",
-      "startDate": null,
-      "endDate": {
-        "month": "Mar",
-        "year": 2019,
-        "text": "Mar 2019 · 1 mo"
-      },
-      "organizationName": "Korean Student Association",
-      "organizationLinkedinUrl": null,
-      "cause": "Health"
-    },
-    {
-      "role": "Immunizer",
-      "duration": "Mar 2019 · 1 mo",
-      "startDate": null,
-      "endDate": {
-        "month": "Mar",
-        "year": 2019,
-        "text": "Mar 2019 · 1 mo"
-      },
-      "organizationName": "California Society of Health - System Pharmacists",
-      "organizationLinkedinUrl": "https://www.linkedin.com/company/57634469/",
-      "cause": "Health"
-    }
-  ],
-  "receivedRecommendations": [],
-  "skills": [
-    {
-      "name": "Drug Therapy Optimization",
-      "positions": [
-        "Support Pharmacist | Patient Care Management, Medication Optimization, Healthcare Collaboration at CVS Health"
-      ]
-    },
-    {
-      "name": "Medication Safety",
-      "positions": [
-        "2 experiences at CVS Health"
-      ]
-    },
-    {
-      "name": "Drug Particle Size Analysis"
-    },
-    {
-      "name": "Pharmaceutical Industry Consultation"
-    },
-    {
-      "name": "Training Development"
-    },
-    {
-      "name": "Cross-Functional Collaboration"
-    },
-    {
-      "name": "Medication Dispensing",
-      "positions": [
-        "Staff Pharmacist | Prescription Dispensing, Drug Utilization Review, Regulatory Compliance at CVS Health"
-      ]
-    },
-    {
-      "name": "Regulatory Compliance",
-      "positions": [
-        "Staff Pharmacist | Prescription Dispensing, Drug Utilization Review, Regulatory Compliance at CVS Health"
-      ]
-    },
-    {
-      "name": "Cultural Awareness",
-      "positions": [
-        "Staff Pharmacist | Prescription Dispensing, Drug Utilization Review, Regulatory Compliance at CVS Health"
-      ]
-    },
-    {
-      "name": "Resource Optimization",
-      "positions": [
-        "Staff Pharmacist | Prescription Dispensing, Drug Utilization Review, Regulatory Compliance at CVS Health"
-      ]
-    },
-    {
-      "name": "Active Listening",
-      "positions": [
-        "Staff Pharmacist | Prescription Dispensing, Drug Utilization Review, Regulatory Compliance at CVS Health"
-      ]
-    },
-    {
-      "name": "Workload Prioritization"
-    },
-    {
-      "name": "Certified Immunizer",
-      "positions": [
-        "Staff Pharmacist | Prescription Dispensing, Drug Utilization Review, Regulatory Compliance at CVS Health"
-      ],
-      "endorsements": "1 endorsement"
-    },
-    {
-      "name": "Interpersonal Communication",
-      "positions": [
-        "Staff Pharmacist | Prescription Dispensing, Drug Utilization Review, Regulatory Compliance at CVS Health"
-      ]
-    },
-    {
-      "name": "Scientific Liaison",
-      "positions": [
-        "Staff Pharmacist | Prescription Dispensing, Drug Utilization Review, Regulatory Compliance at CVS Health"
-      ]
-    },
-    {
-      "name": "Management"
-    },
-    {
-      "name": "Healthcare System Knowledge",
-      "positions": [
-        "6 experiences across CVS Health and 3 other companies",
-        "Western University of Health Sciences"
-      ]
-    },
-    {
-      "name": "Cross-functional Team Leadership",
-      "positions": [
-        "4 educational experiences at Western University of Health Sciences and 3 other schools"
-      ]
-    },
-    {
-      "name": "Customer Engagement"
-    },
-    {
-      "name": "High-quality Actionable Insight"
-    },
-    {
-      "name": "Relationship Building",
-      "positions": [
-        "Western University of Health Sciences"
-      ]
-    },
-    {
-      "name": "Professional Networking",
-      "positions": [
-        "4 experiences across CVS Health and 3 other companies",
-        "4 educational experiences at Western University of Health Sciences and 3 other schools"
-      ]
-    },
-    {
-      "name": "Public Speaking",
-      "positions": [
-        "4 educational experiences at Western University of Health Sciences and 3 other schools"
-      ],
-      "endorsements": "1 endorsement"
-    },
-    {
-      "name": "Teamwork",
-      "positions": [
-        "Certified Pharmacy Technician | Prescription Dispensing, Inventory Management, HIPAA Compliance at CVS Health"
-      ],
-      "endorsements": "1 endorsement"
-    },
-    {
-      "name": "Collaborative Problem Solving",
-      "positions": [
-        "4 experiences across CVS Health and 2 other companies",
-        "3 educational experiences at Western University of Health Sciences and 2 other schools"
-      ],
-      "endorsements": "1 endorsement"
-    },
-    {
-      "name": "Collaboration in Healthcare",
-      "endorsements": "1 endorsement"
-    },
-    {
-      "name": "Microsoft Excel",
-      "positions": [
-        "Excel Formulas and Functions Quick Tips"
-      ]
-    },
-    {
-      "name": "Scientific Communications",
-      "positions": [
-        "6 experiences across CVS Health and 4 other companies",
-        "3 educational experiences at Western University of Health Sciences and 2 other schools"
-      ]
-    },
-    {
-      "name": "Clinical Research",
-      "positions": [
-        "KTH Royal Institute of Technology"
-      ],
-      "endorsements": "1 endorsement"
-    },
-    {
-      "name": "Laboratory Skills",
-      "positions": [
-        "4 educational experiences at Western University of Health Sciences and 3 other schools"
-      ],
-      "endorsements": "1 endorsement"
-    },
-    {
-      "name": "Data Analysis",
-      "positions": [
-        "4 educational experiences at Western University of Health Sciences and 3 other schools"
-      ],
-      "endorsements": "1 endorsement"
-    },
-    {
-      "name": "Clinical Trials",
-      "positions": [
-        "Western University of Health Sciences"
-      ],
-      "endorsements": "1 endorsement"
-    },
-    {
-      "name": "Project Management",
-      "positions": [
-        "3 experiences across CVS Health and 2 other companies",
-        "4 educational experiences at Western University of Health Sciences and 3 other schools"
-      ],
-      "endorsements": "1 endorsement"
-    },
-    {
-      "name": "Literature Reviews",
-      "positions": [
-        "KTH Royal Institute of Technology"
-      ],
-      "endorsements": "1 endorsement"
-    },
-    {
-      "name": "Research Proposals",
-      "endorsements": "1 endorsement"
-    },
-    {
-      "name": "Healthcare Compliance",
-      "positions": [
-        "Support Pharmacist | Patient Care Management, Medication Optimization, Healthcare Collaboration at CVS Health"
-      ],
-      "endorsements": "1 endorsement"
-    },
-    {
-      "name": "Scientific Discussion",
-      "positions": [
-        "4 educational experiences at Western University of Health Sciences and 3 other schools"
-      ]
-    },
-    {
-      "name": "Expense Reports",
-      "positions": [
-        "Western University of Health Sciences"
-      ],
-      "endorsements": "1 endorsement"
-    },
-    {
-      "name": "Multi-disciplinary Teams",
-      "endorsements": "1 endorsement"
-    },
-    {
-      "name": "Research Skills",
-      "positions": [
-        "2 educational experiences at Western University of Health Sciences and 1 other school"
-      ],
-      "endorsements": "1 endorsement"
-    },
-    {
-      "name": "Peer Relationships",
-      "endorsements": "1 endorsement"
-    },
-    {
-      "name": "Drug Utilization Review",
-      "positions": [
-        "5 experiences across CVS Health and 3 other companies",
-        "Western University of Health Sciences"
-      ],
-      "endorsements": "1 endorsement"
-    },
-    {
-      "name": "Drug Interactions",
-      "positions": [
-        "Support Pharmacist | Patient Care Management, Medication Optimization, Healthcare Collaboration at CVS Health"
-      ],
-      "endorsements": "1 endorsement"
-    },
-    {
-      "name": "Client Relations",
-      "endorsements": "1 endorsement"
-    }
-  ],
-  "publications": [
-    {
-      "title": "Evidence-Based Cardiovascular Disease Medicines' Availability in Low-Cost Generic Drug Programs in the United States: A Cross-Sectional Study",
-      "publishedAt": "Annals of Internal Medicine · Sep 5, 2023",
-      "link": "https://www.acpjournals.org/doi/10.7326/M23-0287"
-    }
-  ],
-  "courses": [
-    {
-      "title": "Applied Gene Technology",
-      "associatedWith": "Associated with KTH Royal Institute of Technology",
-      "associatedWithLink": "https://www.linkedin.com/company/4814/"
-    },
-    {
-      "title": "Bioinformatics",
-      "associatedWith": "Associated with KTH Royal Institute of Technology",
-      "associatedWithLink": "https://www.linkedin.com/company/4814/"
-    },
-    {
-      "title": "Biostatistics",
-      "associatedWith": "Associated with Western University of Health Sciences",
-      "associatedWithLink": "https://www.linkedin.com/company/26345/"
-    },
-    {
-      "title": "Drug Development",
-      "associatedWith": "Associated with KTH Royal Institute of Technology",
-      "associatedWithLink": "https://www.linkedin.com/company/4814/"
-    },
-    {
-      "title": "Evidence-Based Practice",
-      "associatedWith": "Associated with Western University of Health Sciences",
-      "associatedWithLink": "https://www.linkedin.com/company/26345/"
-    },
-    {
-      "title": "Genetic Engineering",
-      "associatedWith": "Associated with Khulna University",
-      "associatedWithLink": "https://www.linkedin.com/company/9537234/"
-    },
-    {
-      "title": "Genetics",
-      "associatedWith": "Associated with Khulna University",
-      "associatedWithLink": "https://www.linkedin.com/company/9537234/"
-    },
-    {
-      "title": "Human Anatomy",
-      "associatedWith": "Associated with Los Angeles Pierce College",
-      "associatedWithLink": "https://www.linkedin.com/company/231552/"
-    },
-    {
-      "title": "Human Physiology",
-      "associatedWith": "Associated with Los Angeles Pierce College",
-      "associatedWithLink": "https://www.linkedin.com/company/231552/"
-    },
-    {
-      "title": "Immunology",
-      "associatedWith": "Associated with Western University of Health Sciences",
-      "associatedWithLink": "https://www.linkedin.com/company/26345/"
-    },
-    {
-      "title": "Infectious Disease",
-      "associatedWith": "Associated with Western University of Health Sciences",
-      "associatedWithLink": "https://www.linkedin.com/company/26345/"
-    },
-    {
-      "title": "Information Searching",
-      "associatedWith": "Associated with KTH Royal Institute of Technology",
-      "associatedWithLink": "https://www.linkedin.com/company/4814/"
-    },
-    {
-      "title": "Molecular Biology",
-      "associatedWith": "Associated with Khulna University",
-      "associatedWithLink": "https://www.linkedin.com/company/9537234/"
-    },
-    {
-      "title": "Molecular Biomedicine",
-      "associatedWith": "Associated with KTH Royal Institute of Technology",
-      "associatedWithLink": "https://www.linkedin.com/company/4814/"
-    },
-    {
-      "title": "Molecular Biomedicine",
-      "associatedWith": "Associated with KTH Royal Institute of Technology",
-      "associatedWithLink": "https://www.linkedin.com/company/4814/"
-    },
-    {
-      "title": "Oncology",
-      "associatedWith": "Associated with Western University of Health Sciences",
-      "associatedWithLink": "https://www.linkedin.com/company/26345/"
-    },
-    {
-      "title": "Pharmacoeconomics",
-      "associatedWith": "Associated with Western University of Health Sciences",
-      "associatedWithLink": "https://www.linkedin.com/company/26345/"
-    },
-    {
-      "title": "Public Speaking",
-      "associatedWith": "Associated with Los Angeles Pierce College",
-      "associatedWithLink": "https://www.linkedin.com/company/231552/"
-    },
-    {
-      "title": "Scientific Writing",
-      "associatedWith": "Associated with KTH Royal Institute of Technology",
-      "associatedWithLink": "https://www.linkedin.com/company/4814/"
-    },
-    {
-      "title": "Structure Biology",
-      "associatedWith": "Associated with KTH Royal Institute of Technology",
-      "associatedWithLink": "https://www.linkedin.com/company/4814/"
-    },
-    {
-      "title": "Structure Biology",
-      "associatedWith": "Associated with KTH Royal Institute of Technology",
-      "associatedWithLink": "https://www.linkedin.com/company/4814/"
-    }
-  ],
-  "patents": [],
-  "honorsAndAwards": [
-    {
-      "title": "Academic Merit Scholarship",
-      "issuedBy": "Biotechnology and Genetic Engineering Discipline, Khulna University",
-      "issuedAt": "Oct 2004",
-      "description": "Scholarship awarded for outstanding academic achievements and leadership.",
-      "associatedWith": "Associated with Khulna University",
-      "associatedWithLink": "https://www.linkedin.com/company/9537234/"
-    },
-    {
-      "title": "Academic Merit Scholarship",
-      "issuedBy": "Biotechnology and Genetic Engineering Discipline, Khulna University",
-      "issuedAt": "Oct 2003",
-      "description": "Scholarship awarded for outstanding academic achievements and leadership.",
-      "associatedWith": "Associated with Khulna University",
-      "associatedWithLink": "https://www.linkedin.com/company/9537234/"
-    },
-    {
-      "title": "Academic Merit Scholarship",
-      "issuedBy": "Biotechnology and Genetic Engineering Discipline, Khulna University",
-      "issuedAt": "Oct 2002",
-      "description": "Scholarship awarded for outstanding academic achievements and leadership.",
-      "associatedWith": "Associated with Khulna University",
-      "associatedWithLink": "https://www.linkedin.com/company/9537234/"
-    }
-  ],
-  "languages": [
-    {
-      "name": "Bengali",
-      "proficiency": "Native or bilingual proficiency"
-    },
-    {
-      "name": "English",
-      "proficiency": "Full professional proficiency"
-    },
-    {
-      "name": "Hindi",
-      "proficiency": "Limited working proficiency"
-    }
-  ],
-  "organizations": [],
-  "causes": [
-    "Environment",
-    "Health",
-    "Science and Technology",
-    "Education"
-  ],
-  "featured": null,
-  "composeOptionType": "UPSELL",
-  "moreProfiles": [],
-  "originalQuery": {
-    "query": "https://www.linkedin.com/in/towhid-rahman"
-  }
-},
-{
-  "id": "ACoAADiEHfkBy1R-cE7ps4KBXCUmO3fAZoUpOfQ",
-  "publicIdentifier": "ankan-maity-8a1664225",
-  "linkedinUrl": "https://www.linkedin.com/in/ankan-maity-8a1664225",
-  "firstName": "Ankan",
-  "lastName": "Maity",
-  "emails": [],
-  "headline": "Associate Software Engineer @Shell | Ex - Arista Networks | Specialist @Codeforces | 4⭐ @Codechef | TIET",
-  "openToWork": false,
-  "hiring": false,
-  "premium": true,
-  "influencer": false,
-  "memorialized": false,
-  "creator": false,
-  "location": {
-    "linkedinText": "Greater Kolkata Area",
-    "countryCode": "IN",
-    "parsed": {
-      "text": "Kolkata, India",
-      "countryCode": "IN",
-      "regionCode": null,
-      "country": "India",
-      "countryFull": "India",
-      "state": "West Bengal",
-      "city": "Kolkata"
-    }
-  },
-  "objectUrn": "948182521",
-  "registeredAt": null,
-  "topSkills": "Python (Programming Language) • C++ • Machine Learning • Data Science • Web Development",
-  "connectionsCount": 950,
-  "followerCount": 951,
-  "verified": true,
-  "about": null,
-  "currentPosition": [
-    {
-      "position": "Software Engineer",
-      "location": "Bengaluru, Karnataka, India",
-      "employmentType": "Full-time",
-      "workplaceType": null,
-      "companyName": "Shell",
-      "companyLinkedinUrl": "https://www.linkedin.com/company/shell/",
-      "companyId": "1271",
-      "companyUniversalName": "shell",
-      "duration": "6 mos",
-      "description": null,
-      "skills": [
-        "C#",
-        ".NET Framework",
-        "Artificial Intelligence (AI)"
-      ],
-      "experienceGroupId": "5c0172f720b05f9c9bfaceeae151a459a354634d",
-      "startDate": {
-        "month": "Jan",
-        "year": 2026,
-        "text": "Jan 2026"
-      },
-      "endDate": {
-        "text": "Present"
-      },
-      "companyLogo": {
-        "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGN30g7aSl4NA/company-logo_400_400/company-logo_400_400/0/1631303787196?e=1782950400&v=beta&t=o-bhWDgk-vENzczzIj0XI74amBEij3ZUH0roj_1wPrs",
-        "sizes": [
-          {
-            "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGN30g7aSl4NA/company-logo_400_400/company-logo_400_400/0/1631303787196?e=1782950400&v=beta&t=o-bhWDgk-vENzczzIj0XI74amBEij3ZUH0roj_1wPrs",
-            "width": 400,
-            "height": 400
-          },
-          {
-            "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGN30g7aSl4NA/company-logo_200_200/company-logo_200_200/0/1631303787196?e=1782950400&v=beta&t=3t5mhmrh6Qzdy-ak_BzJ8xnQWrPLX12y4yoh7aSWMfM",
-            "width": 200,
-            "height": 200
-          },
-          {
-            "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGN30g7aSl4NA/company-logo_100_100/company-logo_100_100/0/1631303787196?e=1782950400&v=beta&t=lvlh08fQt5czwWCQHqs8cY1KKqJICZfJMS1YWRkZdMw",
-            "width": 100,
-            "height": 100
-          }
-        ]
-      }
-    }
-  ],
-  "profileTopEducation": [
-    {
-      "schoolName": "Thapar Institute of Engineering & Technology",
-      "schoolLinkedinUrl": "https://www.linkedin.com/company/485592/",
-      "schoolId": "485592",
-      "degree": "Bachelor's degree",
-      "fieldOfStudy": "Computer Science",
-      "skills": [],
-      "insights": "Grade: 8.73",
-      "startDate": {
-        "month": "Aug",
-        "year": 2019,
-        "text": "Aug 2019"
-      },
-      "endDate": {
-        "month": "Jul",
-        "year": 2023,
-        "text": "Jul 2023"
-      },
-      "period": "Aug 2019 - Jul 2023",
-      "schoolLogo": {
-        "url": "https://media.licdn.com/dms/image/v2/C560BAQEHtx1U87kUjA/company-logo_400_400/company-logo_400_400/0/1645923773036?e=1782950400&v=beta&t=TWm9XN8aelrPdTUyQ7Bv_aS8Ap6xV1NY733kW3UBgUM",
-        "sizes": [
-          {
-            "url": "https://media.licdn.com/dms/image/v2/C560BAQEHtx1U87kUjA/company-logo_400_400/company-logo_400_400/0/1645923773036?e=1782950400&v=beta&t=TWm9XN8aelrPdTUyQ7Bv_aS8Ap6xV1NY733kW3UBgUM",
-            "width": 400,
-            "height": 400
-          },
-          {
-            "url": "https://media.licdn.com/dms/image/v2/C560BAQEHtx1U87kUjA/company-logo_200_200/company-logo_200_200/0/1645923773036?e=1782950400&v=beta&t=tZcuW8ZX3Lm7MpGDKaxpaCgPRowEt0Y4qVzmpy-zC7s",
-            "width": 200,
-            "height": 200
-          },
-          {
-            "url": "https://media.licdn.com/dms/image/v2/C560BAQEHtx1U87kUjA/company-logo_100_100/company-logo_100_100/0/1645923773036?e=1782950400&v=beta&t=83-gOGcuEjCjsqEMYpAoqwVpq6emtSgLJVhEz-jqy-A",
-            "width": 100,
-            "height": 100
-          }
-        ]
-      }
-    }
-  ],
-  "profileActions": [],
-  "profilePicture": {
-    "url": "https://media.licdn.com/dms/image/v2/D5603AQEC3TDtT2xOEA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1725118920775?e=1782950400&v=beta&t=dGcY7MtTiuVVtG1YnKnPlugXsfFsZHvJ-V-cTW_Rqxs",
-    "sizes": [
-      {
-        "url": "https://media.licdn.com/dms/image/v2/D5603AQEC3TDtT2xOEA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1725118920775?e=1782950400&v=beta&t=dGcY7MtTiuVVtG1YnKnPlugXsfFsZHvJ-V-cTW_Rqxs",
-        "width": 389,
-        "height": 389
-      },
-      {
-        "url": "https://media.licdn.com/dms/image/v2/D5603AQEC3TDtT2xOEA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1725118920779?e=1782950400&v=beta&t=4NBc8Ii8dbBDjpKCFRDWmNJUHziE9tjJVcslQ8N4DzM",
-        "width": 389,
-        "height": 389
-      },
-      {
-        "url": "https://media.licdn.com/dms/image/v2/D5603AQEC3TDtT2xOEA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1725118920775?e=1782950400&v=beta&t=H0V8b0g3a0_Bnln0yPiq5YXKmKp-sKrO17p_CcfCjX0",
-        "width": 200,
-        "height": 200
-      },
-      {
-        "url": "https://media.licdn.com/dms/image/v2/D5603AQEC3TDtT2xOEA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1725118920775?e=1782950400&v=beta&t=tThYvHrM8-vB0ObZ-VmF9TnqLXai2cjnTml0lj8C0x0",
-        "width": 100,
-        "height": 100
-      }
-    ]
-  },
-  "coverPicture": null,
-  "photo": "https://media.licdn.com/dms/image/v2/D5603AQEC3TDtT2xOEA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1725118920775?e=1782950400&v=beta&t=dGcY7MtTiuVVtG1YnKnPlugXsfFsZHvJ-V-cTW_Rqxs",
-  "profileLocales": [
-    {
-      "country": "US",
-      "language": "en"
-    }
-  ],
-  "primaryLocale": {
-    "country": "US",
-    "language": "en"
-  },
-  "multiLocaleHeadline": [
-    {
-      "headline": "Associate Software Engineer @Shell | Ex - Arista Networks | Specialist @Codeforces | 4⭐ @Codechef | TIET",
-      "locale": "en_US"
-    }
-  ],
-  "services": null,
-  "experience": [
-    {
-      "position": "Software Engineer",
-      "location": "Bengaluru, Karnataka, India",
-      "employmentType": "Full-time",
-      "workplaceType": null,
-      "companyName": "Shell",
-      "companyLinkedinUrl": "https://www.linkedin.com/company/shell/",
-      "companyId": "1271",
-      "companyUniversalName": "shell",
-      "duration": "6 mos",
-      "description": null,
-      "skills": [
-        "C#",
-        ".NET Framework",
-        "Artificial Intelligence (AI)"
-      ],
-      "experienceGroupId": "5c0172f720b05f9c9bfaceeae151a459a354634d",
-      "startDate": {
-        "month": "Jan",
-        "year": 2026,
-        "text": "Jan 2026"
-      },
-      "endDate": {
-        "text": "Present"
-      },
-      "companyLogo": {
-        "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGN30g7aSl4NA/company-logo_400_400/company-logo_400_400/0/1631303787196?e=1782950400&v=beta&t=o-bhWDgk-vENzczzIj0XI74amBEij3ZUH0roj_1wPrs",
-        "sizes": [
-          {
-            "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGN30g7aSl4NA/company-logo_400_400/company-logo_400_400/0/1631303787196?e=1782950400&v=beta&t=o-bhWDgk-vENzczzIj0XI74amBEij3ZUH0roj_1wPrs",
-            "width": 400,
-            "height": 400
-          },
-          {
-            "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGN30g7aSl4NA/company-logo_200_200/company-logo_200_200/0/1631303787196?e=1782950400&v=beta&t=3t5mhmrh6Qzdy-ak_BzJ8xnQWrPLX12y4yoh7aSWMfM",
-            "width": 200,
-            "height": 200
-          },
-          {
-            "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGN30g7aSl4NA/company-logo_100_100/company-logo_100_100/0/1631303787196?e=1782950400&v=beta&t=lvlh08fQt5czwWCQHqs8cY1KKqJICZfJMS1YWRkZdMw",
-            "width": 100,
-            "height": 100
-          }
-        ]
-      }
-    },
-    {
-      "position": "Data Engineer",
-      "location": null,
-      "employmentType": "Full-time",
-      "workplaceType": null,
-      "companyName": "Shell",
-      "companyLinkedinUrl": "https://www.linkedin.com/company/shell/",
-      "companyId": "1271",
-      "companyUniversalName": "shell",
-      "duration": "2 yrs 11 mos",
-      "description": null,
-      "skills": [
-        "React.js",
-        "Sharepoint Framework (SPFx)",
-        "Python (Programming Language)",
-        "Data Analysis"
-      ],
-      "experienceGroupId": "5c0172f720b05f9c9bfaceeae151a459a354634d",
-      "startDate": {
-        "month": "Aug",
-        "year": 2023,
-        "text": "Aug 2023"
-      },
-      "endDate": {
-        "text": "Present"
-      },
-      "companyLogo": {
-        "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGN30g7aSl4NA/company-logo_400_400/company-logo_400_400/0/1631303787196?e=1782950400&v=beta&t=o-bhWDgk-vENzczzIj0XI74amBEij3ZUH0roj_1wPrs",
-        "sizes": [
-          {
-            "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGN30g7aSl4NA/company-logo_400_400/company-logo_400_400/0/1631303787196?e=1782950400&v=beta&t=o-bhWDgk-vENzczzIj0XI74amBEij3ZUH0roj_1wPrs",
-            "width": 400,
-            "height": 400
-          },
-          {
-            "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGN30g7aSl4NA/company-logo_200_200/company-logo_200_200/0/1631303787196?e=1782950400&v=beta&t=3t5mhmrh6Qzdy-ak_BzJ8xnQWrPLX12y4yoh7aSWMfM",
-            "width": 200,
-            "height": 200
-          },
-          {
-            "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGN30g7aSl4NA/company-logo_100_100/company-logo_100_100/0/1631303787196?e=1782950400&v=beta&t=lvlh08fQt5czwWCQHqs8cY1KKqJICZfJMS1YWRkZdMw",
-            "width": 100,
-            "height": 100
-          }
-        ]
-      }
-    },
-    {
-      "position": "Software Test Engineer",
-      "location": null,
-      "employmentType": "Internship",
-      "workplaceType": "On-site",
-      "companyName": "Arista Networks",
-      "companyLinkedinUrl": "https://www.linkedin.com/company/80069/",
-      "companyId": "80069",
-      "duration": "7 mos",
-      "description": null,
-      "skills": [
-        "Linux",
-        "Computer Networking",
-        "Python (Programming Language)"
-      ],
+      "title": "HashImagin",
+      "duration": "Jan 2023 - May 2023",
       "startDate": {
         "month": "Jan",
         "year": 2023,
         "text": "Jan 2023"
       },
       "endDate": {
-        "month": "Jul",
+        "month": "May",
         "year": 2023,
-        "text": "Jul 2023"
+        "text": "May 2023"
       },
-      "companyLogo": {
-        "url": "https://media.licdn.com/dms/image/v2/C560BAQGkAHWhvOGQbA/company-logo_400_400/company-logo_400_400/0/1631359666583?e=1782950400&v=beta&t=zqjjm64xwQsxKpOEBVCwLan2h4fAuIrRx-Ft0bTEps4",
-        "sizes": [
-          {
-            "url": "https://media.licdn.com/dms/image/v2/C560BAQGkAHWhvOGQbA/company-logo_400_400/company-logo_400_400/0/1631359666583?e=1782950400&v=beta&t=zqjjm64xwQsxKpOEBVCwLan2h4fAuIrRx-Ft0bTEps4",
-            "width": 400,
-            "height": 400
-          },
-          {
-            "url": "https://media.licdn.com/dms/image/v2/C560BAQGkAHWhvOGQbA/company-logo_200_200/company-logo_200_200/0/1631359666583?e=1782950400&v=beta&t=1ZmNlv-L1Dzr20gsRlXHiy8FaFw4ZDNcA3I0tHTAiIU",
-            "width": 200,
-            "height": 200
-          },
-          {
-            "url": "https://media.licdn.com/dms/image/v2/C560BAQGkAHWhvOGQbA/company-logo_100_100/company-logo_100_100/0/1631359666583?e=1782950400&v=beta&t=AYKKkGpxIaWgQCpzYKReMvJlSeijWjYlQGMoUcDa-FU",
-            "width": 100,
-            "height": 100
-          }
-        ]
-      }
-    }
-  ],
-  "education": [
+      "associatedWith": "Associated with Jaypee Institute of Information Technology",
+      "associatedWithLink": "https://www.linkedin.com/company/809155/",
+      "description": "• Led development of a full-stack responsive website which takes user prompts, generates quality images, stores and manages images in database for community usage. \n• Generated over 36+ unique images with maximized prompt efficiency and reducing collection storage by 5%.\n• Established Payment Gateway for successful demo account via Razorpay API.\n\nKey Features:\n→ 3D responsive homepage\n→ Image generation \n→ Database storage (images and prompt)\n→ Community use page\n→ Payment Gateway (purchasing generated image)",
+      "contributors": [
+        {
+          "linkedinUrl": "https://www.linkedin.com/in/ACoAADUBwpYBeLEQlMaOMlWkuC0pZG9b5YgocI8"
+        },
+        {
+          "linkedinUrl": "https://www.linkedin.com/in/ACoAADxrVpgBE_LcaB2i6ely93GUewvPDjsy34k"
+        }
+      ]
+    },
     {
-      "schoolName": "Thapar Institute of Engineering & Technology",
-      "schoolLinkedinUrl": "https://www.linkedin.com/company/485592/",
-      "schoolId": "485592",
-      "degree": "Bachelor's degree",
-      "fieldOfStudy": "Computer Science",
-      "skills": [],
-      "insights": "Grade: 8.73",
+      "title": "Jaypee Student Welfare Portal (JSWP)",
+      "duration": "Aug 2022 - Dec 2022",
       "startDate": {
         "month": "Aug",
-        "year": 2019,
-        "text": "Aug 2019"
+        "year": 2022,
+        "text": "Aug 2022"
       },
       "endDate": {
-        "month": "Jul",
-        "year": 2023,
-        "text": "Jul 2023"
+        "month": "Dec",
+        "year": 2022,
+        "text": "Dec 2022"
       },
-      "period": "Aug 2019 - Jul 2023",
-      "schoolLogo": {
-        "url": "https://media.licdn.com/dms/image/v2/C560BAQEHtx1U87kUjA/company-logo_400_400/company-logo_400_400/0/1645923773036?e=1782950400&v=beta&t=TWm9XN8aelrPdTUyQ7Bv_aS8Ap6xV1NY733kW3UBgUM",
-        "sizes": [
-          {
-            "url": "https://media.licdn.com/dms/image/v2/C560BAQEHtx1U87kUjA/company-logo_400_400/company-logo_400_400/0/1645923773036?e=1782950400&v=beta&t=TWm9XN8aelrPdTUyQ7Bv_aS8Ap6xV1NY733kW3UBgUM",
-            "width": 400,
-            "height": 400
-          },
-          {
-            "url": "https://media.licdn.com/dms/image/v2/C560BAQEHtx1U87kUjA/company-logo_200_200/company-logo_200_200/0/1645923773036?e=1782950400&v=beta&t=tZcuW8ZX3Lm7MpGDKaxpaCgPRowEt0Y4qVzmpy-zC7s",
-            "width": 200,
-            "height": 200
-          },
-          {
-            "url": "https://media.licdn.com/dms/image/v2/C560BAQEHtx1U87kUjA/company-logo_100_100/company-logo_100_100/0/1645923773036?e=1782950400&v=beta&t=83-gOGcuEjCjsqEMYpAoqwVpq6emtSgLJVhEz-jqy-A",
-            "width": 100,
-            "height": 100
-          }
-        ]
-      }
+      "associatedWith": "Associated with Jaypee Institute of Information Technology",
+      "associatedWithLink": "https://www.linkedin.com/company/809155/",
+      "description": "• Built an interaction portal among students and mentors through developing a Full Stack client-server application, focusing on career guiding, showcasing achievements, interview blogs and rewarding JaypeeLeetcoins (JLC).\n• Estimated around 500 successful user profile registrations, with chatbot integration using generative AI API.\n\nKey Features: \n→  Profile Database\n→  Interactive Chat Portal\n→  ChatBot Integration\n→  JaypeeBlog Content\n→  JaypeeLeetcoins.",
+      "contributors": [
+        {
+          "linkedinUrl": "https://www.linkedin.com/in/ACoAADKemHcB2gBCrVX-RNzmXS6zcyqyP_TArRI"
+        }
+      ]
     },
     {
-      "schoolName": "Indus Valley World School",
-      "schoolLinkedinUrl": "https://www.linkedin.com/company/8797869/",
-      "schoolId": "8797869",
-      "degree": "Class XII",
-      "fieldOfStudy": null,
-      "skills": [],
-      "insights": "Grade: 90.6%",
+      "title": "MilitaryMania",
+      "duration": "Mar 2022 - May 2022",
       "startDate": {
-        "year": 2017,
-        "text": "2017"
+        "month": "Mar",
+        "year": 2022,
+        "text": "Mar 2022"
       },
       "endDate": {
-        "year": 2019,
-        "text": "2019"
+        "month": "May",
+        "year": 2022,
+        "text": "May 2022"
       },
-      "period": "2017 - 2019",
-      "schoolLogo": {
-        "url": "https://media.licdn.com/dms/image/v2/D4D0BAQFNIEA83o0-Nw/company-logo_400_400/B4DZpXm0gaJUAY-/0/1762406386237/indus_valley_world_school_logo?e=1782950400&v=beta&t=xNo-_RWDEON5HuYXsXr1QXHWV6CBVbAH2aMtuBkJaxY",
+      "associatedWith": null,
+      "associatedWithLink": null,
+      "description": "• Developed software application to account daily military and war operations, attempting to reducing GTI of India. \n• Currently, India standing at Top 12th position Global Terrorism Index (GTI) with 7.432 of 10 scale. \n• Capable to find 1) Optimal solution (war operations) and 2) Satisfying solution (daily operations).\n\nConcepts used:\n→ Divide & Conquer (Sorting and Searching): Based on Terror groups/ District Searching/Sorting. \n→ Greedy Techniques:  Dijkstra (Single source Shortest), Fractional Knapsack, Welsh-Powell Algorithm (Graph-Vertex Coloring Optimal), Chromatic number count. \n→ Backtracking Techniques: Escape Path (Bombing Conditions). \n→ Dynamic Programming: Flyod-Warshall Algorithm (All Pairs shortest path), Minimum Weaponry cost (Wines Problem).\n\nFuture Scope: \n• Visualization to demonstrate algorithms more efficiently.\n• Significance use with proper GTI and APIs using, mapping systems and geotagged data coordinates, supply dates and medical checkpoints."
+    }
+  ],
+  "volunteering": [],
+  "receivedRecommendations": [
+    {
+      "givenBy": "Asir Sunil Babu",
+      "givenAt": "February 7, 2026",
+      "givenByLink": "https://www.linkedin.com/in/asirsunilbabu",
+      "givenByHeadline": "Leader, Software Engineering",
+      "givenByPicture": {
+        "url": "https://media.licdn.com/dms/image/v2/C4E03AQGJ6izmFVQukQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517707786073?e=1783555200&v=beta&t=l84b3aZkOvtyTHjTehrgMlmFxMvx7HerTZLSCRVxuzA",
         "sizes": [
           {
-            "url": "https://media.licdn.com/dms/image/v2/D4D0BAQFNIEA83o0-Nw/company-logo_400_400/B4DZpXm0gaJUAY-/0/1762406386237/indus_valley_world_school_logo?e=1782950400&v=beta&t=xNo-_RWDEON5HuYXsXr1QXHWV6CBVbAH2aMtuBkJaxY",
+            "url": "https://media.licdn.com/dms/image/v2/C4E03AQGJ6izmFVQukQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517707786073?e=1783555200&v=beta&t=l84b3aZkOvtyTHjTehrgMlmFxMvx7HerTZLSCRVxuzA",
+            "width": 449,
+            "height": 449
+          },
+          {
+            "url": "https://media.licdn.com/dms/image/v2/C4E03AQGJ6izmFVQukQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1517707786109?e=1783555200&v=beta&t=J2VkmfZSNC52LrBoB8m0QBW4hLHms6Nn7tKhn4lmqzM",
             "width": 400,
             "height": 400
           },
           {
-            "url": "https://media.licdn.com/dms/image/v2/D4D0BAQFNIEA83o0-Nw/company-logo_200_200/B4DZpXm0gaJUAI-/0/1762406386237/indus_valley_world_school_logo?e=1782950400&v=beta&t=VqI-qdacKol4d6aVv_to1gsCFCWsWQn5UnsRu5374_8",
+            "url": "https://media.licdn.com/dms/image/v2/C4E03AQGJ6izmFVQukQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1517707786112?e=1783555200&v=beta&t=Ip1t6wnKB6kEns0nxcW9ejA3Jo_lRlzABnptm_G1BBw",
             "width": 200,
             "height": 200
           },
           {
-            "url": "https://media.licdn.com/dms/image/v2/D4D0BAQFNIEA83o0-Nw/company-logo_100_100/B4DZpXm0gaJUAQ-/0/1762406386237/indus_valley_world_school_logo?e=1782950400&v=beta&t=mOG34sy9R-m7mMtUYLtR5GEqHOXuHkmo_CGk59RLfs4",
+            "url": "https://media.licdn.com/dms/image/v2/C4E03AQGJ6izmFVQukQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1517707786080?e=1783555200&v=beta&t=YR_43ZhyL_CDM238VrTeKh3aJgxljZzXZ9m8z08D68U",
             "width": 100,
             "height": 100
           }
         ]
-      }
+      },
+      "description": "I had the pleasure of seeing Aditya grow from a passionate intern to a capable full-time engineer at Cisco. He is talented, energetic, and deeply driven to excel in everything he takes on. His curiosity and proactive attitude stand out, he consistently asks thoughtful questions, seeks clarity, and delivers results with impressive speed and precision.\n\nWhat truly distinguishes Aditya is his ability to take ownership and drive features end-to-end, aligning with all stakeholders and ensuring successful delivery. He takes accountability seriously and always follows through on his commitments. I also enjoyed our many conversations on diverse topics, his clarity of thought and focus on long-term goals are remarkable. Aditya would be an asset to any organization that values initiative, technical depth, and collaboration."
     }
   ],
-  "certifications": [
-    {
-      "title": "Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization",
-      "issuedAt": "Issued Dec 2024",
-      "link": "https://www.coursera.org/account/accomplishments/records/8XELO83BMQM9",
-      "issuedBy": "DeepLearning.AI",
-      "issuedByLink": null,
-      "issuedByLogo": {
-        "url": null,
-        "sizes": []
-      }
-    },
-    {
-      "title": "Advanced Learning Algorithms",
-      "issuedAt": "Issued Aug 2024",
-      "link": "https://www.coursera.org/account/accomplishments/records/A1FIF8E2FS3T",
-      "issuedBy": "DeepLearning.AI, Stanford University",
-      "issuedByLink": null,
-      "issuedByLogo": {
-        "url": null,
-        "sizes": []
-      }
-    },
-    {
-      "title": "Supervised Machine Learning: Regression and Classification ",
-      "issuedAt": "Issued Aug 2024",
-      "link": "https://www.coursera.org/account/accomplishments/records/PGHD91XDRW9B",
-      "issuedBy": "DeepLearning.AI, Stanford University",
-      "issuedByLink": null,
-      "issuedByLogo": {
-        "url": null,
-        "sizes": []
-      }
-    },
-    {
-      "title": "Neural Networks and Deep Learning",
-      "issuedAt": "Issued Nov 2024",
-      "link": "https://www.coursera.org/account/accomplishments/records/4TJEGGQ2X7JO",
-      "issuedBy": "DeepLearning.AI",
-      "issuedByLink": null,
-      "issuedByLogo": {
-        "url": null,
-        "sizes": []
-      }
-    },
-    {
-      "title": "Unsupervised Learning, Recommenders, Reinforcement Learning",
-      "issuedAt": "Issued Aug 2024",
-      "link": "https://www.coursera.org/account/accomplishments/records/486VSV4HYSVN",
-      "issuedBy": "DeepLearning.AI, Stanford University",
-      "issuedByLink": null,
-      "issuedByLogo": {
-        "url": null,
-        "sizes": []
-      }
-    },
-    {
-      "title": "Structuring Machine Learning Projects",
-      "issuedAt": "Issued Dec 2024",
-      "link": "https://www.coursera.org/account/accomplishments/records/AZEZJ9YQYI4E",
-      "issuedBy": "DeepLearning.AI",
-      "issuedByLink": null,
-      "issuedByLogo": {
-        "url": null,
-        "sizes": []
-      }
-    },
-    {
-      "title": "Machine Learning Specialization",
-      "issuedAt": "Issued Aug 2024",
-      "link": "https://www.coursera.org/account/accomplishments/specialization/JL2H6BF22DG0",
-      "issuedBy": "DeepLearning.AI, Stanford University",
-      "issuedByLink": null,
-      "issuedByLogo": {
-        "url": null,
-        "sizes": []
-      }
-    }
-  ],
-  "projects": [],
-  "volunteering": [],
-  "receivedRecommendations": [],
   "skills": [
     {
-      "name": ".NET Framework",
+      "name": "Microsoft Azure",
       "positions": [
-        "Software Engineer at Shell"
+        "Software Engineer at Microsoft"
       ]
     },
     {
-      "name": "ASP.NET"
-    },
-    {
-      "name": "React.js",
+      "name": "C++",
       "positions": [
-        "Data Engineer at Shell"
-      ]
-    },
-    {
-      "name": "C#",
-      "positions": [
-        "Software Engineer at Shell"
-      ]
-    },
-    {
-      "name": "Sharepoint Framework (SPFx)",
-      "positions": [
-        "Data Engineer at Shell"
-      ]
-    },
-    {
-      "name": "Linux",
-      "positions": [
-        "Software Test Engineer at Arista Networks"
-      ]
-    },
-    {
-      "name": "SharePoint"
-    },
-    {
-      "name": "Microsoft Power Apps"
-    },
-    {
-      "name": "Microsoft Power BI"
-    },
-    {
-      "name": "Keras"
-    },
-    {
-      "name": "TensorFlow"
-    },
-    {
-      "name": "Microsoft Azure"
-    },
-    {
-      "name": "JavaScript"
-    },
-    {
-      "name": "HTML"
-    },
-    {
-      "name": "Git"
-    },
-    {
-      "name": "C (Programming Language)"
-    },
-    {
-      "name": "Flask"
-    },
-    {
-      "name": "SQL"
-    },
-    {
-      "name": "Cascading Style Sheets (CSS)",
+        "Software Engineer (G6) at Cisco",
+        "Data Structures & Algorithms Essentials using C++ (2022)"
+      ],
       "assessments": "Passed LinkedIn Skill Assessment"
     },
     {
       "name": "Python (Programming Language)",
       "positions": [
-        "2 experiences across Shell and 1 other company"
+        "2 experiences across Cisco and 1 other company",
+        "Python-Introduction to Data Science and Machine Learning A-Z"
+      ],
+      "endorsements": "3 endorsements"
+    },
+    {
+      "name": "Amazon Web Services (AWS)",
+      "positions": [
+        "2 experiences across Cisco and 1 other company"
+      ],
+      "endorsements": "1 endorsement"
+    },
+    {
+      "name": "PySpark",
+      "positions": [
+        "Software Engineer Intern (Data) at Ambee"
+      ],
+      "endorsements": "1 endorsement"
+    },
+    {
+      "name": "SQL",
+      "positions": [
+        "Software Engineer"
+      ],
+      "endorsements": "2 endorsements"
+    },
+    {
+      "name": "GitHub",
+      "endorsements": "1 endorsement"
+    },
+    {
+      "name": "Linux",
+      "endorsements": "1 endorsement"
+    },
+    {
+      "name": "Git",
+      "positions": [
+        "Software Engineer Intern (Data) at Ambee"
+      ],
+      "endorsements": "1 endorsement"
+    },
+    {
+      "name": "React.js",
+      "endorsements": "2 endorsements"
+    },
+    {
+      "name": "Tailwind CSS",
+      "endorsements": "1 endorsement"
+    },
+    {
+      "name": "JavaScript",
+      "positions": [
+        "Software Engineer (G4) at Cisco"
+      ],
+      "endorsements": "3 endorsements"
+    },
+    {
+      "name": "Node.js",
+      "endorsements": "2 endorsements"
+    },
+    {
+      "name": "Cascading Style Sheets (CSS)",
+      "endorsements": "1 endorsement"
+    },
+    {
+      "name": "REST APIs",
+      "positions": [
+        "Software Engineer at Microsoft",
+        "Designing RESTful APIs",
+        "Software Engineer"
+      ]
+    },
+    {
+      "name": "Object-Oriented Programming (OOP)",
+      "positions": [
+        "Software Engineer (G4) at Cisco"
       ],
       "assessments": "Passed LinkedIn Skill Assessment"
     },
     {
+      "name": "Software Development",
+      "positions": [
+        "2 experiences across Microsoft and 1 other company"
+      ],
+      "endorsements": "5 endorsements"
+    },
+    {
+      "name": "Large Scale Development",
+      "positions": [
+        "Software Engineer at Microsoft"
+      ]
+    },
+    {
+      "name": "Cloud Computing"
+    },
+    {
+      "name": "Engineering",
+      "positions": [
+        "2 experiences across Microsoft and 1 other company"
+      ]
+    },
+    {
+      "name": "Data Structures",
+      "positions": [
+        "Software Engineer Intern at Cisco",
+        "Data Structures & Algorithms Essentials using C++ (2022)",
+        "Database Foundations: Data Structures"
+      ]
+    },
+    {
+      "name": "Algorithms",
+      "positions": [
+        "Software Engineer Intern at Cisco",
+        "Data Structures & Algorithms Essentials using C++ (2022)"
+      ],
+      "endorsements": "5 endorsements"
+    },
+    {
+      "name": "Backend",
+      "positions": [
+        "Software Engineer (G6) at Cisco"
+      ],
+      "endorsements": "1 endorsement"
+    },
+    {
+      "name": "API Development",
+      "positions": [
+        "Software Engineer (G6) at Cisco"
+      ],
+      "endorsements": "1 endorsement"
+    },
+    {
       "name": "Artificial Intelligence (AI)",
       "positions": [
-        "Software Engineer at Shell"
-      ]
+        "Software Engineer (G4) at Cisco"
+      ],
+      "endorsements": "2 endorsements"
     },
     {
-      "name": "Data Analysis",
+      "name": "Cloud Management",
       "positions": [
-        "Data Engineer at Shell"
+        "Software Engineer (G6) at Cisco"
       ]
     },
     {
-      "name": "Web Development"
-    },
-    {
-      "name": "Computer Networking",
+      "name": "Mentoring",
       "positions": [
-        "Software Test Engineer at Arista Networks"
+        "Mentor at topmate.io"
       ]
     },
     {
-      "name": "Stakeholder Management"
+      "name": "Coaching & Mentoring",
+      "positions": [
+        "Mentor at topmate.io"
+      ]
     },
     {
-      "name": "Deep Learning"
+      "name": "Career Development Coaching",
+      "positions": [
+        "Mentor at topmate.io"
+      ]
     },
     {
-      "name": "Data Science"
+      "name": "Problem Solving",
+      "positions": [
+        "Subject Matter Expert at Chegg Inc.",
+        "Software Engineer"
+      ],
+      "endorsements": "3 endorsements"
     },
     {
-      "name": "Machine Learning"
+      "name": "Interviewing",
+      "positions": [
+        "Mentor at topmate.io"
+      ]
     },
     {
-      "name": "Communication"
+      "name": "Database Management System (DBMS)",
+      "positions": [
+        "Software Engineer Intern (Data) at Ambee",
+        "Google Cloud Big Data and Machine Learning Fundamentals",
+        "Database Foundations: Data Structures"
+      ]
     },
     {
-      "name": "C++",
-      "assessments": "Passed LinkedIn Skill Assessment"
+      "name": "Cisco Security",
+      "positions": [
+        "Software Engineer"
+      ],
+      "endorsements": "1 endorsement"
     },
     {
-      "name": "Flutter"
+      "name": "Splunk",
+      "positions": [
+        "Software Engineer (G4) at Cisco"
+      ]
+    },
+    {
+      "name": "Web Services API",
+      "endorsements": "2 endorsements"
+    },
+    {
+      "name": "Object Oriented Design",
+      "positions": [
+        "Software Engineer (G6) at Cisco"
+      ],
+      "endorsements": "1 endorsement"
+    },
+    {
+      "name": "Front-End Development",
+      "endorsements": "1 endorsement"
+    },
+    {
+      "name": "Communication",
+      "positions": [
+        "Subject Matter Expert at Chegg Inc."
+      ],
+      "endorsements": "1 endorsement"
+    },
+    {
+      "name": "Teamwork",
+      "endorsements": "1 endorsement"
+    },
+    {
+      "name": "Strategic Planning",
+      "endorsements": "1 endorsement"
+    },
+    {
+      "name": "Critical Thinking",
+      "endorsements": "2 endorsements"
+    },
+    {
+      "name": "Analytical Skills",
+      "endorsements": "2 endorsements"
+    },
+    {
+      "name": "Machine Learning",
+      "positions": [
+        "Software Engineer Intern at Cisco",
+        "Machine Learning Training "
+      ],
+      "endorsements": "3 endorsements"
+    },
+    {
+      "name": "Data Science",
+      "positions": [
+        "Python-Introduction to Data Science and Machine Learning A-Z"
+      ],
+      "endorsements": "2 endorsements"
+    },
+    {
+      "name": "Software Development Life Cycle (SDLC)",
+      "endorsements": "2 endorsements"
+    },
+    {
+      "name": "Programming",
+      "endorsements": "2 endorsements"
+    },
+    {
+      "name": "Project Management",
+      "endorsements": "1 endorsement"
+    },
+    {
+      "name": "Web Development",
+      "endorsements": "2 endorsements"
     }
   ],
   "publications": [],
-  "courses": [],
-  "patents": [],
-  "honorsAndAwards": [
+  "courses": [
     {
-      "title": "Innovate India Coding Championship",
-      "issuedBy": "All India Council Of Technical Education",
-      "issuedAt": "Aug 2022",
-      "associatedWith": null,
-      "associatedWithLink": null
+      "title": "Data Structures & Algorithms Essentials using C++ (2022)"
     },
     {
-      "title": "Jagadish Bose National Science Talent Search Junior Scholar",
-      "issuedBy": "Jagadish Bose National Science Talent Search",
-      "issuedAt": "Jan 2017",
-      "associatedWith": null,
-      "associatedWithLink": null
+      "title": "Full stack web development and AI with Python (Django)"
+    },
+    {
+      "title": "Python- Data Manipulation and Machine learning A-Z"
     }
   ],
-  "languages": [],
+  "patents": [],
+  "honorsAndAwards": [],
+  "languages": [
+    {
+      "name": "English",
+      "proficiency": "Full professional proficiency"
+    },
+    {
+      "name": "French",
+      "proficiency": "Elementary proficiency"
+    },
+    {
+      "name": "Hindi",
+      "proficiency": "Native or bilingual proficiency"
+    }
+  ],
   "organizations": [],
-  "causes": [],
+  "causes": null,
   "featured": null,
-  "composeOptionType": "PREMIUM_INMAIL",
-  "moreProfiles": [
+  "composeOptionType": null,
+  "moreProfiles": [],
+  "interests": [
     {
-      "id": "ACoAACdZNOoBZ5stnb3O5hGloXcqeZq-UEi9NUg",
-      "firstName": "Dhruv",
-      "lastName": "Mehta",
-      "publicIdentifier": "dhruv-mehta-836103165",
-      "linkedinUrl": "https://www.linkedin.com/in/dhruv-mehta-836103165"
+      "interestName": "Companies",
+      "elements": [
+        {
+          "title": "IBM",
+          "subtitle": null,
+          "link": "https://www.linkedin.com/company/1009/",
+          "caption": "19,587,007 followers",
+          "image": {
+            "url": "https://media.licdn.com/dms/image/v2/D560BAQGiz5ecgpCtkA/company-logo_400_400/company-logo_400_400/0/1688684715866/ibm_logo?e=1783555200&v=beta&t=iqqoCEue_IdYjDZZDGeLmKRCkrBlEKIelnBdTpHTRMU"
+          }
+        },
+        {
+          "title": "GE",
+          "subtitle": null,
+          "link": "https://www.linkedin.com/company/1015/",
+          "caption": "5,187,160 followers",
+          "image": {
+            "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHNSdSY_UJ_rg/company-logo_400_400/company-logo_400_400/0/1688184041602/ge_logo?e=1783555200&v=beta&t=qooZym_1VYt8Aiay_tWa3zwzWi1xJdNzuSdTgXltXQQ"
+          }
+        }
+      ]
     },
     {
-      "id": "ACoAADpBAXQBdxU-h2wEY26_gsYj78YOLqV6YKg",
-      "firstName": "Marwa",
-      "lastName": "Asad",
-      "publicIdentifier": "marwa-asad",
-      "linkedinUrl": "https://www.linkedin.com/in/marwa-asad"
+      "interestName": "Groups",
+      "elements": [
+        {
+          "title": "All things Javascript: JS, TypeScript, NodeJS, React, Angular, Vue, Svelte, Deno",
+          "subtitle": null,
+          "link": "https://www.linkedin.com/groups/8571393",
+          "caption": "343,700 members",
+          "image": {
+            "url": "https://media.licdn.com/dms/image/v2/C4D07AQHqXaZIDFwt2Q/group-logo_image-shrink_400x400/group-logo_image-shrink_400x400/0/1631000441653?e=1782388800&v=beta&t=p78huOkgSS59NSpumm17lsqopdI2yUA1wT5e6aowxXE"
+          }
+        },
+        {
+          "title": "Azure Cloud Developers Group for enthusiasts - Microsoft Azure",
+          "subtitle": null,
+          "link": "https://www.linkedin.com/groups/12220139",
+          "caption": "30,464 members",
+          "image": {
+            "url": "https://media.licdn.com/dms/image/v2/D4E07AQHv8GyrnSvu6g/group-logo_image-shrink_400x400/group-logo_image-shrink_400x400/0/1705877299214?e=1782388800&v=beta&t=0oymVbco904RmT1Z-3xBN9Hf1AiZcdRyLVJb9opVEl0"
+          }
+        }
+      ]
     },
     {
-      "id": "ACoAAC2QqqEBvriVU28Ro3tr4TRCpfNSxvLpX5o",
-      "firstName": "Tanya",
-      "lastName": "Singh",
-      "publicIdentifier": "tanyasingh15",
-      "linkedinUrl": "https://www.linkedin.com/in/tanyasingh15"
+      "interestName": "Newsletters",
+      "elements": [
+        {
+          "title": "Arpit's Newsletter",
+          "subtitle": "A newsletter to help software engineers become better engineers and grow faster in their careers.",
+          "link": "https://www.linkedin.com/newsletters/6921728898456072192",
+          "caption": "Published weekly",
+          "image": {
+            "url": "https://media.licdn.com/dms/image/v2/D5612AQEl8o0lI2_4dQ/series-logo_image-shrink_300_300/series-logo_image-shrink_300_300/0/1736684746572?e=1783555200&v=beta&t=V7Di5hVZEtmCT5ahLLK75A4aTrVIBagXcpoZQJsCyHg"
+          }
+        },
+        {
+          "title": "Synopsys Signal",
+          "subtitle": "Your Monthly Pulse on Innovation and Insights from Synopsys",
+          "link": "https://www.linkedin.com/newsletters/7379589214067253248",
+          "caption": "Published monthly",
+          "image": {
+            "url": "https://media.licdn.com/dms/image/v2/D5612AQHLbLBvb0SDxw/series-logo_image-shrink_300_300/B56ZmmRCFrHkAQ-/0/1759431107239?e=1783555200&v=beta&t=tewobE4xDo_QRfa9-ivj-Wqg9N37ACMQyg_S1umHNts"
+          }
+        }
+      ]
     },
     {
-      "id": "ACoAADc3_XQBv6_0s0mWlq6Gz2uZ7IAX6-rkISQ",
-      "firstName": "Sarthak",
-      "lastName": "Sangal",
-      "publicIdentifier": "srthk-sngl",
-      "linkedinUrl": "https://www.linkedin.com/in/srthk-sngl"
-    },
-    {
-      "id": "ACoAACOqc_cBmzfJdf8JCwRwV9Zs4ByzCx6nKgw",
-      "firstName": "Riya",
-      "lastName": "Aggarwal",
-      "publicIdentifier": "riya-aggarwal-a73488148",
-      "linkedinUrl": "https://www.linkedin.com/in/riya-aggarwal-a73488148"
-    },
-    {
-      "id": "ACoAACzdNOsBtDHTt4nqvQuduyn-qNe8T-irZBs",
-      "firstName": "Nitin",
-      "lastName": "Kumar",
-      "publicIdentifier": "nitin-kumar-1230ab190",
-      "linkedinUrl": "https://www.linkedin.com/in/nitin-kumar-1230ab190"
-    },
-    {
-      "id": "ACoAADJXEggB3LH444VgY0pHW4FXJ1b-nceCbXE",
-      "firstName": "Aarushi ",
-      "lastName": "Nayyar",
-      "publicIdentifier": "aarushi-nayyar-0b4a161b6",
-      "linkedinUrl": "https://www.linkedin.com/in/aarushi-nayyar-0b4a161b6"
-    },
-    {
-      "id": "ACoAADOtJOIB5uLTVKJ7cJtxNtsLJxBFqmxzcW4",
-      "firstName": "Shambhavi",
-      "lastName": "Vats",
-      "publicIdentifier": "shambhavi-vats-656427202",
-      "linkedinUrl": "https://www.linkedin.com/in/shambhavi-vats-656427202"
-    },
-    {
-      "id": "ACoAAB6d1qQBkn23N7fovrpgr6esk9dzNa_H2ag",
-      "firstName": "Naveen",
-      "lastName": "Indoria",
-      "publicIdentifier": "naveen-indoria-344035124",
-      "linkedinUrl": "https://www.linkedin.com/in/naveen-indoria-344035124"
-    },
-    {
-      "id": "ACoAADRYF0MB38YtrWY_aMxL-iGGKupqWU2idIw",
-      "firstName": "Madhav",
-      "lastName": "Narayan Singh",
-      "publicIdentifier": "madhavnarayansingh",
-      "linkedinUrl": "https://www.linkedin.com/in/madhavnarayansingh"
-    },
-    {
-      "id": "ACoAADNnw24B0ZJUX7CQ9VXfziqLGSidiq7BW4o",
-      "firstName": "SURAJ",
-      "lastName": "RANJAN",
-      "publicIdentifier": "suraj-ranjan-2669b4200",
-      "linkedinUrl": "https://www.linkedin.com/in/suraj-ranjan-2669b4200"
-    },
-    {
-      "id": "ACoAADCMXI0BhhKkjTX8ljS9l4UbKhLK02pqSJw",
-      "firstName": "Vansh",
-      "lastName": "Sehgal",
-      "publicIdentifier": "vanshsehgal2001",
-      "linkedinUrl": "https://www.linkedin.com/in/vanshsehgal2001"
-    },
-    {
-      "id": "ACoAADBRVCIBqHFzFnMggl-9HTrcApoYGYQfbzo",
-      "firstName": "Ishita",
-      "lastName": "Mahajan",
-      "publicIdentifier": "ishita-mahajan-2aa5921a7",
-      "linkedinUrl": "https://www.linkedin.com/in/ishita-mahajan-2aa5921a7"
-    },
-    {
-      "id": "ACoAACxTmtUByczpQQc-CkpWq15c143myAGcJBQ",
-      "firstName": "Tushar",
-      "lastName": "Taluja",
-      "publicIdentifier": "tushar-taluja",
-      "linkedinUrl": "https://www.linkedin.com/in/tushar-taluja"
-    },
-    {
-      "id": "ACoAAC0zp3gB7t_SsiNdNitHtzCF0-yCuVLE8Ys",
-      "firstName": "Srishty",
-      "lastName": "Bedi",
-      "publicIdentifier": "srishty-bedi-848b81191",
-      "linkedinUrl": "https://www.linkedin.com/in/srishty-bedi-848b81191"
-    },
-    {
-      "id": "ACoAAC2i6B0B2mXJdrKys4-j0Ps1nfz3tm0yLWU",
-      "firstName": "Sahil",
-      "lastName": "Gupta",
-      "publicIdentifier": "sahil-gupta-0794b9194",
-      "linkedinUrl": "https://www.linkedin.com/in/sahil-gupta-0794b9194"
-    },
-    {
-      "id": "ACoAABWYbCwBAXwDmFaPD97MZqfawD1ABOIEFj4",
-      "firstName": "Karthigeyan",
-      "lastName": "K",
-      "publicIdentifier": "karthigeyan-k-664406a1",
-      "linkedinUrl": "https://www.linkedin.com/in/karthigeyan-k-664406a1"
-    },
-    {
-      "id": "ACoAAAgxusUB9f3CiHszKjcLpwO-oWTflnxL80o",
-      "firstName": "Chandra Sekhar",
-      "lastName": "Misra",
-      "publicIdentifier": "chandrasekharmisra",
-      "linkedinUrl": "https://www.linkedin.com/in/chandrasekharmisra"
-    },
-    {
-      "id": "ACoAACU_3yEBKY9zvZmyG35xMqnoGM6JiSfr0mc",
-      "firstName": "Shashikant",
-      "lastName": "Suman",
-      "publicIdentifier": "shashikantsuman",
-      "linkedinUrl": "https://www.linkedin.com/in/shashikantsuman"
-    },
-    {
-      "id": "ACoAAC2c5AcBD6-25JzTkB9x3GRjPDnqYFbpgGQ",
-      "firstName": "Aprajita",
-      "lastName": "Priya",
-      "publicIdentifier": "aprajita-priya-a87348194",
-      "linkedinUrl": "https://www.linkedin.com/in/aprajita-priya-a87348194"
-    },
-    {
-      "id": "ACoAADn1jNMB6sx2LZv0CgnJHFvwzFVA5MHXypI",
-      "firstName": "Abdul rahman",
-      "lastName": "Tashkandi",
-      "position": "Sales Trainer Almanea | Onboarding | HR Learning & Development EX-South Trainer at eXtra (United Electronics Co.)",
-      "publicIdentifier": "abdul-rahman-tashkandi-9ab79b231",
-      "linkedinUrl": "https://www.linkedin.com/in/abdul-rahman-tashkandi-9ab79b231"
-    },
-    {
-      "id": "ACoAAD5eGnEBCqPIMiO-0oh-tWAcXSu7udKFkyE",
-      "firstName": "Mehmood ",
-      "lastName": "Shaikh ",
-      "position": "--",
-      "publicIdentifier": "mehmood-shaikh-301509252",
-      "linkedinUrl": "https://www.linkedin.com/in/mehmood-shaikh-301509252"
-    },
-    {
-      "id": "ACoAADwvWAoBjhL1olTVDXg3bCksPHQS2EyWl7k",
-      "firstName": "Md Moniruddin",
-      "lastName": "Ansari",
-      "position": "Alfanar Electric System Saudi Arabia",
-      "publicIdentifier": "md-moniruddin-ansari-94a1a9242",
-      "linkedinUrl": "https://www.linkedin.com/in/md-moniruddin-ansari-94a1a9242"
-    },
-    {
-      "id": "ACoAAF3Wq54BSEZgoTdE9Ye_jdNRz9ZQkNmzqvc",
-      "firstName": "Meshref",
-      "lastName": "Elged",
-      "position": "Al-Rabwa, Riyadh, Saudi Arabia",
-      "publicIdentifier": "meshref-elged-0262b637b",
-      "linkedinUrl": "https://www.linkedin.com/in/meshref-elged-0262b637b"
-    },
-    {
-      "id": "ACoAADpC060BmPtUES80Yp8o2wxqZI43pDr-02I",
-      "firstName": "Saud",
-      "lastName": "Alghuliqah",
-      "position": "Tenants Relations Specialist",
-      "publicIdentifier": "saud-alghuliqah",
-      "linkedinUrl": "https://www.linkedin.com/in/saud-alghuliqah"
-    },
-    {
-      "id": "ACoAAFxFbusBDWr3Sx2YE891MNEVr54oHPY_aC4",
-      "firstName": "Mohammad",
-      "lastName": "Hussain",
-      "position": "Procurement Operations Manager @ Syarah | Business Planning, Operations Management",
-      "publicIdentifier": "mhussainsa",
-      "linkedinUrl": "https://www.linkedin.com/in/mhussainsa"
-    },
-    {
-      "id": "ACoAAB2lEEsBlhufMHyfMDm6mjsR0Iwvv7iCMyE",
-      "firstName": "Abdulmajid",
-      "lastName": "Muneef Almutairi",
-      "position": "Deputy Director General , General Direction Of Infection Prevention and Control, MOH",
-      "publicIdentifier": "abdulmajid-muneef-almutairi-32369211a",
-      "linkedinUrl": "https://www.linkedin.com/in/abdulmajid-muneef-almutairi-32369211a"
-    },
-    {
-      "id": "ACoAAEydwfQBw7BbKMylvg7_U97DKxrtQkJPXVc",
-      "firstName": "Hala",
-      "lastName": "fayyomi",
-      "position": "IT - Multi Media \nGraphic Design",
-      "publicIdentifier": "hala-fayyomi-b045912ba",
-      "linkedinUrl": "https://www.linkedin.com/in/hala-fayyomi-b045912ba"
-    },
-    {
-      "id": "ACoAAFrYSHMB808twbyVKAgA89VJ-QC2ZYQYay8",
-      "firstName": "Faisal",
-      "lastName": "Al Jaian",
-      "position": "Supply Chain Specialist | Warehouse & Inventory Operations | Certified CISCM & CISCP | Project Risk Management",
-      "publicIdentifier": "faisal-al-jaian-097514366",
-      "linkedinUrl": "https://www.linkedin.com/in/faisal-al-jaian-097514366"
-    },
-    {
-      "id": "ACoAAFCdosQBW80zGdqof70BnvDE1sdJ3IvsgNQ",
-      "firstName": "Fawad",
-      "lastName": "Zaman Yousafzai",
-      "position": "Electrical technician at alfanar\nExpertise in testing & commissioning,  experience in RCP  automation Penal \nMV switchgear penal GIS, SMRMU,MCC",
-      "publicIdentifier": "fawad-zaman-yousafzai-544b51318",
-      "linkedinUrl": "https://www.linkedin.com/in/fawad-zaman-yousafzai-544b51318"
+      "interestName": "Schools",
+      "elements": [
+        {
+          "title": "Y Combinator",
+          "subtitle": null,
+          "link": "https://www.linkedin.com/school/167872/",
+          "caption": "1,714,573 followers",
+          "image": {
+            "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGPzdBPNxrmEg/company-logo_400_400/company-logo_400_400/0/1673555093250/y_combinator_logo?e=1783555200&v=beta&t=WPzppaR36ZMDQxj_3Qc1qB92jD9aR6vEZbkM5na3wzA"
+          }
+        },
+        {
+          "title": "Jaypee Institute Of Information Technology",
+          "subtitle": null,
+          "link": "https://www.linkedin.com/school/13672819/",
+          "caption": "22,734 followers",
+          "image": {
+            "url": null
+          }
+        }
+      ]
     }
   ],
   "originalQuery": {
-    "query": "https://www.linkedin.com/in/ankan-maity-8a1664225/"
+    "query": "https://www.linkedin.com/in/adityajamwal02/"
   }
 }]

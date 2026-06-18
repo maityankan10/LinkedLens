@@ -18,11 +18,14 @@ class Analysis(Base):
 
     # Stored AI output fields
     profile_summary: Mapped[str | None] = mapped_column(Text, nullable=True)
-    strengths: Mapped[str | None] = mapped_column(Text, nullable=True)       # JSON string
-    improvements: Mapped[str | None] = mapped_column(Text, nullable=True)    # JSON string
-    content_ideas: Mapped[str | None] = mapped_column(Text, nullable=True)   # JSON string
-    recommended_topics: Mapped[str | None] = mapped_column(Text, nullable=True)  # JSON string
+    strengths: Mapped[str | None] = mapped_column(Text, nullable=True)               # JSON string
+    improvements: Mapped[str | None] = mapped_column(Text, nullable=True)            # JSON string
+    content_ideas: Mapped[str | None] = mapped_column(Text, nullable=True)           # JSON string
+    recommended_topics: Mapped[str | None] = mapped_column(Text, nullable=True)      # JSON string
     profile_score: Mapped[float | None] = mapped_column(Float, nullable=True)
+
+    # Posts pipeline fields
+    posts_summary: Mapped[str | None] = mapped_column(Text, nullable=True)           # Haiku/LLM compressed summary of posts
 
     created_at: Mapped[datetime] = mapped_column(
         DateTime(timezone=True),
