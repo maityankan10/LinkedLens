@@ -1,6 +1,6 @@
 from __future__ import annotations
 from datetime import datetime, timezone
-from sqlalchemy import String, DateTime, Text, Float, ForeignKey
+from sqlalchemy import String, DateTime, Text, Float, ForeignKey, Integer
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 from app.core.database import Base
 
@@ -25,7 +25,14 @@ class Analysis(Base):
     profile_score: Mapped[float | None] = mapped_column(Float, nullable=True)
 
     # Posts pipeline fields
-    posts_summary: Mapped[str | None] = mapped_column(Text, nullable=True)           # Haiku/LLM compressed summary of posts
+    posts_summary: Mapped[str | None] = mapped_column(Text, nullable=True)
+
+    # Display fields cached so cache hits don't need to re-call Apify
+    profile_name: Mapped[str | None] = mapped_column(String(500), nullable=True)
+    profile_headline: Mapped[str | None] = mapped_column(Text, nullable=True)
+    profile_location: Mapped[str | None] = mapped_column(String(500), nullable=True)
+    profile_picture: Mapped[str | None] = mapped_column(Text, nullable=True)
+    follower_count: Mapped[int | None] = mapped_column(Integer, nullable=True)
 
     created_at: Mapped[datetime] = mapped_column(
         DateTime(timezone=True),
