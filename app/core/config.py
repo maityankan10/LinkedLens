@@ -5,12 +5,11 @@ class Settings(BaseSettings):
     app_version: str = "1.0.0"
     database_url: str = ""
     debug: bool = False
-    xai_api_key: str = ""
-    deepseek_api_key: str = ""
-    apify_api_token: str = ""
+    anthropic_api_key: str = ""
     apify_profile_actor: str = "harvestapi/linkedin-profile-scraper"
     apify_posts_actor: str = "harvestapi/linkedin-post-search"
     model_config = SettingsConfigDict(env_file=".env")
+    apify_api_token: str = ""
 
 from functools import lru_cache
 @lru_cache()

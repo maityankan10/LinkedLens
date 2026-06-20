@@ -11,7 +11,7 @@ def _fetch_profile_sync(linkedin_url: str) -> dict | None:
         "urls": [linkedin_url],
         "profileScraperMode": "Profile details no email ($4 per 1k)",
     })
-    items = list(client.dataset(run["defaultDatasetId"]).iterate_items())
+    items = list(client.dataset(run.default_dataset_id).iterate_items())
     if not items:
         return None
 
@@ -28,11 +28,12 @@ def _fetch_posts_sync(linkedin_url: str) -> list:
 
     run = client.actor(settings.apify_posts_actor).call(run_input={
         "authorUrls": [linkedin_url],
+        "maxPosts": 30,
         "scrapeComments": True,
         "commentsPostedLimit": "year",
         "maxComments": 5,
     })
-    return list(client.dataset(run["defaultDatasetId"]).iterate_items())
+    return list(client.dataset(run.default_dataset_id).iterate_items())
 
 
 async def fetch_linkedin_profile(linkedin_url: str) -> dict | None:

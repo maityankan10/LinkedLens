@@ -1,17 +1,17 @@
 import json
 import re
+import anthropic
 from app.schemas.linkedin import LinkedInInsights
-from openai import AsyncOpenAI
 from app.core.config import get_settings
 from app.models.analysis import Analysis
 from app.models.chat_message import ChatMessage
 
 settings = get_settings()
 
-client = AsyncOpenAI(
-    api_key="ollama",
-    base_url="http://localhost:11434/v1"
-)
+client = anthropic.AsyncAnthropic(api_key=settings.anthropic_api_key)
+
+HAIKU = "claude-haiku-4-5-20251001"
+SONNET = "claude-sonnet-4-6"
 
 # ── Helpers ────────────────────────────────────────────────────────────────────
 
@@ -27,10 +27,6 @@ def clean_json(raw: str) -> str:
 # ── Prompt builders ────────────────────────────────────────────────────────────
 
 def build_profile_prompt(trimmed_profile: dict) -> str:
-    """
-    Builds the analysis prompt from a trimmed profile dict
-    (output of profile_parser.trim_profile_for_llm).
-    """
     experience_lines = "\n".join(
         f"- {e.get('title')} at {e.get('company')} ({e.get('duration', '')})"
         for e in trimmed_profile.get("experience", [])
@@ -76,10 +72,6 @@ Skills:
 
 
 def build_summarization_prompt(posts_text: str) -> str:
-    """
-    Prompt for LLM call 1: compress raw posts text into <1000 word summary.
-    Designed for a cheap/fast model (Haiku / llama3.2).
-    """
     return f"""You are analyzing a LinkedIn user's posting activity.
 
 Summarize the following LinkedIn posts and comments in under 1000 words.
@@ -102,10 +94,6 @@ Posts:
 
 
 def build_insights_prompt(trimmed_profile: dict, posts_summary: str) -> str:
-    """
-    Prompt for LLM call 2: generate rich insights using profile + posts summary.
-    Designed for a smarter model (Sonnet / llama3.2 locally).
-    """
     experience_lines = "\n".join(
         f"- {e.get('title')} at {e.get('company')} ({e.get('duration', '')})"
         for e in trimmed_profile.get("experience", [])
@@ -146,16 +134,9 @@ Skills:
 
 
 def build_chat_system_prompt(analysis: Analysis) -> str:
-    """
-    Builds the system prompt for chat, now including posts_summary
-    alongside existing profile insights.
-    """
     posts_section = ""
-
     if analysis.posts_summary:
         posts_section = f"\nContent Activity Summary:\n{analysis.posts_summary}\n"
-     #   print("Hello")
-     #   print(analysis.posts_summary)
 
     return f"""You are a LinkedIn growth coach helping a professional improve their LinkedIn presence and personal brand.
 
@@ -184,19 +165,15 @@ Keep responses concise and to the point."""
 # ── LLM calls ──────────────────────────────────────────────────────────────────
 
 async def analyze_profile(trimmed_profile: dict) -> LinkedInInsights:
-    """
-    Single-stage analysis using profile data only (no posts).
-    Used when posts data is unavailable.
-    """
     prompt = build_profile_prompt(trimmed_profile)
 
-    response = await client.chat.completions.create(
-        model="llama3.2",
+    response = await client.messages.create(
+        model=SONNET,
+        max_tokens=2048,
         messages=[{"role": "user", "content": prompt}],
-        max_tokens=1024,
     )
 
-    raw = response.choices[0].message.content
+    raw = response.content[0].text
     print(f"[analyze_profile] LLM raw response: {raw}")
 
     try:
@@ -210,37 +187,29 @@ async def analyze_profile(trimmed_profile: dict) -> LinkedInInsights:
 
 
 async def summarize_posts(posts_text: str) -> str:
-    """
-    LLM call 1: compress raw posts text into a <1000 word plain text summary.
-    Cheap + fast — designed for Haiku in production, llama3.2 locally.
-    """
     prompt = build_summarization_prompt(posts_text)
 
-    response = await client.chat.completions.create(
-        model="llama3.2",
+    response = await client.messages.create(
+        model=HAIKU,
+        max_tokens=1200,
         messages=[{"role": "user", "content": prompt}],
-        max_tokens=1200,  # slightly over 1000 words to avoid cutoff
     )
 
-    summary = response.choices[0].message.content.strip()
+    summary = response.content[0].text.strip()
     print(f"[summarize_posts] Summary length: {len(summary)} chars")
     return summary
 
 
 async def generate_insights(trimmed_profile: dict, posts_summary: str) -> LinkedInInsights:
-    """
-    LLM call 2: generate rich insights using profile + posts summary.
-    Smart model — designed for Sonnet in production, llama3.2 locally.
-    """
     prompt = build_insights_prompt(trimmed_profile, posts_summary)
 
-    response = await client.chat.completions.create(
-        model="llama3.2",
+    response = await client.messages.create(
+        model=SONNET,
+        max_tokens=2048,
         messages=[{"role": "user", "content": prompt}],
-        max_tokens=1024,
     )
 
-    raw = response.choices[0].message.content
+    raw = response.content[0].text
     print(f"[generate_insights] LLM raw response: {raw}")
 
     try:
@@ -256,21 +225,17 @@ async def generate_insights(trimmed_profile: dict, posts_summary: str) -> Linked
 async def chat_with_ai(analysis: Analysis, history: list[ChatMessage], message: str) -> str:
     system_prompt = build_chat_system_prompt(analysis)
 
-    messages = [{"role": "system", "content": system_prompt}]
-
-    for msg in history:
-        messages.append({"role": msg.role, "content": msg.content})
-
+    messages = [
+        {"role": msg.role, "content": msg.content}
+        for msg in history
+    ]
     messages.append({"role": "user", "content": message})
 
-    # print(f"[chat_with_ai] Sending {len(messages)} messages to LLM")
-    # for m in messages:
-    #     print(f"  [{m['role']}]: {m['content'][:80]}...")
-
-    response = await client.chat.completions.create(
-        model="llama3.2",
-        messages=messages,
+    response = await client.messages.create(
+        model=SONNET,
         max_tokens=1024,
+        system=system_prompt,
+        messages=messages,
     )
 
-    return response.choices[0].message.content.strip() 
+    return response.content[0].text.strip()
