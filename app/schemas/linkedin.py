@@ -27,3 +27,8 @@ class ChatRequest(BaseModel):
 
 class ChatResponse(BaseModel):
     reply: str
+
+class FeedbackRequest(BaseModel):
+    session_id: str
+    helpful: bool
+    comment: Optional[str] = None

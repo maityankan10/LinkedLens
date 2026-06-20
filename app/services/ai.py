@@ -38,19 +38,20 @@ def build_profile_prompt(trimmed_profile: dict) -> str:
     skills = ", ".join(trimmed_profile.get("skills", [])[:20])
 
     return f"""
-You are a LinkedIn profile analyst and content strategist.
+You are a LinkedIn growth coach speaking directly to the person whose profile is below.
+Write all output in second person — use "you" and "your" throughout. Never refer to them as "this person", "they", or "the user".
 
-Analyze the following LinkedIn profile and return a JSON object with these exact keys:
-- profile_summary: a 2-3 sentence summary of who this person is professionally
-- strengths: list of 3-5 strengths based on their profile
-- areas_for_improvement: list of 3-5 specific actionable improvements for their LinkedIn profile
-- content_ideas: list of 5 specific post ideas tailored to their background
-- recommended_topics: list of 5 topics they should consistently post about to build authority
-- profile_score: integer from 0 to 100 rating their LinkedIn profile completeness and strength
+Analyze the profile and return a JSON object with these exact keys:
+- profile_summary: a 2-3 sentence summary of who you are professionally (start with "You are...")
+- strengths: list of 3-5 strengths written as "Your strength in X..." or "You have a strong..."
+- areas_for_improvement: list of 3-5 specific actionable improvements addressed directly to the person (e.g. "Add a featured section to showcase...")
+- content_ideas: list of 5 specific post ideas written as suggestions to the person (e.g. "Share your experience with...")
+- recommended_topics: list of 5 topics you should consistently post about to build your authority
+- profile_score: integer from 0 to 100 rating your LinkedIn profile completeness and strength
 
 Return ONLY valid JSON. No explanation, no markdown, no backticks.
 
-Profile:
+Your Profile:
 Name: {trimmed_profile.get('name')}
 Headline: {trimmed_profile.get('headline')}
 About: {trimmed_profile.get('about')}
@@ -60,21 +61,21 @@ Is Creator: {trimmed_profile.get('is_creator')}
 Open to Work: {trimmed_profile.get('open_to_work')}
 Top Skills: {trimmed_profile.get('top_skills')}
 
-Experience:
+Your Experience:
 {experience_lines}
 
-Education:
+Your Education:
 {education_lines}
 
-Skills:
+Your Skills:
 {skills}
 """
 
 
 def build_summarization_prompt(posts_text: str) -> str:
-    return f"""You are analyzing a LinkedIn user's posting activity.
+    return f"""You are summarizing a LinkedIn user's own posting activity to be used as context for a personalized coaching session with them.
 
-Summarize the following LinkedIn posts and comments in under 1000 words.
+Summarize the following posts and comments in under 1000 words, written as notes about the person's content behavior — not addressed to them directly.
 
 Cover these points:
 - Main topics and themes they post about
@@ -82,7 +83,7 @@ Cover these points:
 - Posting frequency patterns (if dates are available)
 - Types of content formats used (text only, images, job postings, opinions, etc.)
 - Engagement patterns (which posts get more likes/comments)
-- How the author interacts with commenters (do they reply? how often?)
+- How they interact with commenters (do they reply? how often?)
 - Emotional tone of audience reactions (LIKE, EMPATHY, PRAISE, etc.)
 
 Be concise and factual. Do not invent information not present in the posts.
@@ -100,20 +101,20 @@ def build_insights_prompt(trimmed_profile: dict, posts_summary: str) -> str:
     )
     skills = ", ".join(trimmed_profile.get("skills", [])[:20])
 
-    return f"""You are a LinkedIn growth coach and content strategist.
+    return f"""You are a LinkedIn growth coach speaking directly to the person whose profile and content activity are described below.
+Write all output in second person — use "you" and "your" throughout. Never refer to them as "this person", "they", or "the user".
 
-Using both the profile information and the content activity summary below,
-return a JSON object with these exact keys:
-- profile_summary: a 2-3 sentence summary of who this person is professionally
-- strengths: list of 3-5 strengths based on their profile AND content activity
-- areas_for_improvement: list of 3-5 specific actionable improvements (profile + content strategy)
-- content_ideas: list of 5 specific post ideas tailored to their background and existing style
-- recommended_topics: list of 5 topics they should consistently post about to build authority
-- profile_score: integer from 0 to 100 rating their overall LinkedIn presence
+Using both the profile and content activity summary, return a JSON object with these exact keys:
+- profile_summary: a 2-3 sentence summary of who you are professionally (start with "You are...")
+- strengths: list of 3-5 strengths written as "Your strength in X..." or "You consistently..."
+- areas_for_improvement: list of 3-5 specific actionable improvements addressed directly to the person (e.g. "Start engaging more in the comments by...")
+- content_ideas: list of 5 post ideas written as direct suggestions (e.g. "Write a post about your experience with...")
+- recommended_topics: list of 5 topics you should consistently post about to grow your authority
+- profile_score: integer from 0 to 100 rating your overall LinkedIn presence
 
 Return ONLY valid JSON. No explanation, no markdown, no backticks.
 
---- PROFILE ---
+--- YOUR PROFILE ---
 Name: {trimmed_profile.get('name')}
 Headline: {trimmed_profile.get('headline')}
 About: {trimmed_profile.get('about')}
@@ -122,25 +123,34 @@ Followers: {trimmed_profile.get('follower_count')}
 Is Creator: {trimmed_profile.get('is_creator')}
 Top Skills: {trimmed_profile.get('top_skills')}
 
-Experience:
+Your Experience:
 {experience_lines}
 
-Skills:
+Your Skills:
 {skills}
 
---- CONTENT ACTIVITY SUMMARY ---
+--- YOUR CONTENT ACTIVITY ---
 {posts_summary}
 """
 
 
-def build_chat_system_prompt(analysis: Analysis) -> str:
+def build_chat_system_prompt(analysis: Analysis, history: list[ChatMessage]) -> str:
     posts_section = ""
     if analysis.posts_summary:
         posts_section = f"\nContent Activity Summary:\n{analysis.posts_summary}\n"
 
-    return f"""You are a LinkedIn growth coach helping a professional improve their LinkedIn presence and personal brand.
+    history_section = ""
+    if history:
+        lines = "\n".join(
+            f"{'You' if msg.role == 'user' else 'Coach'}: {msg.content}"
+            for msg in history
+        )
+        history_section = f"\n--- PREVIOUS CONVERSATION (for context only) ---\n{lines}\n--- END OF HISTORY ---\n"
 
-You have already analyzed their LinkedIn profile and content activity. Here is the analysis:
+    return f"""You are a LinkedIn growth coach having a direct conversation with the person you've already analyzed.
+Always speak to them in second person — say "you" and "your", never "they" or "the user". Be warm, direct, and encouraging.
+
+Here is what you already know about them:
 
 Profile Summary: {analysis.profile_summary}
 
@@ -157,9 +167,8 @@ Recommended Topics:
 {chr(10).join(f"- {s}" for s in json.loads(analysis.recommended_topics or "[]"))}
 
 Profile Score: {analysis.profile_score}/100
-{posts_section}
-Answer the user's questions based on this profile context. Be specific, actionable, and encouraging.
-Keep responses concise and to the point."""
+{posts_section}{history_section}
+Respond ONLY to the user's latest message below. Use the previous conversation as context to avoid repeating yourself, but do not address or summarise earlier messages."""
 
 
 # ── LLM calls ──────────────────────────────────────────────────────────────────
@@ -223,19 +232,13 @@ async def generate_insights(trimmed_profile: dict, posts_summary: str) -> Linked
 
 
 async def chat_with_ai(analysis: Analysis, history: list[ChatMessage], message: str) -> str:
-    system_prompt = build_chat_system_prompt(analysis)
-
-    messages = [
-        {"role": msg.role, "content": msg.content}
-        for msg in history
-    ]
-    messages.append({"role": "user", "content": message})
+    system_prompt = build_chat_system_prompt(analysis, history)
 
     response = await client.messages.create(
         model=SONNET,
         max_tokens=1024,
         system=system_prompt,
-        messages=messages,
+        messages=[{"role": "user", "content": message}],
     )
 
     return response.content[0].text.strip()
