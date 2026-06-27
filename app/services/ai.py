@@ -38,20 +38,19 @@ def build_profile_prompt(trimmed_profile: dict) -> str:
     skills = ", ".join(trimmed_profile.get("skills", [])[:20])
 
     return f"""
-You are a LinkedIn growth coach speaking directly to the person whose profile is below.
-Write all output in second person — use "you" and "your" throughout. Never refer to them as "this person", "they", or "the user".
+You are a LinkedIn profile analyst.
 
-Analyze the profile and return a JSON object with these exact keys:
-- profile_summary: a 2-3 sentence summary of who you are professionally (start with "You are...")
-- strengths: list of 3-5 strengths written as "Your strength in X..." or "You have a strong..."
-- areas_for_improvement: list of 3-5 specific actionable improvements addressed directly to the person (e.g. "Add a featured section to showcase...")
-- content_ideas: list of 5 specific post ideas written as suggestions to the person (e.g. "Share your experience with...")
-- recommended_topics: list of 5 topics you should consistently post about to build your authority
-- profile_score: integer from 0 to 100 rating your LinkedIn profile completeness and strength
+Analyze the profile below and return a JSON object with these exact keys:
+- profile_summary: a 2-3 sentence overview combining who this person is professionally and where they currently stand in their LinkedIn journey (career stage, presence strength, notable highlights)
+- strengths: list of 3-5 concise strengths observed from the profile (e.g. "Strong technical background across multiple domains")
+- areas_for_improvement: list of 3-5 specific actionable improvements for the profile (e.g. "Add a featured section to showcase key projects")
+- content_ideas: list of 5 specific post ideas tailored to this person's background (e.g. "Share lessons learned from transitioning into product management")
+- recommended_topics: list of 5 topics to consistently post about to build authority
+- profile_score: integer from 0 to 100 rating the LinkedIn profile completeness and strength
 
 Return ONLY valid JSON. No explanation, no markdown, no backticks.
 
-Your Profile:
+Profile:
 Name: {trimmed_profile.get('name')}
 Headline: {trimmed_profile.get('headline')}
 About: {trimmed_profile.get('about')}
@@ -61,13 +60,13 @@ Is Creator: {trimmed_profile.get('is_creator')}
 Open to Work: {trimmed_profile.get('open_to_work')}
 Top Skills: {trimmed_profile.get('top_skills')}
 
-Your Experience:
+Experience:
 {experience_lines}
 
-Your Education:
+Education:
 {education_lines}
 
-Your Skills:
+Skills:
 {skills}
 """
 
@@ -101,20 +100,19 @@ def build_insights_prompt(trimmed_profile: dict, posts_summary: str) -> str:
     )
     skills = ", ".join(trimmed_profile.get("skills", [])[:20])
 
-    return f"""You are a LinkedIn growth coach speaking directly to the person whose profile and content activity are described below.
-Write all output in second person — use "you" and "your" throughout. Never refer to them as "this person", "they", or "the user".
+    return f"""You are a LinkedIn growth analyst.
 
-Using both the profile and content activity summary, return a JSON object with these exact keys:
-- profile_summary: a 2-3 sentence summary of who you are professionally (start with "You are...")
-- strengths: list of 3-5 strengths written as "Your strength in X..." or "You consistently..."
-- areas_for_improvement: list of 3-5 specific actionable improvements addressed directly to the person (e.g. "Start engaging more in the comments by...")
-- content_ideas: list of 5 post ideas written as direct suggestions (e.g. "Write a post about your experience with...")
-- recommended_topics: list of 5 topics you should consistently post about to grow your authority
-- profile_score: integer from 0 to 100 rating your overall LinkedIn presence
+Using both the profile and content activity summary below, return a JSON object with these exact keys:
+- profile_summary: a 2-3 sentence overview combining who this person is professionally and where they currently stand — covering their career background, LinkedIn presence strength, and content activity highlights
+- strengths: list of 3-5 concise strengths observed from the profile and content (e.g. "Consistent posting cadence with strong engagement on technical topics")
+- areas_for_improvement: list of 3-5 specific actionable improvements across both profile and content strategy (e.g. "Increase comment engagement to build visibility beyond direct followers")
+- content_ideas: list of 5 specific post ideas tailored to this person's background and existing style (e.g. "Share a behind-the-scenes look at a recent project milestone")
+- recommended_topics: list of 5 topics to consistently post about to grow authority
+- profile_score: integer from 0 to 100 rating the overall LinkedIn presence
 
 Return ONLY valid JSON. No explanation, no markdown, no backticks.
 
---- YOUR PROFILE ---
+--- PROFILE ---
 Name: {trimmed_profile.get('name')}
 Headline: {trimmed_profile.get('headline')}
 About: {trimmed_profile.get('about')}
@@ -123,13 +121,13 @@ Followers: {trimmed_profile.get('follower_count')}
 Is Creator: {trimmed_profile.get('is_creator')}
 Top Skills: {trimmed_profile.get('top_skills')}
 
-Your Experience:
+Experience:
 {experience_lines}
 
-Your Skills:
+Skills:
 {skills}
 
---- YOUR CONTENT ACTIVITY ---
+--- CONTENT ACTIVITY ---
 {posts_summary}
 """
 

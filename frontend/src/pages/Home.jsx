@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { analyzeProfile } from "../services/api";
 
@@ -37,6 +37,23 @@ function Home() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
   const navigate = useNavigate();
+
+  useEffect(() => {
+    try {
+      const raw = localStorage.getItem(STORAGE_KEY);
+      if (!raw) return;
+      const session = JSON.parse(raw);
+      if (Date.now() - session.timestamp > SEVEN_DAYS_MS) {
+        localStorage.removeItem(STORAGE_KEY);
+        return;
+      }
+      navigate(`/dashboard/${session.session_id}`, {
+        state: session.profile ? { profile: session.profile } : {},
+      });
+    } catch {
+      // ignore malformed storage
+    }
+  }, []);
 
   const handleSubmit = async (e) => {
     e.preventDefault();

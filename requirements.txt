@@ -1,0 +1,14 @@
+aiomysql==0.3.2
+alembic==1.18.4
+anthropic==0.109.1
+apify_client==3.0.3
+fastapi==0.136.3
+httpx==0.28.1
+pydantic==2.13.4
+pydantic-settings==2.14.1
+PyMySQL==1.2.0
+python-dotenv==1.2.2
+slowapi==0.1.10
+SQLAlchemy==2.0.50
+uvicorn==0.49.0
+email-validator==2.3.0

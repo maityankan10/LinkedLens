@@ -2,13 +2,7 @@ import { useState, useRef, useEffect } from "react";
 import ReactMarkdown from "react-markdown";
 import { sendChatMessage } from "../services/api";
 
-function ChatWindow({ sessionId, onClose }) {
-  const [messages, setMessages] = useState([
-    {
-      role: "assistant",
-      text: "Hi! I've analyzed this LinkedIn profile. Ask me anything — strengths, gaps, how to improve it, or job fit questions.",
-    },
-  ]);
+function ChatWindow({ sessionId, onClose, messages, setMessages }) {
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
   const bottomRef = useRef(null);

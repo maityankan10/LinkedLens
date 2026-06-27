@@ -18,6 +18,10 @@ function updateStoredProfile(profile) {
   } catch {}
 }
 
+function clearSession() {
+  localStorage.removeItem(STORAGE_KEY);
+}
+
 function Dashboard() {
   const { sessionId } = useParams();
   const { state } = useLocation();
@@ -26,6 +30,12 @@ function Dashboard() {
   const [profile, setProfile] = useState(state?.profile ?? null);
   const [analysisError, setAnalysisError] = useState(false);
   const [chatOpen, setChatOpen] = useState(false);
+  const [chatMessages, setChatMessages] = useState([
+    {
+      role: "assistant",
+      text: "Hi! I've analyzed this LinkedIn profile. Ask me anything — strengths, gaps, how to improve it, or job fit questions.",
+    },
+  ]);
   const pollRef = useRef(null);
 
   useEffect(() => {
@@ -57,12 +67,12 @@ function Dashboard() {
         <header className="db-header">
           <div className="db-header-inner">
             <span className="db-logo">LinkedLens</span>
-            <button className="db-back-btn" onClick={() => navigate("/")}>← New Analysis</button>
+            <button className="db-back-btn" onClick={() => { clearSession(); navigate("/"); }}>← New Analysis</button>
           </div>
         </header>
         <div className="db-error">
           <p>Analysis failed. Please try again.</p>
-          <button className="home-button" onClick={() => navigate("/")}>Go Back</button>
+          <button className="home-button" onClick={() => { clearSession(); navigate("/"); }}>Go Back</button>
         </div>
       </div>
     );
@@ -74,7 +84,7 @@ function Dashboard() {
         <header className="db-header">
           <div className="db-header-inner">
             <span className="db-logo">LinkedLens</span>
-            <button className="db-back-btn" onClick={() => navigate("/")}>← Cancel</button>
+            <button className="db-back-btn" onClick={() => { clearSession(); navigate("/"); }}>← Cancel</button>
           </div>
         </header>
         <div className="db-loading">
@@ -91,7 +101,7 @@ function Dashboard() {
       <header className="db-header">
         <div className="db-header-inner">
           <span className="db-logo">LinkedLens</span>
-          <button className="db-back-btn" onClick={() => navigate("/")}>
+          <button className="db-back-btn" onClick={() => { clearSession(); navigate("/"); }}>
             ← New Analysis
           </button>
         </div>
@@ -106,7 +116,12 @@ function Dashboard() {
 
         {chatOpen && (
           <div className="db-chat-panel">
-            <ChatWindow sessionId={sessionId} onClose={() => setChatOpen(false)} />
+            <ChatWindow
+              sessionId={sessionId}
+              onClose={() => setChatOpen(false)}
+              messages={chatMessages}
+              setMessages={setChatMessages}
+            />
           </div>
         )}
       </div>
