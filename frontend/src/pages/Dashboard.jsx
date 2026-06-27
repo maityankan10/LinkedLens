@@ -5,8 +5,8 @@ import InsightsPanel from "../components/InsightsPanel";
 import ChatWindow from "../components/ChatWindow";
 import FeedbackWidget from "../components/FeedbackWidget";
 import { getAnalysisStatus } from "../services/api";
+import { STORAGE_KEY, clearSession } from "../utils/session";
 
-const STORAGE_KEY = "linkedlens_session";
 const POLL_INTERVAL_MS = 3000;
 
 function updateStoredProfile(profile) {
@@ -16,10 +16,6 @@ function updateStoredProfile(profile) {
     const session = JSON.parse(raw);
     localStorage.setItem(STORAGE_KEY, JSON.stringify({ ...session, profile }));
   } catch {}
-}
-
-function clearSession() {
-  localStorage.removeItem(STORAGE_KEY);
 }
 
 function Dashboard() {

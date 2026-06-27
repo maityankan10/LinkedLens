@@ -1,35 +1,10 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { analyzeProfile } from "../services/api";
-
-const STORAGE_KEY = "linkedlens_session";
-const SEVEN_DAYS_MS = 7 * 24 * 60 * 60 * 1000;
+import { STORAGE_KEY, SEVEN_DAYS_MS, getStoredSession, storeSession } from "../utils/session";
 
 function normalize(url) {
   return url.trim().replace(/\/$/, "");
-}
-
-function getStoredSession(url) {
-  try {
-    const raw = localStorage.getItem(STORAGE_KEY);
-    if (!raw) return null;
-    const session = JSON.parse(raw);
-    if (session.linkedin_url !== url) return null;
-    if (Date.now() - session.timestamp > SEVEN_DAYS_MS) {
-      localStorage.removeItem(STORAGE_KEY);
-      return null;
-    }
-    return session;
-  } catch {
-    return null;
-  }
-}
-
-export function storeSession(url, sessionId, profile = null) {
-  localStorage.setItem(
-    STORAGE_KEY,
-    JSON.stringify({ linkedin_url: url, session_id: sessionId, timestamp: Date.now(), profile })
-  );
 }
 
 function Home() {
@@ -67,7 +42,6 @@ function Home() {
     const cleanUrl = normalize(url);
     const stored = getStoredSession(cleanUrl);
 
-    // Existing session — navigate with whatever we have (profile may be null if was pending)
     if (stored) {
       navigate(`/dashboard/${stored.session_id}`, {
         state: stored.profile ? { profile: stored.profile } : {},
@@ -78,7 +52,6 @@ function Home() {
     setLoading(true);
     try {
       const data = await analyzeProfile(cleanUrl);
-      // Save session_id immediately; profile is null if still pending
       storeSession(cleanUrl, data.session_id, data.status === "ready" ? data : null);
       navigate(`/dashboard/${data.session_id}`, {
         state: data.status === "ready" ? { profile: data } : {},
