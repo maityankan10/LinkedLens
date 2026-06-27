@@ -28,7 +28,7 @@ function Home() {
     } catch (_e) {
       // ignore malformed storage
     }
-  }, []);
+  }, [navigate]);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
