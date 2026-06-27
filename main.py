@@ -18,7 +18,7 @@ app.add_middleware(SlowAPIMiddleware)
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["*"],  # tighten to your Vercel URL after testing
     allow_methods=["*"],
     allow_headers=["*"],
 )
