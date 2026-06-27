@@ -29,9 +29,6 @@ def _fetch_posts_sync(linkedin_url: str) -> list:
     run = client.actor(settings.apify_posts_actor).call(run_input={
         "authorUrls": [linkedin_url],
         "maxPosts": 30,
-        "scrapeComments": True,
-        "commentsPostedLimit": "year",
-        "maxComments": 5,
     })
     return list(client.dataset(run.default_dataset_id).iterate_items())
 

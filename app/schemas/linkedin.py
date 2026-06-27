@@ -14,12 +14,13 @@ class LinkedInInsights(BaseModel):
 
 class LinkedInAnalyzeResponse(BaseModel):
     session_id: str
-    name: str
-    headline: str
-    location: Optional[str]
-    profile_picture: Optional[str]
-    follower_count: int
-    insights: LinkedInInsights
+    status: str = "ready"          # "pending" | "ready" | "error"
+    name: Optional[str] = None
+    headline: Optional[str] = None
+    location: Optional[str] = None
+    profile_picture: Optional[str] = None
+    follower_count: Optional[int] = None
+    insights: Optional[LinkedInInsights] = None
 
 class ChatRequest(BaseModel):
     session_id: str

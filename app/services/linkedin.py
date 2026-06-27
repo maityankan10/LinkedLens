@@ -1,7 +1,7 @@
 import json
 import uuid
 from sqlalchemy.ext.asyncio import AsyncSession
-from sqlalchemy import select
+from sqlalchemy import select, update
 
 from app.schemas.linkedin import LinkedInAnalyzeResponse, LinkedInInsights
 from app.services.ai import analyze_profile, summarize_posts, generate_insights, chat_with_ai
@@ -11,6 +11,7 @@ from app.services.apify import fetch_linkedin_profile, fetch_linkedin_posts
 from app.models.session import Session
 from app.models.analysis import Analysis
 from app.models.chat_message import ChatMessage
+from app.core.database import AsyncSessionLocal
 
 
 # ── Cache builder ──────────────────────────────────────────────────────────────
@@ -27,6 +28,7 @@ def _build_response_from_cache(session_id: str, analysis: Analysis) -> LinkedInA
 
     return LinkedInAnalyzeResponse(
         session_id=session_id,
+        status="ready",
         name=analysis.profile_name or "",
         headline=analysis.profile_headline or "",
         location=analysis.profile_location,
@@ -36,16 +38,84 @@ def _build_response_from_cache(session_id: str, analysis: Analysis) -> LinkedInA
     )
 
 
+# ── Background analysis task ───────────────────────────────────────────────────
+
+async def run_analysis_background(session_id: str, url: str):
+    print(f"[background] Starting analysis for session {session_id}")
+    try:
+        import asyncio
+        profile, raw_posts = await asyncio.gather(
+            fetch_linkedin_profile(url),
+            fetch_linkedin_posts(url),
+        )
+
+        if not profile:
+            raise ValueError(f"No profile found for {url}")
+
+        trimmed_profile = trim_profile_for_llm(profile)
+        display = extract_display_info(profile)
+
+        posts_summary = None
+        posts_text = get_posts_for_profile(url, raw_posts)
+        if posts_text and posts_text != "No posts available.":
+            print(f"[background] Summarizing posts for {session_id}")
+            posts_summary = await summarize_posts(posts_text)
+
+        if posts_summary:
+            print(f"[background] Running two-stage pipeline for {session_id}")
+            insights = await generate_insights(trimmed_profile, posts_summary)
+        else:
+            print(f"[background] Running profile-only analysis for {session_id}")
+            insights = await analyze_profile(trimmed_profile)
+
+        async with AsyncSessionLocal() as db:
+            analysis = Analysis(
+                id=str(uuid.uuid4()),
+                session_id=session_id,
+                linkedin_url=url,
+                profile_summary=insights.profile_summary,
+                strengths=json.dumps(insights.strengths),
+                improvements=json.dumps(insights.areas_for_improvement),
+                content_ideas=json.dumps(insights.content_ideas),
+                recommended_topics=json.dumps(insights.recommended_topics),
+                profile_score=insights.profile_score,
+                posts_summary=posts_summary,
+                profile_name=display["name"],
+                profile_headline=display["headline"],
+                profile_location=display["location"],
+                profile_picture=display["profile_picture"],
+                follower_count=display["follower_count"],
+            )
+            db.add(analysis)
+            await db.execute(
+                update(Session).where(Session.id == session_id).values(status="ready")
+            )
+            await db.commit()
+            print(f"[background] Analysis complete for session {session_id}")
+
+    except Exception as e:
+        print(f"[background error] session {session_id}: {e}")
+        try:
+            async with AsyncSessionLocal() as db:
+                await db.execute(
+                    update(Session).where(Session.id == session_id).values(status="error")
+                )
+                await db.commit()
+        except Exception as db_err:
+            print(f"[background error] failed to update status: {db_err}")
+
+
 # ── Main service functions ─────────────────────────────────────────────────────
 
-async def get_profile_insights(linkedin_url: str, db: AsyncSession) -> LinkedInAnalyzeResponse | None:
+async def create_analysis_session(linkedin_url: str, db: AsyncSession) -> LinkedInAnalyzeResponse:
     url = linkedin_url.rstrip("/")
 
-    # 1. Check cache — return immediately if analysis already exists
+    # 1. Return cached ready session if exists
     result = await db.execute(
         select(Session, Analysis)
         .join(Analysis, Analysis.session_id == Session.id)
         .where(Session.linkedin_url == url)
+        .where(Session.status == "ready")
     )
     existing = result.first()
     if existing:
@@ -53,82 +123,46 @@ async def get_profile_insights(linkedin_url: str, db: AsyncSession) -> LinkedInA
         print(f"[cache hit] Returning cached analysis for {url}")
         return _build_response_from_cache(session.id, analysis)
 
-    # 2. Fetch profile + posts from Apify concurrently
-    import asyncio
-    print(f"[apify] Fetching profile and posts for {url}")
-    profile, raw_posts = await asyncio.gather(
-        fetch_linkedin_profile(url),
-        fetch_linkedin_posts(url),
+    # 2. Return existing pending session if already in progress
+    pending = await db.execute(
+        select(Session)
+        .where(Session.linkedin_url == url)
+        .where(Session.status == "pending")
     )
+    pending_session = pending.scalar_one_or_none()
+    if pending_session:
+        print(f"[pending] Analysis already in progress for {url}")
+        return LinkedInAnalyzeResponse(session_id=pending_session.id, status="pending")
 
-    if not profile:
-        print(f"[not found] Apify returned no profile for {url}")
+    # 3. Create new session immediately and return
+    session_id = str(uuid.uuid4())
+    session = Session(id=session_id, linkedin_url=url, status="pending")
+    db.add(session)
+    await db.commit()
+    print(f"[new session] Created session {session_id} for {url}")
+
+    return LinkedInAnalyzeResponse(session_id=session_id, status="pending")
+
+
+async def get_session_status(session_id: str, db: AsyncSession) -> LinkedInAnalyzeResponse | None:
+    result = await db.execute(
+        select(Session, Analysis)
+        .outerjoin(Analysis, Analysis.session_id == Session.id)
+        .where(Session.id == session_id)
+    )
+    row = result.first()
+    if not row:
         return None
 
-    # 3. Trim profile for LLM and extract display fields
-    trimmed_profile = trim_profile_for_llm(profile)
-    display = extract_display_info(profile)
+    session, analysis = row
 
-    # 4. Posts pipeline
-    posts_summary = None
-    posts_text = get_posts_for_profile(url, raw_posts)
-    print("IMPORTANT: Raw posts text to be fed into LLM (after trimming):")
-    print(posts_text)
+    if session.status == "ready" and analysis:
+        return _build_response_from_cache(session_id, analysis)
 
-    if posts_text and posts_text != "No posts available.":
-        print(f"[posts] Found posts for {url}, running summarization...")
-        posts_summary = await summarize_posts(posts_text)
-        print(f"[posts] Summary generated ({len(posts_summary)} chars)")
-    else:
-        print(f"[posts] No posts found for {url}, skipping summarization")
-
-    # 5. Generate insights
-    if posts_summary:
-        print(f"[insights] Running two-stage pipeline (profile + posts)")
-        insights = await generate_insights(trimmed_profile, posts_summary)
-    else:
-        print(f"[insights] Running profile-only analysis (no posts data)")
-        insights = await analyze_profile(trimmed_profile)
-
-    # 6. Persist session
-    session = Session(id=str(uuid.uuid4()), linkedin_url=url)
-    db.add(session)
-    await db.flush()
-
-    # 7. Persist analysis (including display fields for future cache hits)
-    analysis = Analysis(
-        id=str(uuid.uuid4()),
-        session_id=session.id,
-        linkedin_url=url,
-        profile_summary=insights.profile_summary,
-        strengths=json.dumps(insights.strengths),
-        improvements=json.dumps(insights.areas_for_improvement),
-        content_ideas=json.dumps(insights.content_ideas),
-        recommended_topics=json.dumps(insights.recommended_topics),
-        profile_score=insights.profile_score,
-        posts_summary=posts_summary,
-        profile_name=display["name"],
-        profile_headline=display["headline"],
-        profile_location=display["location"],
-        profile_picture=display["profile_picture"],
-        follower_count=display["follower_count"],
-    )
-    db.add(analysis)
-    await db.commit()
-
-    return LinkedInAnalyzeResponse(
-        session_id=session.id,
-        name=display["name"],
-        headline=display["headline"],
-        location=display["location"],
-        profile_picture=display["profile_picture"],
-        follower_count=display["follower_count"],
-        insights=insights,
-    )
+    return LinkedInAnalyzeResponse(session_id=session_id, status=session.status)
 
 
 async def chat_with_profile(session_id: str, message: str, db: AsyncSession) -> str | None:
-    # 1. Load session + analysis
     result = await db.execute(
         select(Session, Analysis)
         .join(Analysis, Analysis.session_id == Session.id)
@@ -140,7 +174,6 @@ async def chat_with_profile(session_id: str, message: str, db: AsyncSession) -> 
 
     session, analysis = existing
 
-    # 2. Fetch last 5 messages for context
     messages_result = await db.execute(
         select(ChatMessage)
         .where(ChatMessage.session_id == session_id)
@@ -149,20 +182,16 @@ async def chat_with_profile(session_id: str, message: str, db: AsyncSession) -> 
     )
     last_5 = messages_result.scalars().all()[::-1]
 
-    # 3. Save user message
     user_msg = ChatMessage(
         id=str(uuid.uuid4()),
         session_id=session_id,
         role="user",
         content=message,
     )
-    print(f"[chat] Saving user message: '{message}'")
     db.add(user_msg)
 
-    # 4. Get AI reply
     reply = await chat_with_ai(analysis, last_5, message)
 
-    # 5. Save assistant message
     assistant_msg = ChatMessage(
         id=str(uuid.uuid4()),
         session_id=session_id,

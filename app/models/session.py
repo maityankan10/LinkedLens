@@ -14,6 +14,7 @@ class Session(Base):
         String(36), primary_key=True, default=lambda: str(uuid.uuid4())
     )
     linkedin_url: Mapped[str] = mapped_column(String(500), index=True)
+    status: Mapped[str] = mapped_column(String(20), default="pending")
 
     created_at: Mapped[datetime] = mapped_column(
         DateTime(timezone=True),
