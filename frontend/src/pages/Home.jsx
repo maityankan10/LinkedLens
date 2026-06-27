@@ -25,7 +25,7 @@ function Home() {
       navigate(`/dashboard/${session.session_id}`, {
         state: session.profile ? { profile: session.profile } : {},
       });
-    } catch {
+    } catch (_e) {
       // ignore malformed storage
     }
   }, []);

@@ -26,7 +26,7 @@ function ChatWindow({ sessionId, onClose, messages, setMessages }) {
         ...prev,
         { role: "assistant", text: data.reply ?? data.response ?? data.message ?? JSON.stringify(data) },
       ]);
-    } catch {
+    } catch (_e) {
       setMessages((prev) => [
         ...prev,
         { role: "assistant", text: "Sorry, something went wrong. Please try again." },

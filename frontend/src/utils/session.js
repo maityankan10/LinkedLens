@@ -12,7 +12,7 @@ export function getStoredSession(url) {
       return null;
     }
     return session;
-  } catch {
+  } catch (_e) {
     return null;
   }
 }

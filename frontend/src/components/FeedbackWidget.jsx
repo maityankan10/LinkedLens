@@ -18,7 +18,7 @@ function FeedbackWidget({ sessionId }) {
     try {
       await submitFeedback(sessionId, vote === "up", text.trim() || null);
       setSubmitted(true);
-    } catch {
+    } catch (_e) {
       // still mark submitted so UI doesn't get stuck
       setSubmitted(true);
     } finally {

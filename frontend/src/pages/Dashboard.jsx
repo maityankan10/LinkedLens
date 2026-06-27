@@ -15,7 +15,7 @@ function updateStoredProfile(profile) {
     if (!raw) return;
     const session = JSON.parse(raw);
     localStorage.setItem(STORAGE_KEY, JSON.stringify({ ...session, profile }));
-  } catch {}
+  } catch { /* ignore */ }
 }
 
 function Dashboard() {
@@ -49,7 +49,7 @@ function Dashboard() {
           clearInterval(pollRef.current);
           setAnalysisError(true);
         }
-      } catch {
+      } catch (_e) {
         // network hiccup — keep polling
       }
     }, POLL_INTERVAL_MS);
