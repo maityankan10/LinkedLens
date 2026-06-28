@@ -25,7 +25,7 @@ function Dashboard() {
 
   const [profile, setProfile] = useState(state?.profile ?? null);
   const [analysisError, setAnalysisError] = useState(false);
-  const [chatOpen, setChatOpen] = useState(false);
+  const [chatOpen, setChatOpen] = useState(true);
   const [chatMessages, setChatMessages] = useState([
     {
       role: "assistant",
