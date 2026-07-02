@@ -29,7 +29,7 @@ function Dashboard() {
   const [chatMessages, setChatMessages] = useState([
     {
       role: "assistant",
-      text: "Hi! I've analyzed this LinkedIn profile. Ask me anything — strengths, gaps, how to improve it, or job fit questions.",
+      text: "Hi! I've analyzed this LinkedIn profile. Ask me anything — strengths, gaps, or how to improve it.",
     },
   ]);
   const pollRef = useRef(null);
